@@ -20,7 +20,7 @@ Use the top micro-USB port in USB device mode for:
 
 * 5V power, 
 * programming the Intel® Edison using the Arduino IDE, 
-* programming the Intel® Edison using the Intel® XDK or Eclipse IDE included in the Intel® IoT Developer Kit via Ethernet over USB (not Wi-Fi), and 
+* programming the Intel® Edison using the Intel® XDK or Eclipse IDE included in the Intel® IoT Developer Kit via Ethernet over USB (not Wi-Fi), and
 * writing to the onboard flash memory from your computer.
 
 1. Find the **microswitch** in between the USB ports on the expansion board. Switch the microswitch **_down _**towards the micro-USB ports, if it isn't already.	![Microswitch toggled down for device mode](images/microswitch-device_mode-zoom_in.png)
@@ -70,7 +70,7 @@ Use the bottom micro-USB port to send serial commands to your Intel® Edison via
 
 ---
 
-Refer to [Shell Access](shell-access/) for more instructions on gaining command line access.
+Refer to [Shell Access](../shell-access/) for more instructions on gaining command line access.
 
 ---
 
