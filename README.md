@@ -10,7 +10,7 @@ _Instructions for **Intel® Edison** installed on an **Arduino-compatible expans
 Find out what hardware is included with your Intel® IoT Developer Kit ("dev kit"). And review important assembly and cable hook up instructions.
 
 * [Assembly - Arduino expansion board »](arduino_expansion_board-assembly/assembly.md)
-* [Connecting Cables - Arduino expansion board »](arduino_expansion_board-assembly/connecting-cables.md)
+* [Connecting Cables - Arduino expansion board »](arduino_expansion_board-assembly/connecting_cables.md)
 
 
 ## 2. Set Up Your Computer
