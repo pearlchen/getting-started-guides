@@ -23,11 +23,11 @@ Install software and drivers specifically for your computer's operating system.
 
 * **Windows 64-bit user?** 
 
-  [Set Up Your Computer - Windows (64-bit integrated installer) »]()
+  [Set Up Your Computer - Windows (64-bit integrated installer) »](set_up_your_computer-windows/windows_64bit_integrated_installation.md)
 
 * **Windows 32-bit user?** *Or can't get 64-bit integrated installer running?* 
 
-  [Set Up Your Computer - Windows (manual) »]()
+  [Set Up Your Computer - Windows (manual) »](set_up_your_computer-windows/windows_manual_installation.md)
 
 
 ## 3. Shell Access
