@@ -2,11 +2,15 @@
 
 Find out what is in your Intel® Edison Kit for Arduino box. Some assembly is required. ;)
 
+**Table of contents**
+
 * [Look in the Intel® Edison Kit for Arduino box »](#look-in-the-intel-edison-kit-for-arduino-box)
 * [Quick Start Assembly Instructions »](#quick-start-assembly-instructions)
 	* [Install the Intel® Edison module »](#install-the-intel-edison-module)
 	* [Install the plastic spacers »](#install-the-plastic-spacers)
 * [Example of a full development setup »](#example-of-a-full-development-setup)
+
+**Related video**
 
 [![Intel Edison Kit for Arduino: Unboxing and Assembly - screenshot](images/video_screenshot-unboxing_assembly.png)](https://software.intel.com/en-us/videos/intel-edison-kit-for-arduino-unboxing-and-assembly)
 
