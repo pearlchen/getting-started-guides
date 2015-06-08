@@ -1,24 +1,23 @@
-# Materials List and Assembly
+# Unboxing and Assembly
 
 Find out what is in your Intel® Edison Kit for Arduino box. Some assembly is required. ;)
 
-**Videos related to this document**
+* [Look in the Intel® Edison Kit for Arduino box »](#look-in-the-intel-edison-kit-for-arduino-box)
+* [Quick Start Assembly Instructions »](#quick-start-assembly-instructions)
+	* [Install the Intel® Edison module »](#install-the-intel-edison-module)
+	* [Install the plastic spacers »](#install-the-plastic-spacers)
+* [Example of a full development setup »](#example-of-a-full-development-setup)
 
-* [Intel Edison Kit for Arduino: Unboxing and Assembly]()
-
-**Table of contents**
-
-* [Look in the Intel® Edison Kit for Arduino box]()
-* [Quick Start Assembly Instructions]()
-* [Install the Intel® Edison module]()
-* [Install the plastic spacers]()
-* [Example of a full development setup]()
+--- 
 
 **Do you have two micro-USB cables?**
 
 To initially set up the Intel® Edison, you will need 2 micro-USB cables. 
 If you received a Grove Starter Kit, only one micro-USB cable is supplied in the Grove Starter Kit box.
 
+---
+
+[![Intel Edison Kit for Arduino: Unboxing and Assembly - screenshot](images/video_screenshot-unboxing_assembly.png)](https://software.intel.com/en-us/videos/intel-edison-kit-for-arduino-unboxing-and-assembly)
 
 ## Look in the Intel® Edison Kit for Arduino box
 
@@ -36,11 +35,17 @@ If you received a Grove Starter Kit, only one micro-USB cable is supplied in the
 
 The Intel® Edison module is meant to be used with breakout boards or custom PCBs. You will need to secure your Intel® Edison module to the Arduino expansion board before you can use it.
 
-1. Place the Intel® Edison module within the white outline on the Arduino expansion board, lining up the holes on the Intel® Edison module with the screws on the expansion board.	![Placement of Intel® Edison module on Arduino expansion board](images/module_install-placement.jpg)
+1. Place the Intel® Edison module within the white outline on the Arduino expansion board, lining up the holes on the Intel® Edison module with the screws on the expansion board.
 
-2. Press down on the Intel® Edison module just below the words "What will you make?" until you feel a snap.	![Press down on Intel® Edison module](images/module_install-press_down.jpg)
+	![Placement of Intel® Edison module on Arduino expansion board](images/module_install-placement.jpg)
 
-3. Use the two hex nuts to secure the module to the expansion board. Hand tighten (but not too tight) the hex nuts onto the two screws that protrude through the board.	![Securing module with hex nut](images/module_install-screws.jpg)
+2. Press down on the Intel® Edison module just below the words "What will you make?" until you feel a snap.
+
+	![Press down on Intel® Edison module](images/module_install-press_down.jpg)
+
+3. Use the two hex nuts to secure the module to the expansion board. Hand tighten (but not too tight) the hex nuts onto the two screws that protrude through the board.
+
+	![Securing module with hex nut](images/module_install-screws.jpg)
 
 
 ### Install the plastic spacers
@@ -72,5 +77,5 @@ The Arduino expansion board for Intel® Edison can be powered via the DC power j
 
 ---
 
-Explore when and how to use all the cables ports on the Intel® Edison kit for Arduino. Continue to [Connecting Cables »](connecting-cables.md)
+Explore when and how to use all the cables ports on the Intel® Edison kit for Arduino: [Connecting Cables »](connecting-cables.md)
 
