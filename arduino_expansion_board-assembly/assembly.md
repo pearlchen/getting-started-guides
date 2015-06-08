@@ -72,5 +72,5 @@ The Arduino expansion board for Intel® Edison can be powered via the DC power j
 
 ---
 
-Explore when and how to use all the cables ports on the Intel® Edison kit for Arduino: [Connecting Cables »](connecting-cables.md)
+Explore when and how to use all the cables ports on the Intel® Edison kit for Arduino: [Connecting Cables »](connecting_cables.md)
 
