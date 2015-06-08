@@ -1,12 +1,12 @@
 # Confirm driver installation - Windows 
 
-_Instructions for the **Intel**®** Edison** on **Windows**** 32-bit or 64-bit**_
+_Instructions for the **Intel® Edison** on **Windows 32-bit or 64-bit**_
 
 **Table of contents**
 
-* [Open Windows Device Manager »]()
-* [Confirm installation of Intel® Edison Drivers »]()
-* [Confirm installation of FTDI serial drivers »]()
+* [Open Windows Device Manager »](#open-windows-device-manager)
+* [Confirm installation of Intel® Edison Drivers »](#confirm-installation-of-intel-edison-drivers)
+* [Confirm installation of FTDI serial drivers »](#confirm-installation-of-ftdi-serial-drivers)
 
 
 **Related videos**

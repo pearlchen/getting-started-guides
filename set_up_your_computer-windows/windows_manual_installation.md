@@ -1,6 +1,6 @@
 # Set Up Your Computer - Windows (manual installion)
 
-_Instructions for the **Intel**®** Edison** on **Windows**** 32-bit or 64-bit**_
+_Instructions for the **Intel® Edison** on **Windows 32-bit or 64-bit**_
 
 This setup document will guide you through manually preparing your computer with any Windows-specific software or drivers required for Intel® Edison development. 
 
@@ -15,9 +15,9 @@ For a more streamlined setup process, try the integrated program installer. Refe
 
 **Table of contents**
 
-* [Install Intel® Edison drivers »]()
-* [Install FTDI serial drivers »]()
-* [Restart your computer »]()
+* [Install Intel® Edison drivers »](#install-intel-edison-drivers)
+* [Install FTDI serial drivers »](#install-ftdi-serial-drivers)
+* [Restart your computer »](#restart-your-computer)
 
 **Related videos**
 
