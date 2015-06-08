@@ -8,15 +8,6 @@ Find out what is in your Intel® Edison Kit for Arduino box. Some assembly is re
 	* [Install the plastic spacers »](#install-the-plastic-spacers)
 * [Example of a full development setup »](#example-of-a-full-development-setup)
 
---- 
-
-**Do you have two micro-USB cables?**
-
-To initially set up the Intel® Edison, you will need 2 micro-USB cables. 
-If you received a Grove Starter Kit, only one micro-USB cable is supplied in the Grove Starter Kit box.
-
----
-
 [![Intel Edison Kit for Arduino: Unboxing and Assembly - screenshot](images/video_screenshot-unboxing_assembly.png)](https://software.intel.com/en-us/videos/intel-edison-kit-for-arduino-unboxing-and-assembly)
 
 ## Look in the Intel® Edison Kit for Arduino box
