@@ -20,8 +20,8 @@ You can then execute special Linux commands such:
 
 **Table of contents**
 
-* [Identify the "usbserial" device name]()
-* [Establish a serial connection]()
+* [Identify the "usbserial" device name](#identify-the-usbserial-device-name)
+* [Establish a serial connection](#establish-a-serial-connection)
 
 
 ## Identify the "usbserial" device name 
@@ -32,19 +32,19 @@ Use Terminal to find the device name of the USB serial connection. You will need
 
 	**Option 1:**
 	
-	a. Launch Spotlight (type Cmd+Space).
-	b. Type "terminal". 
-	c. Select the "Terminal" app.
+	1. Launch Spotlight (type Cmd+Space).
+	2. Type "terminal". 
+	3. Select the "Terminal" app.
 	
 	**Option 2:**
 
-    a. Go to Applications on your Mac. 	b. Open Utilities. 	c. Launch Terminal.app.
+    1. Go to Applications on your Mac. 	2. Open Utilities. 	3. Launch Terminal.app.
 
 2. Use the "ls" command to list any connected devices.
 
-```
-ls /dev/tty.*
-```
+	```
+	ls /dev/tty.*
+	```
 
 3. Look for a device that contains "**cu.usbserial**" or "**tty.usbseria**l".	![the device found was "/dev/tty.usbserial-A402YSYU"](images/terminal-usbserial_device_highlighted.png)
 	In this case, the device found was "/dev/tty.usbserial-A402YSYU".
@@ -53,9 +53,8 @@ ls /dev/tty.*
 
 	**Don't see a "usbserial" device listed?**
 
-	* Do you have the UART/serial cable connected?
-	* Refer to Assembly (for your expansion board) → UART/serial micro-USB cable.
 	* Is your IoT board powered on?
+	* Do you have the UART/serial cable connected? Refer to [Connecting Cables → UART/serial micro-USB cable](../arduino_expansion_board-assembly/connecting_cables.md#uartserial-micro-usb-cable).
 
 	---
 

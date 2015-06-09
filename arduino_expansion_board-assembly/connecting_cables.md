@@ -118,9 +118,14 @@ Use the standard-sized USB port in USB host mode to allow the Intel® Edison to 
 
 Install software and drivers specifically for your computer's operating system. 
 
-* **Mac or Linux user?** 
+* **Mac user?** 
 
-  You have no special setup. Skip to [Shell Access](../shell_access/).
+  You have no special setup. Skip to [Shell Access - Mac »](../shell_access/mac.md).
+
+* **Linux user?** 
+
+  You have no special setup. Skip to [Shell Access - Linux »](../shell_access/linux.md).
+
 
 * **Windows 64-bit user?** 
 

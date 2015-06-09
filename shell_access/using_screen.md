@@ -2,8 +2,8 @@
 
 **Table of contents**
 
-* [Cancel/exit an already submitted command]()
-* [Disconnect from the serial connection]()
+* [Cancel/exit an already submitted command](#cancelexit-an-already-submitted-command)
+* [Disconnect from the serial connection](#disconnect-from-the-serial-connection)
 
 
 ## Cancel/exit an already submitted command
@@ -33,4 +33,6 @@ Failing to close the Screen connection fully may stop you from being able to log
 
 ---
 
-Return to [Shell Access - Mac »](mac.md). Or [Shell Access - Linux »](linux.md)
+Return to [Shell Access - Mac »](mac.md#next-steps).
+
+Or [Shell Access - Linux »](linux.md#next-steps)
