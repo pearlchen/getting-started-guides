@@ -11,8 +11,8 @@ _Instructions for the **Intel® Edison** on **Windows 32-bit or 64-bit**_
 
 **Related videos**
 
-[Intel Edison: Set Up Your Computer Manually - Windows (preview video)]()
-
+* [Intel Edison: Set Up Your Computer Manually - Windows (preview video)]()
+* [Intel Edison: Set Up Your Computer - Windows Integrated Installer (preview video)]()
 
 ## Open Windows Device Manager
 

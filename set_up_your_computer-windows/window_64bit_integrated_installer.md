@@ -10,14 +10,15 @@ This setup document will guide you through preparing your computer with the Inte
 ---
 
 **Are you running 32-bit Windows? Unable to use the integrated installer?**
+
 You will need to install the Windows drivers manually. Refer to [Set Up Your Computer - Windows (manual installation)](windows_manual_installation.md). 
 
 ---
 
 **Table of contents**
 
-* [Download and run the Intel® Edison integrated installer]()
-* [Restart your computer]()
+* [Download and run the Intel® Edison integrated installer](##download-and-run-the-intel-edison-integrated-installer)
+* [Restart your computer](#restart-your-computer)
 
 
 **Related videos**
