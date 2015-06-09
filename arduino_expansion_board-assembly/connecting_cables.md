@@ -126,11 +126,10 @@ Install software and drivers specifically for your computer's operating system.
 
   You have no special setup. Skip to [Shell Access - Linux »](../shell_access/linux.md).
 
-
 * **Windows 64-bit user?** 
 
-  [Set Up Your Computer - Windows (64-bit integrated installer) »](../)
+  [Set Up Your Computer - Windows (64-bit integrated installer) »](../set_up_your_computer-windows/64bit_integrated_installer.md)
 
 * **Windows 32-bit user?** *Or can't get 64-bit integrated installer running?* 
 
-  [Set Up Your Computer - Windows (manual) »](../)
+  [Set Up Your Computer - Windows (manual installation) »](../set_up_your_computer-windows/manual_installation.md)

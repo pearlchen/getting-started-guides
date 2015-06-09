@@ -8,7 +8,7 @@ This setup document will guide you through manually preparing your computer with
 
 **Are you running 64-bit Windows and have a good internet connection?**
 
-For a more streamlined setup process, try the integrated program installer. Refer to [Set Up Your Computer - Windows (64-bit integrated installer) »](). 
+For a more streamlined setup process, try the integrated program installer. Refer to [Set Up Your Computer - Windows (64-bit integrated installer) »](64bit_integrated_installer.md). 
 
 ---
 
@@ -99,6 +99,6 @@ To ensure driver installation changes take effect, reboot your Windows computer 
 
 ### Next Steps
 
-[Confirm driver installation »](windows_confirm_drivers.md)
+[Confirm driver installation »](confirm_drivers.md)
 
 

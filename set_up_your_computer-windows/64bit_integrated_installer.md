@@ -11,7 +11,7 @@ This setup document will guide you through preparing your computer with the Inte
 
 **Are you running 32-bit Windows? Unable to use the integrated installer?**
 
-You will need to install the Windows drivers manually. Refer to [Set Up Your Computer - Windows (manual installation)](windows_manual_installation.md). 
+You will need to install the Windows drivers manually. Refer to [Set Up Your Computer - Windows (manual installation)](manual_installation.md). 
 
 ---
 
@@ -97,6 +97,6 @@ To ensure driver installation changes take effect, reboot your Windows computer 
 
 ### Next Steps
 
-[Confirm driver installation »](windows_confirm_drivers.md)
+[Confirm driver installation »](confirm_drivers.md)
 
 
