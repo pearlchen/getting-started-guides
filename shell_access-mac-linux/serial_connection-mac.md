@@ -46,7 +46,7 @@ Use Terminal to find the device name of the USB serial connection. You will need
 	ls /dev/tty.*
 	```
 
-3. Look for a device that contains "**cu.usbserial**" or "**tty.usbseria**l".	![the device found was "/dev/tty.usbserial-A402YSYU"](images/terminal-usbserial_device_highlighted.png)
+3. Look for a device that contains "**cu.usbserial**" or "**tty.usbseria**l".	![the device found was "/dev/tty.usbserial-A402YSYU"](images_mac/terminal-usbserial_device_highlighted.png)
 	In this case, the device found was "/dev/tty.usbserial-A402YSYU".
 
 	---
@@ -70,11 +70,11 @@ Use the Screen utility in Terminal to gain command line access of your IoT board
 	```
 
 2. When you see a blank screen, **press the Enter key**.
- 	**For Intel® Edison boards running older firmare**: You may need to press the Enter key **twice**.	![blank screen](images/screen-blank_screen.png)
+ 	**For Intel® Edison boards running older firmare**: You may need to press the Enter key **twice**.	![blank screen](images_mac/screen-blank_screen.png)
 
 3. Once connected you will see a login prompt. 
 
-	Type in "**root**" for the username and press **Enter**.	![login as "root"](images/screen-login_root.png)
+	Type in "**root**" for the username and press **Enter**.	![login as "root"](images_mac/screen-login_root.png)
 
 ---
 
