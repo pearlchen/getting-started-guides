@@ -14,7 +14,7 @@ You can then execute special Linux commands such:
 
 **Table of contents**
 
-* [Install a shell session manager (Screen)](#install-a-shell-session-manager-Screen)
+* [Install a shell session manager (Screen)](#install-a-shell-session-manager-screen)
 * [Establish a serial connection](#establish-a-serial-connection)
 
 
@@ -26,11 +26,11 @@ Your computer may not have come with a pre-installed shell session manager. Down
 
 2. Install **screen** via the "apt-get install" command.
 
-```
-sudo apt-get install screen
-```
+	```
+	sudo apt-get install screen
+	```
 
-You may be asked for your root password. Type in your root password and press Enter.
+	You may be asked for your root password. Type in your root password and press Enter.
 
 3. Wait for Screen to finish downloading and the installation to complete.	![Installing Screen via Terminal](images_linux/install_screen.jpg)
 
@@ -62,7 +62,7 @@ Use the Screen utility that you installed in the previous section to gain comman
 
 	You may be asked for your root password. Type in your root password and press Enter.
 
-3. When you see a blank screen, **press the Enter key. For Intel****®**** Edison**: **press the Enter key again** (so two times in total).
+3. When you see a blank screen, **press the Enter key**. 	**For Intel® Edison boards running older firmare**: You may need to press the Enter key **twice**.
 
 4. Once connected you will see a login prompt. 	Type in "**root**" for the username and press **Enter**.	![Login prompt](images_linux/screen-login_prompt.jpg)
 
