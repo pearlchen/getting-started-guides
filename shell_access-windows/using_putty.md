@@ -2,8 +2,9 @@
 
 
 **Table of contents**
-* Cancel/exit an already submitted command
-* Save connection settings for re-use
+
+* [Cancel/exit an already submitted command](#cancelexit-an-already-submitted-command)
+* [Save connection settings for re-use](#save-connection-settings-for-re-use)
 
 
 ## Cancel/exit an already submitted command

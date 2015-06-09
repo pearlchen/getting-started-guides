@@ -13,9 +13,9 @@ You can then execute special Linux commands such:
 
 **Table of contents**
 
-* [Download a terminal client (PuTTY)]()
+* [Download a terminal client (PuTTY)](#download-a-terminal-client-putty)
 * [Identify the COM port](#identify-the-com-port)
-* [Establish a serial connection]()
+* [Establish a serial connection](#establish-a-serial-connection)
 
 
 **Related videos**
@@ -40,7 +40,7 @@ Use Device Manager to find the COM port number for the "USB Serial Port" connect
 
 1. Open Device Manager and scroll down to the "**Ports (COM & LPT)**" section.
 
-	_Don't know how? Refer to [Confirm Drivers → Open Device Manager](../set_up_your_computer-windows/confirm_drivers.md)._
+	_Don't know how? Refer to [Confirm Drivers → Open Device Manager](../set_up_your_computer-windows/confirm_drivers.md#open-windows-device-manager)._
 
 2. **Make a note of your COM #** for the "**USB Serial Port**" device. 	![USB Serial Port entry in Device Manager](images/device_manager-usb_serial_highlighted.png)
 
@@ -61,7 +61,7 @@ Use Device Manager to find the COM port number for the "USB Serial Port" connect
 * **Do you have the serial drivers installed?**
 	* A serial connection cannot be detected without FTDI serial drivers. Refer to [Set Up Your Computer - Windows (64-bit integrated installer)](../set_up_your_computer-windows/64bit_integrated_installer.md) or Set Up Your Computer - Windows (manual).
 
-* **Do you have the UART/serial cable connected?** Refer to Assembly (for your expansion board) → UART/serial micro-USB cable.
+* **Do you have the UART/serial cable connected?** Refer to [Connecting Cables → UART/serial micro-USB cable](../assembly-arduino_expansion_board/connecting_cables.md#uartserial-micro-usb-cable).
 
 * Is your IoT board powered on?
 
@@ -82,12 +82,12 @@ Use PuTTY to establish a serial connection to the IoT board using the COM # you 
 
     2. **Speed**: use "115200" for the baud rate	![Serial line and speed text fields in PuTTY](images/putty-serial_line_and_speed.png)
 
-4. Click "**Open**" to connect to the board.	![Open connection button in PuTTY](putty-open_button.png)
+4. Click "**Open**" to connect to the board.	![Open connection button in PuTTY](images/putty-open_button.png)
 
 1. When you see a blank screen, **press the Enter key**.
  	**For Intel® Edison boards running older firmare**: You may need to press the Enter key **twice**.	![Blank screen in PuTTY after connecting to Intel® Edison](images/putty-blank_screen.png)
 
-2. Once connected you will see a login prompt. Type in "**root**" for the username and press **Enter**.	![Login as root user](putty-login_as_root.png)
+2. Once connected you will see a login prompt. Type in "**root**" for the username and press **Enter**.	![Login as root user](images/putty-login_as_root.png)
 
 ---
 
