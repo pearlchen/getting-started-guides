@@ -14,7 +14,7 @@ You do not need to go through this step. This document is for installing serial 
 
 **Table of contents**
 
-* [Download and install FTDI VCP serial drivers]()
+* [Download and install FTDI VCP serial drivers](#download-and-install-ftdi-vcp-serial-drivers)
 
 
 **Related videos**
