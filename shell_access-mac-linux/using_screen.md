@@ -33,6 +33,6 @@ Failing to close the Screen connection fully may stop you from being able to log
 
 ---
 
-Return to [Shell Access - Mac »](mac.md#next-steps).
+Return to [Shell Access - Mac »](serial_connection-mac.md#next-steps).
 
-Or [Shell Access - Linux »](linux.md#next-steps)
+Or [Shell Access - Linux »](serial_connection-linux.md#next-steps)

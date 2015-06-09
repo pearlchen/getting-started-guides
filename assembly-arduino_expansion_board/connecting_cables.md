@@ -51,7 +51,7 @@ Use the top micro-USB port in USB device mode for:
 
 	You will know that the Intel® Edison is fully initialized when your computer mounts a new drive (much like inserting a SD card into your computer).
 
-	The Intel® Edison needs approximately one minute to go through the entire Linux startup process. There is no onboard LED to indicate whether or not the Intel® Edison is fully initialized, however you can watch the full bootup sequence (whether for fun or for debugging purposes) if you are connected to the board via the bottom micro-USB cable. You will learn how to gain command line access to your Intel® Edison later in [Shell Access](../shell_access/).
+	The Intel® Edison needs approximately one minute to go through the entire Linux startup process. There is no onboard LED to indicate whether or not the Intel® Edison is fully initialized, however you can watch the full bootup sequence (whether for fun or for debugging purposes) if you are connected to the board via the bottom micro-USB cable. You will learn how to gain command line access to your Intel® Edison later in [Shell Access](../README.md#3-shell-access).
 
 	![An example of what you would see during bootup]()
 
@@ -70,7 +70,7 @@ Use the bottom micro-USB port to send serial commands to your Intel® Edison via
 
 ---
 
-Refer to [Shell Access](../shell_access/) for more instructions on gaining command line access.
+Refer to [Shell Access](../README.md#3-shell-access) for more instructions on gaining command line access.
 
 ---
 
@@ -120,11 +120,11 @@ Install software and drivers specifically for your computer's operating system.
 
 * **Mac user?** 
 
-  You have no special setup. Skip to [Shell Access - Mac »](../shell_access/mac.md).
+  You have no special setup. Skip to [Shell Access - Mac »](../shell_access-mac-linux/serial_connection-mac.md).
 
 * **Linux user?** 
 
-  You have no special setup. Skip to [Shell Access - Linux »](../shell_access/linux.md).
+  You have no special setup. Skip to [Shell Access - Linux »](../shell_access-mac-linux/serial_connection-linux.md).
 
 * **Windows 64-bit user?** 
 

@@ -66,4 +66,4 @@ If you see "USB Serial Port" show up in Device Manager under "Ports (COM & LPT)"
 
 Gain command line access of your IoT board. Execute special Linux commands to configure your IoT board such as setting up Wi-Fi. 
 
-[Shell Access - Windows »](../shell_access/windows.md)
+[Shell Access - Windows »](../shell_access-windows/serial_connection.md)

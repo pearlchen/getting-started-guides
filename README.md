@@ -34,11 +34,11 @@ Install software and drivers specifically for your computer's operating system.
 
 Gain command line access of your IoT board. Execute special Linux commands to configure your IoT board such as setting up Wi-Fi.
 
-* [Shell Access - Windows »](shell_access/windows.md)
+* [Shell Access - Windows »](shell_access-windows/serial_connection.md)
 
-* [Shell Access - Mac »](shell_access/mac.md)
+* [Shell Access - Mac »](shell_access-mac-linux/serial_connection-mac.md)
 
-* [Shell Access - Linux »](shell_access/linux.md)
+* [Shell Access - Linux »](shell_access-mac-linux/serial_connection-linux.md)
 
 
 ## 4. Flash Edison Firmware
