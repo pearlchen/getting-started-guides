@@ -6,7 +6,7 @@ When you are in a busy or restricted network environment, connect to the Intel®
 
 **Table of contents**
 
-* [Ping or visit 192.168.2.15](#ping_or_visit_192168215)
+* [Ping or visit 192.168.2.15](#ping-or-visit-192168215)
 * [Use SSH instead of a serial connection](#use-ssh-instead-of-a-serial-connection)
 * [Program IoT board while offline](#program-iot-board-while-offline)
 
