@@ -16,7 +16,7 @@ There are 3 parts to updating the firmware on the Intel® Edison:
 
 **Using a 64-bit Windows computer?**
 
-A streamlined firmware flashing process is included with the Windows 64-bit integrated installer. Refer to S[et Up Your Computer - Windows (64-bit integrated installer)]() for more info.
+A streamlined firmware flashing process is included with the Windows 64-bit integrated installer. Refer to S[et Up Your Computer - Windows (64-bit integrated installer)](../set_up_your_computer-windows/64bit_integrated_installer.md) for more info.
 
 **Want to know if your current firmware is old before flashing?**
 Refer to [Check installed firmware version](check_firmware_version.md).
@@ -134,20 +134,20 @@ Extract the contents of the compressed firmware image archive, then copy the con
 
 	**Online option:**
 	
-		1. Visit the Intel® Edison Software Downloads page: [software.intel.com/iot/hardware/edison/downloads](http://software.intel.com/iot/hardware/edison/downloads).
-		2. Scroll down to the "Intel® Edison firmware and operating system image" section.
-		3. Click "Yocto complete image" to download the latest edison-image-[version].zip to your computer.
+	1. Visit the Intel® Edison Software Downloads page: [software.intel.com/iot/hardware/edison/downloads](http://software.intel.com/iot/hardware/edison/downloads).
+	2. Scroll down to the "Intel® Edison firmware and operating system image" section.
+	3. Click "Yocto complete image" to download the latest edison-image-[version].zip to your computer.
 		
 	**Hackathon attendees:**
 	
-		1. On the USB key: files → Firmware - Edison Yocto complete image
-		2. Copy edison-image-[version].zip to your computer.
+	1. On the USB key: files → Firmware - Edison Yocto complete image
+	2. Copy edison-image-[version].zip to your computer.
 		
 	---
 
 	**Interested in finding out what's new with each firmware release?**
 	
-	Visit Intel® Edison Boards and Compute Modules — Support Package Release 	Notes to view the release notes PDF.
+	Visit [Intel® Edison Boards and Compute Modules — Support Package Release 	Notes]() to view the release notes PDF.
 
 	---
 
@@ -155,7 +155,7 @@ Extract the contents of the compressed firmware image archive, then copy the con
 
 3. Copy the **entire contents** of the edison-image-[version] folder to the "Edison" drive that shows up after plugging the Intel® Edison to your computer. 	Do **not** include the containing/parent edison-image-[version] folder; just the contents of the folder.
 
-	![Progress of copying files to Edison drive](images/windows-copying_files.jpg.jpg)
+	![Progress of copying files to Edison drive](images/windows-copying_files.jpg)
 
 ---
 
@@ -210,3 +210,18 @@ Incomplete zip downloads may cause issues. Re-download the "Yocto complete image
 
 Mac users only: If re-downloading a new zip does not fix the issues, you can try the "Alternate Flashing Method" described at the bottom of Intel Edison Flashing Firmware on OS X - Wired. 
 
+---
+
+### Next Steps
+
+Get your board online in order to turn your IoT board into a true "Internet of Things" device. You also need the IP address of your IoT board to program it using the dev kit IDEs.
+
+**At a hackathon? On a busy or restricted Wi-Fi network?**
+
+* [Ethernet over USB - Windows »](../ethernet_over_usb/windows.md)
+* [Ethernet over USB - Mac »](../ethernet_over_usb/mac.md)
+* [Ethernet over USB - Linux »](../ethernet_over_usb/linux.md)
+
+**At home? Have a dependable Wi-Fi connection?**
+
+* [Get Your Edison Board Online »](../connect_to_wifi/connect.md)

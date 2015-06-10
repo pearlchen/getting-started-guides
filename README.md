@@ -45,7 +45,7 @@ Gain command line access of your IoT board. Execute special Linux commands to co
 
 Some Edison boards have older firmware images on them. You **_may_** need to update the firmware to a newer version to get access to important features.
 
-* [Flash Edison Firmware Manually »](flash_firmware/manual.md)
+* [Flash Edison Firmware Manually »](flash_firmware/manually.md)
 
 
 ## 5. Get Your IoT Board Online
@@ -54,13 +54,13 @@ Get your board online in order to turn your IoT board into a true "Internet of T
 
 * **At a hackathon? On a busy or restricted Wi-Fi network?**
 
-  * [Ethernet over USB - Windows »]()
-  * [Ethernet over USB - Mac »]()
-  * [Ethernet over USB - Linux »]()
+  * [Ethernet over USB - Windows »](ethernet_over_usb/windows.md)
+  * [Ethernet over USB - Mac »](ethernet_over_usb/mac.md)
+  * [Ethernet over USB - Linux »](ethernet_over_usb/linux.md)
 
 * **At home? Have a dependable Wi-Fi connection?**
 
-  * [Get Your Edison Board Online »]()
+  * [Get Your Edison Board Online »](connect_to_wifi/connect.md)
 
 
 ## 6. Install an IDE

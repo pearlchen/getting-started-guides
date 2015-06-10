@@ -71,4 +71,4 @@ For example, the file name "edison-image-ww05-15.zip" means that this image was 
 
 ---
 
-Return to [Flash Edison Firmware Manually »](manual.md)
+Return to [Flash Edison Firmware Manually »](manually.md)
