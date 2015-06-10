@@ -16,7 +16,7 @@ Once your board is online, turn your Intel® Edison into a true "Internet of Thi
 **Table of contents**
 
 * [Connect to a Wi-Fi network](#connect-to-a-wi-fi-network)
-* [Identify the IP address](#identify-the-IP-address)
+* [Identify the IP address](#identify-the-ip-address)
 
 ---
 
