@@ -7,7 +7,7 @@ When you are in a busy or restricted network environment, connect to the Intel®
 **Table of contents**
 
 * [Add static IPv4 address](#add-static-ipv4-address)
-* [Share your computer's WiFi connection (optional)](#share-your-computer-s-WiFi-connection-optional)
+* [Share your computer's WiFi connection (optional)](#share-your-computers-wifi-connection-optional)
 
 **Related videos**
 
@@ -122,7 +122,7 @@ ping google.com
 
 (Use the Ctrl+C keyboard command to exit the ping process.)
 
-To re-enable WiFi on the Intel® Edison, use the "configure_edison --wifi" command as described in [Get Your Edison Board Online](../connect_to_wifi/connec.md).
+To re-enable WiFi on the Intel® Edison, use the "configure_edison --wifi" command as described in [Get Your Edison Board Online](../connect_to_wifi/connect.md).
 
 ---
 

@@ -6,9 +6,9 @@ When you are in a busy or restricted network environment, connect to the Intel®
 
 **Table of contents**
 
-* [Ping or visit 192.168.2.15](#ping_or_visit_192_168_2_15)
-* [Use SSH instead of a serial connection](#use_ssh_instead_of_a_serial_connection)
-* [Program IoT board while offline](#program_iot_board_while_offline)
+* [Ping or visit 192.168.2.15](#ping_or_visit_192168215)
+* [Use SSH instead of a serial connection](#use-ssh-instead-of-a-serial-connection)
+* [Program IoT board while offline](#program-iot-board-while-offline)
 
 **Related videos**
 
@@ -53,6 +53,10 @@ systemctl restart xdk-daemon
 
 ---
 
-Return to [Ethernet Over USB](../)
+Return to:
+
+* [Ethernet over USB - Windows »](windows.md)
+* [Ethernet over USB - Mac »](mac.md)
+* [Ethernet over USB - Linux »](linux.md)
 
 
