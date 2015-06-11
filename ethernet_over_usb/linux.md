@@ -7,7 +7,7 @@ When you are in a busy or restricted network environment, connect to the Intel®
 
 **Table of contents**
 
-* [Forward usb0 connection](#forward_usb0_connection)
+* [Forward usb0 connection](#forward-usb0-connection)
 * [Share your computer's WiFi connection (optional)](#share-your-computers-wifi-connection-optional)
 
 
@@ -73,9 +73,9 @@ Turn on Internet Sharing to cut down on Wi-Fi traffic in a crowded room. Sharing
 
 4. Then use the "route" command to add a default gateway. Use the same static IP address you set in the **Network** settings in the previous section.
 
-```
-route add default gw 192.168.2.2
-```
+	```
+	route add default gw 192.168.2.2
+	```
 
 ---
 
@@ -85,7 +85,6 @@ Try pinging a network from Terminal to make sure the Intel® Edison is connected
 
 ```
 ping google.com
-
 ```
 
 (Use the Ctrl+C keyboard command to exit the ping process.)
