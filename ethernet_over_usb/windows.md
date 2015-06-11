@@ -114,6 +114,7 @@ Enabling ICS may have changed the IPv4 LAN settings you set in the previous sect
 ---
 
 You can now use the Intel® Edison as if it is connected to the internet on its own as long as you keep the device mode micro-USB cable plugged in.
+
 Try pinging a network from PuTTY to make sure the Intel® Edison is connected to the internet through your computer's network connection:
 
 ```
