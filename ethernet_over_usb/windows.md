@@ -67,7 +67,7 @@ Do not use 192.168.2.15 which is already reserved for the USB Gadget network int
 
 ---
 
-There is no noticeable difference to the "Local Area Connection" adapter icon so go to Once connected... to confirm a successful connection to the Intel® Edison.
+There is no noticeable difference to the "Local Area Connection" adapter icon. See [Once connected...](once_connected.md) to confirm a successful connection to the Intel® Edison.
 
 ---
 
