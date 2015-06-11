@@ -62,7 +62,7 @@ Get your board online in order to turn your IoT board into a true "Internet of T
 
 * **At home? Have a dependable Wi-Fi connection?**
 
-  * [Get Your Edison Board Online »](connect_to_wifi/connect.md)
+  * [Connect Your Intel Edison to Wi-Fi »](connect_to_wifi/connect.md)
 
 
 ## 6. Install an IDE

@@ -57,7 +57,7 @@ See [Once connected...](once_connected.md) for what you can do now.
 ## Share your computer's WiFi connection (optional)
 
 Turn on Internet Sharing to cut down on Wi-Fi traffic in a crowded room. Sharing your computer's internet connection also means that you can log into networks that have HTML password pages and then share the connection with the Intel® Edison.
-Internet sharing is an optional step but is highly recommended if you are at a hackathon.
+Internet sharing is an optional step but is highly recommended if you are at a hackathon.
 
 1. (These steps coming soon!)
 
@@ -89,7 +89,7 @@ ping google.com
 
 (Use the Ctrl+C keyboard command to exit the ping process.)
 
-To re-enable WiFi on the Intel® Edison, use the `configure_edison --wifi` command as described in [Get Your Edison Board Online](../connect_to_wifi/connect.md).
+To re-enable WiFi on the Intel® Edison, use the `configure_edison --wifi` command as described in [Connect Your Intel Edison to Wi-Fi](../connect_to_wifi/connect.md).
 
 ---
 

@@ -1,4 +1,4 @@
-## Get Your IoT Board Online
+## Connect Your Intel Edison to Wi-Fi
 
 Instructions for the **Intel® Edison**
 
@@ -55,11 +55,23 @@ Shell into your Intel® Edison and run the `configure_edison --wifi` command. Ch
 
 1. If you are asked if you want to set up the wifi, type "**Y**" and press Enter. (This prompt will occur on older Intel® Edison firmware only.)
 
-1. The Intel® Edison will scan for Wi-Fi networks and display a list of available networks when finished.	![A list of Wi-Fi networks](images/list_of_networks.png)	If you do not see any networks, but you know they exist, try re-scanning by entering "0", or repeat steps 2-3.
+1. The Intel® Edison will scan for Wi-Fi networks and display a list of available networks when finished.
 
-1. Locate the network you would like to connect to in the list and enter the **corresponding number** in the prompt. Press Enter. 	To confirm your entry, type "**Y**" and press Enter.	![Type 'Y' to confirm entry](images/network_connection_confirmation.png)	In this example, to connect to "kafka" use the number “16”.
+	![A list of Wi-Fi networks](images/list_of_networks.png)
 
-1. The network in this example requires a password. Your network might require other information. Enter the appropriate network credentials. Press Enter when finished. 	![Network password prompt](images/network_password_prompt.png)
+	If you do not see any networks, but you know they exist, try re-scanning by entering "0", or repeat steps 2-3.
+
+1. Locate the network you would like to connect to in the list and enter the **corresponding number** in the prompt. Press Enter. 
+
+	To confirm your entry, type "**Y**" and press Enter.
+
+	![Type 'Y' to confirm entry](images/network_connection_confirmation.png)
+
+	In this example, to connect to "kafka" use the number “16”.
+
+1. The network in this example requires a password. Your network might require other information. Enter the appropriate network credentials. Press Enter when finished. 
+
+	![Network password prompt](images/network_password_prompt.png)
 
 1. The Intel® Edison will attempt to make a connection to the network.
 
@@ -99,7 +111,11 @@ Once your Intel® Edison is online, identify the IP address in order to: manuall
 	ip a
 	```
 
-4. It should be listed as "**wlan0**", inside the third listed entry. 	![Result after running 'ip a' command with wlan0 entry highlighted](images/ip_a_result-wlan0_highlighted.jpg)	In this example, the IP address is "192.168.1.14". The number after the slash ("24") is the netmask (which we do not have to worry about here).
+4. It should be listed as "**wlan0**", inside the third listed entry. 
+
+	![Result after running 'ip a' command with wlan0 entry highlighted](images/ip_a_result-wlan0_highlighted.jpg)
+
+	In this example, the IP address is "192.168.1.14". The number after the slash ("24") is the netmask (which we do not have to worry about here).
 
 
 	---

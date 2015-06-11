@@ -35,21 +35,38 @@ If you have not followed Set Up Your Computer - Windows (64-bit integrated insta
 
 1. View your **Network Connections**.
 
-    1. **Windows 8**: 				Right-click on the Start menu button. Select "**Network Connections**".
+    1. **Windows 8**: 
+		
+		Right-click on the Start menu button. Select "**Network Connections**".
 
-    2. **Windows 7 and below**: 		Go to Control Panel. Under "**Network and Internet**", click "**View network status and tasks**". 		Then click "**Change Adapter Settings**" in sidebar. 	!["View network status and tasks" under "Network and Internet" in Control Panel](images_windows/control_panel-view_network_status_and_tasks.png)	!["Change Adapter Settings" in sidebar](images_windows/control_panel-chanage_adpater_settings.png)
+    2. **Windows 7 and below**: 
+
+		Go to Control Panel. Under "**Network and Internet**", click "**View network status and tasks**". 
+
+		Then click "**Change Adapter Settings**" in sidebar. 
+
+	!["View network status and tasks" under "Network and Internet" in Control Panel](images_windows/control_panel-view_network_status_and_tasks.png)
+
+	!["Change Adapter Settings" in sidebar](images_windows/control_panel-chanage_adpater_settings.png)
 
 2. Plug in the **device mode micro-USB cable** from your Intel® Edison to your computer. Wait one minute for the Intel® Edison to finish booting up.
 
-3. **Right-click** on the "**Local Area Connection**" network adapter entry with the label "**Intel Edison USB RNDIS Device**", then select "**Properties**".	!["Local Area Connection" network adapter entry with label "Intel Edison USB RNDIS Device"](images_windows/control_panel-lan_adapter.png)
-	![Select "Properties" in context menu](images_windows/control_panel-context_menu-properties.png)
+3. **Right-click** on the "**Local Area Connection**" network adapter entry with the label "**Intel Edison USB RNDIS Device**", then select "**Properties**".
 
-4. In the new "Local Area Connection Properties" window, select "**Internet Protocol Version 4 (TCP/IPv4)**" from the list, then click "**Properties**".	!["Internet Protocol Version 4 (TCP/IPv4)" selected. Click "Properties" button.](images_windows/lan_properties-ipv4-properties_button.png)
+	!["Local Area Connection" network adapter entry with label "Intel Edison USB RNDIS Device"](images_windows/control_panel-lan_adapter.png)
+	![Select "Properties" in context menu](images_windows/control_panel-context_menu-properties.png)
+
+4. In the new "Local Area Connection Properties" window, select "**Internet Protocol Version 4 (TCP/IPv4)**" from the list, then click "**Properties**".
+
+	!["Internet Protocol Version 4 (TCP/IPv4)" selected. Click "Properties" button.](images_windows/lan_properties-ipv4-properties_button.png)
+
 5. In the new dialog window, select "**Use the following IP address**" and change the IP information as follows:
 
     3. **IP address**: 192.168.2.2
 
-    4. **Subnet m****ask**: 255.255.255.0 (default)	![Adding 192.168.2.2 static IP address](images_windows/ipv4_properties-add_static_ip.png)
+    4. **Subnet m****ask**: 255.255.255.0 (default)
+
+	![Adding 192.168.2.2 static IP address](images_windows/ipv4_properties-add_static_ip.png)
 
 6. Click "OK" to apply your changes and close the IPv4 properties window. 
 
@@ -73,19 +90,27 @@ There is no noticeable difference to the "Local Area Connection" adapter icon. S
 
 ## Share your computer's WiFi connection (optional)
 
-Turn on Internet Connection Sharing (ICS) to cut down on Wi-Fi traffic in a crowded room. Sharing your computer's internet connection also means that you can log into networks that have HTML password pages and then share the connection with the Intel® Edison.Internet sharing is an optional step but is highly recommended if you are at a hackathon.
+Turn on Internet Connection Sharing (ICS) to cut down on Wi-Fi traffic in a crowded room. Sharing your computer's internet connection also means that you can log into networks that have HTML password pages and then share the connection with the Intel® Edison.
+
+Internet sharing is an optional step but is highly recommended if you are at a hackathon.
 
 1. Open your **Network Connections** again.
 
-2. **Right-click** on the "**Wi-Fi**" network adapter entry, then select "**Properties**".	![Select "Properties" from context menu](images_windows/control_panel-wifi_adapter-properties.png)
+2. **Right-click** on the "**Wi-Fi**" network adapter entry, then select "**Properties**".
+
+	![Select "Properties" from context menu](images_windows/control_panel-wifi_adapter-properties.png)
 
 3. Select the "**Sharing**" tab. 
 
-4. Check "**Allow other network users to connect through this computer’s Internet connection**" to enable Internet Connection Sharing (ICS).	![Sharing tab of WiFi](images_windows/wifi_properties-sharing_tab.png)
+4. Check "**Allow other network users to connect through this computer’s Internet connection**" to enable Internet Connection Sharing (ICS).
+
+	![Sharing tab of WiFi](images_windows/wifi_properties-sharing_tab.png)
 
 5. Click "**Ok**". 
 
-6. You will receive an alert about enabling ICS. Click "**Yes**" to continue.	![Internet Connection Sharing warning message](images_windows/ics-warning_message.png)
+6. You will receive an alert about enabling ICS. Click "**Yes**" to continue.
+
+	![Internet Connection Sharing warning message](images_windows/ics-warning_message.png)
 
 ---
 
@@ -123,7 +148,7 @@ ping google.com
 
 (Use the Ctrl+C keyboard command to exit the ping process.)
 
-To re-enable WiFi on the Intel® Edison, use the "configure_edison --wifi" command as described in [Get Your Edison Board Online](../connect_to_wifi/connect.md).
+To re-enable WiFi on the Intel® Edison, use the "configure_edison --wifi" command as described in [Connect Your Intel Edison to Wi-Fi](../connect_to_wifi/connect.md).
 
 ---
 
