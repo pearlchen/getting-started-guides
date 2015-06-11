@@ -21,24 +21,24 @@ Install software and drivers specifically for your computer's operating system.
 
   You have no special setup. Skip to [Step 3](#3-shell-access) below.
 
-* **Windows 64-bit user?** 
+* **Windows user?**
 
-  [Set Up Your Computer - Windows (64-bit integrated installer) »](set_up_your_computer-windows/64bit_integrated_installer.md)
+	* **Do you have 64-bit Windows and a reliable internet connection?**  
 
-* **Windows 32-bit user?** *Or can't get 64-bit integrated installer running?* 
+  		[Set Up Your Computer - Windows (64-bit integrated installer) »](set_up_your_computer-windows/64bit_integrated_installer.md)
 
-  [Set Up Your Computer - Windows (manual installation) »](set_up_your_computer-windows/manual_installation.md)
+	* **At a hackathon with unreliable internet? Or can't click 'Next' in the 64-bit integrated installer wizard?** 
+
+  		[Set Up Your Computer - Windows (manual installation) »](set_up_your_computer-windows/manual_installation.md)
 
 
 ## 3. Shell Access
 
 Gain command line access of your IoT board. Execute special Linux commands to configure your IoT board such as setting up Wi-Fi.
 
-* [Shell Access - Windows »](shell_access-windows/serial_connection.md)
-
-* [Shell Access - Mac »](shell_access-mac-linux/serial_connection-mac.md)
-
-* [Shell Access - Linux »](shell_access-mac-linux/serial_connection-linux.md)
+* [Windows »](shell_access-windows/serial_connection.md)
+* [Mac »](shell_access-mac-linux/serial_connection-mac.md)
+* [Linux »](shell_access-mac-linux/serial_connection-linux.md)
 
 
 ## 4. Flash Edison Firmware
@@ -53,10 +53,12 @@ Some Edison boards have older firmware images on them. You **_may_** need to upd
 Get your board online in order to turn your IoT board into a true "Internet of Things" device. You also need the IP address of your IoT board to program it using the dev kit IDEs.
 
 * **At a hackathon? On a busy or restricted Wi-Fi network?**
-
-  * [Ethernet over USB - Windows »](ethernet_over_usb/windows.md)
-  * [Ethernet over USB - Mac »](ethernet_over_usb/mac.md)
-  * [Ethernet over USB - Linux »](ethernet_over_usb/linux.md)
+	
+	Connect to the Intel® Edison using the device mode micro-USB cable and a virtual ethernet connection known as "Ethernet over USB":
+	
+  * [Windows »](ethernet_over_usb/windows.md)
+  * [Mac »](ethernet_over_usb/mac.md)
+  * [Linux »](ethernet_over_usb/linux.md)
 
 * **At home? Have a dependable Wi-Fi connection?**
 
