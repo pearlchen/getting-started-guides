@@ -4,10 +4,10 @@ Some common issues have been listed below. For additional troubleshooting and FA
 
 **Table of contents**
 
-* [Don't see your device in the "IoT Device" drop down list?]()
-  * [Add a device manually]()
-  * [Restart the Intel XDK app daemon]()
-* [Additional resources]()
+* [Don't see your device in the "IoT Device" drop down list?](#dont-see-your-device-in-the-iot-device-drop-down-list)
+  * [Add a device manually](#add-a-device-manually)
+  * [Restart the Intel XDK app daemon](#restart-the-intel-xdk-app-daemon)
+* [Additional resources](#additional-resources)
 
 
 ## Don't see your device in the "IoT Device" drop down list?
@@ -22,19 +22,19 @@ You will need to add the IP address of your IoT device manually if you are using
 
 1. From the "**IoT Device**" drop down list, select "**Add Manual Connection**".
 
-  ![image alt text](image_25.png)
+  !["Add Manual Connection" option in "IoT Device" drop down list](images/xdk-add_manual_connection.png)
 
 2. For "**Address**", enter the IP address of your board.
   
   For "**Port**", leave as the default "58888".
 
-  ![image alt text](image_26.jpg)
+  ![Popup dialog to add a manual connection](images/xdk-add_manual_connection_confirmation_popup.jpg)
 
   ---
 
   **Don't know the IP address?**
 
-  **Intel® Edison:** Refer to:
+  Refer to:
 
   * [Connect Your Intel Edison to Wi-Fi → Identify the IP address](../connect_to_wifi/connect.md#identify-the-ip-address). 
   * Or use 192.168.2.15 if you're using [Ethernet over USB](../README.md#5-get-your-iot-board-online).
@@ -53,10 +53,10 @@ The Intel® XDK app daemon may not be running on the Intel® IoT board.
 
 2. Use the `systemctl` command to enable and restart the xdk-daemon on the IoT board.
 
-```
-systemctl enable xdk-daemon
-systemctl restart xdk-daemon
-```
+	```
+	systemctl enable xdk-daemon
+	systemctl restart xdk-daemon
+	```
 
 3. Re-check the "IoT Device" drop down list for your device.
 

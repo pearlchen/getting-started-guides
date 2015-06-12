@@ -14,15 +14,15 @@ Intel® XDK IoT Edition can be installed via the Windows 64-bit integrated insta
 
 **Table of contents**
 
-* [Step 1: Install Intel® XDK IoT Edition]()
+* [Step 1: Install Intel® XDK IoT Edition](#step-1-install-intel-xdk-iot-edition)
 * [Step 1b: Install Bonjour (Windows only)](#step-1b-install-bonjour-windows-only)
-* [Step 2: Launch and sign into Intel® XDK]()
-* [Step 3: Run a sample application]()
-  * [Create a project]()
-  * [Select a target IoT device]()
-  * [Sync device clocks]()
-  * [Build the application]()
-  * [Upload and run the application]()
+* [Step 2: Launch and sign into Intel® XDK](#step-2-launch-and-sign-into-intel-xdk)
+* [Step 3: Run a sample application](#step-3-run-a-sample-application)
+  * [Create a project](#create-a-project)
+  * [Select a target IoT device](#select-a-target-iot-device)
+  * [Sync device clocks](#sync-device-clocks)
+  * [Build the application](#build-the-application)
+  * [Upload and run the application](#upload-and-run-the-application)
 
 
 **Related videos**
@@ -47,10 +47,10 @@ Get the latest Intel® XDK IoT Edition installer for your computer's OS. Simply 
   1. On the USB key: files → [your OS]
   2. Copy the appropriate iot_web file to your computer:
   
-    * Windows: iot_web_win_master_[version].exe
-    * Mac: iot_web_mac_master_[version].dmg
-    * Linux 32-bit:  iot_web_linux32_master_[version].tgz
-    * Linux 64-bit:  iot_web_linux64_master_[version].tgz
+    * **Windows**: iot_web_win_master_[version].exe
+    * **Mac**: iot_web_mac_master_[version].dmg
+    * **Linux 32-bit**: iot_web_linux32_master_[version].tgz
+    * **Linux 64-bit**: iot_web_linux64_master_[version].tgz
 
 ### On Windows
 
@@ -66,13 +66,13 @@ Get the latest Intel® XDK IoT Edition installer for your computer's OS. Simply 
 
 1. Open Terminal.
 
-2. Use the "cd" command to go into the folder where the installer file is. For example:
+2. Use the `cd` command to go into the folder where the installer file is. For example:
 
-	```
-	cd ~/Desktop/
-	```
+  ```
+  cd ~/Desktop/
+  ```
 
-3. Use the "tar" command to extract** the **_.tgz_**. For example:
+3. Use the `tar` command to extract** the **_.tgz_**. For example:
 
   ```
   tar zxvf iot_web_linux64_master_1912.tgz
@@ -142,17 +142,19 @@ The Intel® XDK IoT Edition has various project creation options. To start, crea
 
 2. A list of templates for developing Node.js applications will be shown. 
 
-  Select "**Onboard LED Blink**" template, then click "**Use This Template"**.
+  Select "**Onboard LED Blink**" template.
 
   !["Onboard LED Blink" template highlighted](images/xdk-onboard_led_blink_sample.png)
+  
+3. Then click "**Use This Template"**.
 
   !["Use This Template" button highlighted](images/xdk-use_this_template.png)
 
-3. Choose a directory for your project files, and enter a name for your project.
+4. Choose a directory for your project files, and enter a name for your project.
 
   ![Example project creation settings](images/xdk-create_folder_name_project.png)
 
-4. Click "**Create**" in the bottom right corner.
+5. Click "**Create**" in the bottom right corner.
 
   ![Create button highlighted](images/xdk-create_button.png)
 
@@ -298,10 +300,12 @@ After updating the MRAA libraries, return to the Intel® XDK. Click the "Run" ic
 
 Look at your Intel® IoT board for a blinking light.
 
-* Intel® Galileo Gen 2
+* **Intel® Galileo Gen 2**
+  
   A green LED is located near the USB port.
 
-* Intel® Edison
+* **Intel® Edison**
+  
   The LED is located near the center of the board.
 
 **Congratulations, you just ran your first Intel® XDK application!**
