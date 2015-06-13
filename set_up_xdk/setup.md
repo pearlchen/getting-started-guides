@@ -179,7 +179,7 @@ The Intel® XDK IoT Edition will automatically detect Intel® IoT devices on you
 
 The Intel® XDK requires the IP address of your IoT board in order to program it. If your IoT board is online, the IP address is automatically detected in most cases. 
 
-However, if you are unable to get your IoT board online to the same network as your computer due to restricted or busy Wi-Fi networks, try a direct cable-based method and Add a device manually to the drop down list.
+However, if you are unable to get your IoT board online to the same network as your computer due to restricted or busy Wi-Fi networks, try a direct cable-based method and [Add a device manually](#add-a-device-manually) to the drop down list.
 
 * **Intel® Galileo users:**
 
@@ -205,11 +205,11 @@ However, if you are unable to get your IoT board online to the same network as y
 
   * Check that your Intel® IoT board is online via Wi-Fi or ethernet, and that your development computer is on the same network as the IoT board.
 
-  * If your internet network requires additional login credentials (e.g. a university Wi-Fi network), you may need to add the IP address manually. Refer to [Add a device manually](#) in the Troubleshooting appendix.
+  * If your internet network requires additional login credentials (e.g. a university Wi-Fi network), you may need to add the IP address manually. Refer to [Add a device manually](#add-a-device-manually) in the Troubleshooting appendix.
 
-  * If you are using Ethernet over USB for the Intel® Edison, or a direct ethernet connection for the Intel® Galileo, you may need to add the IP address manually. Refer to [Add a device manually](#) in the Troubleshooting appendix.
+  * If you are using Ethernet over USB for the Intel® Edison, or a direct ethernet connection for the Intel® Galileo, you may need to add the IP address manually. Refer to [Add a device manually](#add-a-device-manually) in the Troubleshooting appendix.
 
-  * For more detailed troubleshooting steps, refer to Do not see your device in the "IoT Device" drop down list? in the Troubleshooting appendix.
+  * For more detailed troubleshooting steps, refer to [Don't see your device in the "IoT Device" drop down list?](#dont-see-your-device-in-the-iot-device-drop-down-list) in the Troubleshooting appendix.
 
   ---
 
