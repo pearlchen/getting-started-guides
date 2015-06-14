@@ -318,7 +318,7 @@ Look at your Intel® IoT board for a blinking light.
 
 Experiment with sample code supplied for available sensors and actuators.
 
-* [Grove Starter Kit - JavaScript »]()
+* [Grove Starter Kit - JavaScript »](../sensor_examples-javascript/grove_starter_kit.md)
 
 
 ### Having troubles?
