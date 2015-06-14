@@ -4,12 +4,12 @@ Some common issues have been listed below. For additional troubleshooting and FA
 
 **Table of contents**
 
-* [Do you have spaces in any of your folder names?](#)
-* [Mac only: Get a "devkit-launcher can’t be opened because it is from an unidentified developer" message?](#)
-* [Windows only: Get a "No Java virtual machine" message?](#)
-* [Windows only: Get a "Windows cannot find eclipse.exe" message?](#)
-* [Does a command line window appear, disappear, and then nothing happens?](#)
-* [Adding a Library to an Eclipse Project](#)
+* [Do you have spaces in any of your folder names?](#do-you-have-spaces-in-any-of-your-folder-names)
+* [Mac only: Get a "devkit-launcher can’t be opened because it is from an unidentified developer" message?](#mac-only-get-a-devkit-launcher-cant-be-opened-because-it-is-from-an-unidentified-developer-message)
+* [Windows only: Get a "No Java virtual machine" message?](#windows-only-get-a-no-java-virtual-machine-message)
+* [Windows only: Get a "Windows cannot find eclipse.exe" message?](#windows-only-get-a-windows-cannot-find-eclipseexe-message)
+* [Does a command line window appear, disappear, and then nothing happens?](#does-a-command-line-window-appear-disappear-and-then-nothing-happens)
+* [Adding a Library to an Eclipse Project](#adding-a-library-to-an-eclipse-project)
 
 
 ## Do you have spaces in any of your folder names?
@@ -46,7 +46,7 @@ Refer to [Install Java](setup.md#install-java) to install a JRE or JDK.
 
 You are trying to open this dev kit package on a 32-bit Windows OS. You will need to make some adjustments to your dev kit package:
 
-1. Download and extract the Arduino IDE for Windows from [https://communities.intel.com/docs/DOC-23242](https://communities.intel.com/docs/DOC-23242.
+1. Download and extract the Arduino IDE for Windows from [https://communities.intel.com/docs/DOC-23242](https://communities.intel.com/docs/DOC-23242).
 
 2. In the extracted Arduino IDE folder, go into "hardware\tools\edison\sysroots\" and copy the whole "i686-pokysdk-mingw32" directory.
 
@@ -84,7 +84,7 @@ The batch file is not working with your current development setup. Run the batch
   e.g. `cd c:\Users\[Username]\Downloads\iotdk-ide-win`
   Type `devkit-launcher` and press Enter.
 
-Look closely at the output for error messages.
+  Look closely at the output for error messages.
 
 ## Adding a Library to an Eclipse Project
 

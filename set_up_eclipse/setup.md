@@ -15,7 +15,7 @@ Intel® XDK IoT Edition can be installed via the Windows 64-bit integrated insta
 **Table of contents**
 
 * [Step 1: Install prerequisite software](#step-1-install-prerequisite-software)
-  * [Install 7Zip - Windows only](#install-7zip-windows-only)
+  * [Install 7Zip - Windows only](#install-7zip---windows-only)
   * [Install Java](#install-java)
 * [Step 2: Install Intel® IoT dev kit Eclipse IDE](#step-2-install-intel-iot-dev-kit-eclipse-ide)
 * [Step 3: Launch Eclipse using batch file](#step-3-launch-eclipse-using-batch-file)
@@ -86,7 +86,7 @@ A Java runtime ships with the Mac operating system however, if you are running O
 
 ## Step 2: Install Intel® IoT dev kit Eclipse IDE
 
-Get the latest Eclipse IDE for Intel® IoT development. Download the compressed archive containing the customized IDE and extract the contents to your computer. If more detail is needed, platform-specific instructions are below.<
+Get the latest Eclipse IDE for Intel® IoT development. Download the compressed archive containing the customized IDE and extract the contents to your computer. If more detail is needed, platform-specific instructions are below.
 
 1. Get the latest IoT dev kit Eclipse IDE package.
 
@@ -204,10 +204,10 @@ To connect to your IoT board, you will need to configure Eclipse with your Intel
 
 	**Don't know the IP address?**
 
-  		Refer to:
+	Refer to:
 
-  		* [Connect Your Intel Edison to Wi-Fi → Identify the IP address](../connect_to_wifi/connect.md#identify-the-ip-address). 
-  		* Or use 192.168.2.15 if you're using [Ethernet over USB](../README.md#5-get-your-iot-board-online).
+	* [Connect Your Intel Edison to Wi-Fi → Identify the IP address](../connect_to_wifi/connect.md#identify-the-ip-address). 
+	* Or use 192.168.2.15 if you're using [Ethernet over USB](../README.md#5-get-your-iot-board-online).
 
 	---
 
