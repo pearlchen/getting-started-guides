@@ -46,7 +46,7 @@ Refer to [Install Java](setup.md#install-java) to install a JRE or JDK.
 
 You are trying to open this dev kit package on a 32-bit Windows OS. You will need to make some adjustments to your dev kit package:
 
-1. Download and extract the Arduino IDE for Windows from [https://communities.intel.com/docs/DOC-23242](https://communities.intel.com/docs/DOC-23242).
+1. Download and extract the Arduino IDE for Windows (version 1.6.4+) from [http://www.arduino.cc/en/Main/Software](http://www.arduino.cc/en/Main/Software).
 
 2. In the extracted Arduino IDE folder, go into "hardware\tools\edison\sysroots\" and copy the whole "i686-pokysdk-mingw32" directory.
 
