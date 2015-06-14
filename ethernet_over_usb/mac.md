@@ -4,6 +4,16 @@ This document will guide you through obtaining an IP address for the Intel® Edi
 
 When you are in a busy or restricted network environment, connect to the Intel® Edison using the device mode micro-USB cable and a virtual ethernet connection known as "Ethernet over USB". Ethernet over USB uses the RNDIS protocol.
 
+---
+
+**Do not use this guide if you are on Mac OS 10.10 (Yosemite)**
+
+This process has been found to crash computers running Yosemite. Please proceed with caution and only use Ethernet over USB if you are on 10.9 (Mavericks) or lower.
+
+If you are on Mac 10.10, instead follow [Connect Your Intel Edison to Wi-Fi »](../connect_to_wifi/connect.md)
+
+---
+
 
 **Table of contents**
 

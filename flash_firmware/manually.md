@@ -40,15 +40,22 @@ Refer to [Check installed firmware version](check_firmware_version.md).
 
 ## Step 1: Prepare built-in flash storage
 
-1. In order to read or write to the Intel® Edison's built-in flash storage, connect the Intel® Edison to your computer via the **device mode** micro-USB connector.	![Micro-USB cable being plugged into the top micro-USB connector](../assembly-arduino_expansion_board/images/device_mode-usb_cable-before_after.png)
+1. In order to read or write to the Intel® Edison's built-in flash storage, connect the Intel® Edison to your computer via the **device mode** micro-USB connector.
+
+	![Micro-USB cable being plugged into the top micro-USB connector](../assembly-arduino_expansion_board/images/device_mode-usb_cable-before_after.png)
 
 ### On Windows
 
-2. Use Windows File Explorer to format the flash storage drive. Right-click on the "**Edison**" drive that appears after plugging in the Intel® Edison to your computer, then select "Format".	![Right-click and select format](images/windows-format_drive.png)
+2. Use Windows File Explorer to format the flash storage drive. Right-click on the "**Edison**" drive that appears after plugging in the Intel® Edison to your computer, then select "Format".
 
-3. In the "Format Edison" dialog window, keep the default settings. Click "Start".	![Format drive default settings](images/windows-format_settings.png)
+	![Right-click and select format](images/windows-format_drive.png)
 
-4. In the popup, click "Ok" to confirm the formatting of the "Edison" drive. Formatting should only take a few seconds.
+3. In the "Format Edison" dialog window, keep the default settings. Click "Start".
+
+	![Format drive default settings](images/windows-format_settings.png)
+
+4. In the popup, click "Ok" to confirm the formatting of the "Edison" drive. 
+Formatting should only take a few seconds.
 
 ---
 
@@ -72,11 +79,17 @@ The "Edison" folder should now be empty. Continue to [Step 2: Copy over the late
 	* Open Utilities. 
 	* Launch Disk Utility.app.
 
-1. In the left hand sidebar of Disk Utility, select the "**Edison**" drive.	![Edison drive in Disk Utility sidebar](images/disk_utility-select_drive.png)
+1. In the left hand sidebar of Disk Utility, select the "**Edison**" drive.
 
-2. Select the "**Erase**" tab.	![Erase tab in Disk Utility](images/disk_utility-erase_tab.png)
+	![Edison drive in Disk Utility sidebar](images/disk_utility-select_drive.png)
 
-3. For "**Format**", make sure "**MS-DOS (FAT)**" is selected.	![FAT32 selected in Disk Utility](images/disk_utility-format_fat.png)
+2. Select the "**Erase**" tab.
+
+	![Erase tab in Disk Utility](images/disk_utility-erase_tab.png)
+
+3. For "**Format**", make sure "**MS-DOS (FAT)**" is selected.
+
+	![FAT32 selected in Disk Utility](images/disk_utility-format_fat.png)
 
 	---
 	
@@ -84,7 +97,9 @@ The "Edison" folder should now be empty. Continue to [Step 2: Copy over the late
 	
 	---
 
-4. Click the "**Erase**" button.	![image alt text](images/disk_utility-erase_button.png)
+4. Click the "**Erase**" button.
+
+	![image alt text](images/disk_utility-erase_button.png)
 
 5. In the popup, click "**Erase**" to confirm.
 
@@ -99,16 +114,23 @@ The Intel® Edison on-board storage memory should now be formatted as FAT32 and 
 
 1. Open up a new Terminal window.
 
-2. Use the "cd" command to go into the "Edison" drive. 	**Replace "[username]" with your actual username.**		**note - use "/media/[username]/Edison" _not_ "/media/psf/Edison".**
+2. Use the "cd" command to go into the "Edison" drive. 
+
+	**Replace "[username]" with your actual username.**
+	
+	**note - use "/media/[username]/Edison" _not_ "/media/psf/Edison".**
 
 	```
 	cd /media/[username]/Edison
 	```
 
-3. Use the "rm" command to remove **all** visible and invisible files. 	**Double-check and make sure you are in the Intel® Edison's drive!**
+3. Use the "rm" command to remove **all** visible and invisible files. 
+
+	**Double-check and make sure you are in the Intel® Edison's drive!**
 
 	```
-	rm –rf *	rm –rf \.*
+	rm –rf *
+	rm –rf \.*
 	```
 
 	![Screenshot of running the rm commands](images/terminal-remove_files.png)
@@ -153,7 +175,9 @@ Extract the contents of the compressed firmware image archive, then copy the con
 
 2. Extract the contents of edison-image-[version].zip to your hard drive.
 
-3. Copy the **entire contents** of the edison-image-[version] folder to the "Edison" drive that shows up after plugging the Intel® Edison to your computer. 	Do **not** include the containing/parent edison-image-[version] folder; just the contents of the folder.
+3. Copy the **entire contents** of the edison-image-[version] folder to the "Edison" drive that shows up after plugging the Intel® Edison to your computer. 
+
+	Do **not** include the containing/parent edison-image-[version] folder; just the contents of the folder.
 
 	![Progress of copying files to Edison drive](images/windows-copying_files.jpg)
 
@@ -174,7 +198,9 @@ Run the "reboot ota" command on the Intel® Edison to flash the board with the f
 
 	_Don't know how? Refer to [Shell Access](../README.md#3-shell-access)._
 
-1. Use the "reboot ota" command to reboot the Intel® Edison from the command line.	**Note:** This will erase everything on your Intel® Edison including configuration settings such as the board's username and password.
+1. Use the "reboot ota" command to reboot the Intel® Edison from the command line.
+
+	**Note:** This will erase everything on your Intel® Edison including configuration settings such as the board's username and password.
 
 	```
     reboot ota
@@ -219,7 +245,7 @@ Get your board online in order to turn your IoT board into a true "Internet of T
 **At a hackathon? On a busy or restricted Wi-Fi network?**
 
 * [Ethernet over USB - Windows »](../ethernet_over_usb/windows.md)
-* [Ethernet over USB - Mac »](../ethernet_over_usb/mac.md)
+* [Ethernet over USB - Mac (10.9 or lower only) »](../ethernet_over_usb/mac.md)
 * [Ethernet over USB - Linux »](../ethernet_over_usb/linux.md)
 
 **At home? Have a dependable Wi-Fi connection?**

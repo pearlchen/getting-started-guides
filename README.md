@@ -57,7 +57,7 @@ Get your board online in order to turn your IoT board into a true "Internet of T
 	Connect to the Intel® Edison using the device mode micro-USB cable and a virtual ethernet connection known as "Ethernet over USB":
 	
   * [Windows »](ethernet_over_usb/windows.md)
-  * [Mac »](ethernet_over_usb/mac.md)
+  * [Mac (10.9 or lower only) »](ethernet_over_usb/mac.md)
   * [Linux »](ethernet_over_usb/linux.md)
 
 * **At home? Have a dependable Wi-Fi connection?**
