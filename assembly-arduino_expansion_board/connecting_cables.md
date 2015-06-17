@@ -58,6 +58,8 @@ Use the bottom micro-USB port to send serial commands to your Intel® Edison via
 
 If you are going to use more power intensive features such as Wi-Fi, a servo motor, or an Arduino shield, use a DC power supply in addition to the device mode micro-USB cable.
 
+![Animated gif: using power barrel connector](images/power_barrel-animated.gif)
+
 [View detailed instructions »](details-power_barrel.md)
 
 

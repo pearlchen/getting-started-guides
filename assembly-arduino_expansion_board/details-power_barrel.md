@@ -2,8 +2,13 @@
 
 If you are going to use more power intensive features such as Wi-Fi, a servo motor, or an Arduino shield, use a DC power supply in addition to the device mode micro-USB cable.
 
+![Animated gif: using power barrel connector](images/power_barrel-animated.gif)
+
+---
+
 1. Plug in a 7 to 15 VDC input DC power supply to the barrel connector.
-(This DC power supply could be plugged into the wall, or be part of a battery pack.)
+  
+  (This DC power supply could be plugged into the wall, or be part of a battery pack.)
 
   ![DC power supply being plugged into power barrel connector](images/ac_power_barrel-before_after.png)
 
@@ -11,3 +16,8 @@ If you are going to use more power intensive features such as Wi-Fi, a servo mot
 
   ![Green LED lit up on expansion board](images/ac_power_barrel-led_on-zoom_in.png)
 
+---
+
+
+
+---
