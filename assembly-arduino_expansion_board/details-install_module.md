@@ -14,7 +14,7 @@ The Intel® Edison module is meant to be used with breakout boards or custom PCB
 
   ![Placement of Intel® Edison module on Arduino expansion board](images/module_install-placement.png)
 
-3. Press down on the Intel® Edison module just below the words "What will you make?" until you feel a snap.
+3. Press down on the Intel® Edison module just below the words "What will you make?" _until you feel a **snap**_.
 
   ![Press down on Intel® Edison module](images/module_install-press_down.png)
 
@@ -23,6 +23,8 @@ The Intel® Edison module is meant to be used with breakout boards or custom PCB
   ![Securing module with hex nut](images/module_install-screws.png)
 
 ----
+
+**Done!**
 
 ![Intel® Edison module installed](images/module_install-done.png)
 

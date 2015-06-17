@@ -21,17 +21,21 @@ Find out what is in your Intel® Edison Kit for Arduino box. Some assembly is re
 
 ![Intel® Edison retail box](images/retail_box.png)
 
-* **Intel® Edison module**
+* **Intel® Edison compute module**
+  
   Refer to the [product brief](http://www.intel.com/support/edison/sb/CS-035277.htm) for specs. 
 
 * **Intel® Edison kit for Arduino expansion board.**
+  
   Software and hardware pin-compatible with Arduino Uno R3 shields. Refer to the [hardware guide](http://www.intel.com/support/edison/sb/CS-035275.htm) for specs.
 
 * **Small hex nuts (x2)**
-  For attaching the Intel® Edison module to expansion board.
+  
+  For attaching the Intel® Edison module to the expansion board.
 
 * **Screws (x4) & plastic spacers (x4)**
-  To keep the expansion board stable and lifted off surfaces.
+  
+  To keep the expansion board stable and lifted off of surfaces.
 
 
 ## Quick Start Assembly Instructions
@@ -65,9 +69,9 @@ While plugging in every cable is not required at this very moment, a development
 
 3. **UART/serial micro-USB cable** plugged into your computer
 
-![Cable and microswitch setup for Intel® Edison development](images/cables-full_dev_setup.png)
-
 The Arduino expansion board for Intel® Edison can be powered via the DC power jack, the device mode micro-USB port, or both. This setup uses only a micro-USB cable for power.
+
+![Cable and microswitch setup for Intel® Edison development](images/cables-full_dev_setup.png)
 
 ---
 
@@ -77,4 +81,4 @@ Explore when and how to use all the cables ports on the Intel® Edison kit for A
 
 ----
 
-__*The Arduino name, logo and the graphics design of its boards are a protected trademark of Arduino and its partners.__
+_* The Arduino name, logo and the graphics design of its boards are a protected trademark of Arduino and its partners._

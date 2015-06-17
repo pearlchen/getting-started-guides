@@ -24,6 +24,8 @@ To add stability to the expansion board and to help avoid accidental short circu
 
 ---
 
+**Done!**
+
 ![Side view of Intel® Edison with plastic spacers installed](images/spacer_install-side_view.png)
 
 ---
