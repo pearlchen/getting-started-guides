@@ -2,6 +2,7 @@
 
 Use the bottom micro-USB port to send serial commands to your Intel® Edison via Terminal or PuTTY. Use these commands to flash firmware, configure Wi-Fi, or identify the board's IP address.
 
+![Animated gif: using UART/serial cable](images/serial-animated.gif)
 
 ---
 
