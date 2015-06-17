@@ -19,7 +19,9 @@ Find out what is in your Intel® Edison Kit for Arduino box. Some assembly is re
 
 ## Look in the Intel® Edison Kit for Arduino box
 
-![Intel® Edison retail box](images/retail_box.png)
+![Closed Intel® Edison retail box](images/retail_box.png)
+
+![Unpacked Intel® Edison retail box](images/retail_box-unpacked.png)
 
 * **Intel® Edison compute module**
   
