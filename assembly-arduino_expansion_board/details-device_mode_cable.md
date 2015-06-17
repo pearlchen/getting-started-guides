@@ -34,6 +34,8 @@ Switch the microswitch _down_ towards the micro-USB ports, if it isn't already.
 
 You will know that the Intel® Edison is fully initialized when your computer mounts a new drive (much like inserting a SD card into your computer).
 
+---
+
 The Intel® Edison needs approximately one minute to go through the entire Linux startup process. There is no onboard LED to indicate whether or not the Intel® Edison is fully initialized, however you can watch the full bootup sequence (whether for fun or for debugging purposes) if you are connected to the board via the bottom micro-USB cable. You will learn how to gain command line access to your Intel® Edison later in [Shell Access](../README.md#3-shell-access).
 
 ![An example of what you would see during bootup](images/shell_access-boot_menu.png)

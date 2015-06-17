@@ -2,6 +2,8 @@
 
 Use the standard-sized USB port in USB host mode to allow the Intel® Edison to accept USB peripherals such as mice, keyboards, etc.
 
+![Animated gif: using host mode](images/host_mode-animated.gif)
+
 ---
 
 1. Find the **microswitch** in between the USB ports on the expansion board. 

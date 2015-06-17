@@ -67,6 +67,8 @@ If you are going to use more power intensive features such as Wi-Fi, a servo mot
 
 Use the standard-sized USB port in USB host mode to allow the Intel® Edison to accept USB peripherals such as mice, keyboards, etc.
 
+![Animated gif: using host mode](images/host_mode-animated.gif)
+
 [View detailed instructions »](details-host_mode_cable.md)
 
 ---
