@@ -65,21 +65,9 @@ The Intel® Edison module is meant to be used with breakout boards or custom PCB
 
 To add stability to the expansion board and to help avoid accidental short circuits, attach the four plastic spacers supplied in your Intel® Edison box to act as "legs" for the expansion board.
 
-![Animated gif: installing the plastic spacers](images/install_spacers.gif)
+![Animated gif: installing the plastic spacers](images/spacer_install-animated.gif)
 
-1. In one of the four holes in the corner of the Arduino expansion board, insert a screw through the top.
-
-  ![Screw inserted into expansion board](images/spacer_install-insert_screw.png)
-
-2. Twist and tighten one of the white plastic spacers onto the screw. The spacer should be on the **bottom** of the expansion board to act as legs.
-
-  ![Tightening a spacer onto the screw](images/spacer_install-tighten_spacer.png)
-
-3. Repeat for the remaining three screws and spacers.
-
----
-
-![Side view of Intel® Edison with plastic spacers installed](images/plastic_spacers-side_view.png)
+[View detailed instructions »](details-install_spacers.md)
 
 ---
 
