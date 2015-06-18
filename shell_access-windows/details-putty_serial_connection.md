@@ -1,6 +1,6 @@
 # Establish a serial connection
 
-Use PuTTY to establish a **serial** connection to the IoT board using the COM # you noted in the previous [Identify the serial COM port](#identify-the-com-port) section and the baud rate **115200**.
+Use PuTTY to establish a **serial** connection to the IoT board using the COM # you noted in the previous [Identify the serial COM port](details-identify_com_port.md) section and the baud rate **115200**.
 
 ---
 
@@ -14,7 +14,7 @@ Use PuTTY to establish a **serial** connection to the IoT board using the COM # 
 
 3. Specify the destination you want to connect to:
 
-  * **Serial Line**: use the **COM #** (e.g. "COM3") noted in [Identify the serial COM port](serial_connection.md#identify-the-serial-com-port)
+  * **Serial Line**: use the **COM #** (e.g. "COM3") noted in [Identify the serial COM port](details-identify_com_port.md)
   * **Speed**: use "115200" for the baud rate
   
   ![Serial line and speed text fields in PuTTY](images/putty-serial_line_and_speed.png)

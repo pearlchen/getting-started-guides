@@ -6,31 +6,29 @@ Use Device Manager to find the COM port number for the "**USB Serial Port**" con
 
 ---
 
-1. Open Device Manager and scroll down to the "**Ports (COM & LPT)**" section.
+1. Open Device Manager.
 
   _Don't know how? Refer to [Confirm Drivers → Open Device Manager](../set_up_your_computer-windows/confirm_drivers.md#open-windows-device-manager)._
 
-2. **Make a note of your COM #** for the "**USB Serial Port**" device. 
+2. Scroll down to the "**Ports (COM & LPT)**" section.
+
+3. **Make a note of your COM #** for the "**USB Serial Port**" device. 
+
+  Do ***not*** use the COM number for "Intel Edison USB Composite Device" or "Intel Edison Virtual Com Port". Those are for other features.
 
   ![USB Serial Port entry in Device Manager](images/device_manager-usb_serial_highlighted.png)
 
----
-
-**Do you have the right COM number?**
-
-Use the COM # shown on your computer's Device Manager. In the screenshot, it is "COM3" but your computer will have unique COM port number assignments and may be different from the screenshot.
-
-Do **not** use the COM number for "Intel Edison USB Composite Device" or "Intel Edison Virtual Com Port".
+  Use the COM # shown on ***your*** computer's Device Manager. In the screenshot, it is "COM3" but your computer will have unique COM port number assignments and may be different from the screenshot.
 
 ---
+
+### Troubleshooting 
 
 **Don't see a "USB Serial Port" device listed?**
 
 * **Do you have the serial drivers installed?**
-  * A serial connection cannot be detected without FTDI serial drivers. Refer to [Set Up Your Computer - Windows (64-bit integrated installer)](../set_up_your_computer-windows/64bit_integrated_installer.md) or Set Up Your Computer - Windows (manual).
+  * A serial connection cannot be detected without FTDI serial drivers. Refer to [Set Up Your Computer - Windows (64-bit integrated installer)](../set_up_your_computer-windows/64bit_integrated_installer.md) or [Set Up Your Computer - Windows (manual installation)](../set_up_your_computer-windows/manual_installation.md).
 
-* **Do you have the UART/serial cable connected?** Refer to [Connecting Cables → UART/serial micro-USB cable](../assembly-arduino_expansion_board/connecting_cables.md#uartserial-micro-usb-cable).
+* **Do you have the UART/serial cable connected?** Refer to [UART/serial micro-USB cable](../assembly-arduino_expansion_board/details-serial_cable.md).
 
 * Is your IoT board powered on?
-
----

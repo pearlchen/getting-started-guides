@@ -39,7 +39,7 @@ Use Device Manager to find the COM port number for the "**USB Serial Port**" con
 
 ## Establish a serial connection
 
-Use PuTTY to establish a **serial** connection to the IoT board using the COM # you noted in the previous [Identify the serial COM port](#identify-the-com-port) section and the baud rate **115200**.
+Use PuTTY to establish a **serial** connection to the IoT board using the COM # you noted in the previous [Identify the serial COM port](#identify-the-serial-com-port) section and the baud rate **115200**.
 
 ![Animated gif: logging into the IoT board via a PuTTY serial connection](images/putty_serial_connection-animated.gif)
 
