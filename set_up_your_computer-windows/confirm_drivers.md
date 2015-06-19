@@ -67,7 +67,7 @@ If you see both "**Intel Edison USB Composite Device**" and "**Intel Edison Virt
 
 	![Micro-USB cable being plugged into the bottom micro-USB connector](../assembly/arduino_expansion_board/images/uart_serial-usb_cable-before_after.png)
 
-	Refer to [_Connecting Cables_](../assembly/arduino_expansion_board/connecting_cables.md#uartserial-micro-usb-cable) for more detailed cable connection information.
+	Refer to [_Connecting Cables_](../assembly/arduino_expansion_board/details-serial_cable.md) for more detailed cable connection information.
 
 If you see "USB Serial Port" show up in Device Manager under "Ports (COM & LPT)", the drivers have been successfully installed. 
 

@@ -17,7 +17,7 @@ When you are in a busy or restricted network environment, connect to the Intel®
 
 **Are you using the device mode micro-USB cable?**
 
-In order to use Ethernet over USB, your Intel® Edison must have the microswitch set to device mode and the appropriate micro-USB cable plugged in. Refer to [Connecting Cables → Device mode micro-USB cable](../assembly/arduino_expansion_board/connecting_cables.md#device-mode-micro-usb-cable) for full assembly instructions.
+In order to use Ethernet over USB, your Intel® Edison must have the microswitch set to device mode and the appropriate micro-USB cable plugged in. Refer to [Device mode micro-USB cable](../assembly/arduino_expansion_board/details-device_mode_cable.md) for full assembly instructions.
 
 ---
 

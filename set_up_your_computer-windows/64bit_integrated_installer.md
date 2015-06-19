@@ -51,7 +51,7 @@ The integrated installer program for 64-bit Windows gives you options to automat
 
 	![Micro-USB cable being plugged into the top micro-USB connector](../assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png)
 
-	Refer to [_Connecting Cables_](../assembly/arduino_expansion_board/connecting_cables.md#device-mode-micro-usb-cable) for more detailed cable connection information.
+	Refer to [_Connecting Cables_](../assembly/arduino_expansion_board/details-device_mode_cable.md) for more detailed cable connection information.
 
 3. Double-click on the ![file icon](../icons/file_icon_blue.png) *iotdk_win_installer.exe* on your computer to begin installation. 
 
