@@ -24,7 +24,7 @@ Refer to [Shell Access](/shell_access/) for more instructions on gaining command
 
 ---
 
-Once your Intel® Edison is online and has an addressable IP address, you may find it more convenient to [SSH into your board]() to run Linux commands. In that case, you will not need the micro-USB serial cable on a regular basis.
+Once your Intel® Edison is online and has an addressable IP address, you may find it more convenient to SSH into your board to run Linux commands. In that case, you will not need the micro-USB serial cable on a regular basis.
 
 ![Serial cable not required for SSH access](images/ssh_access-no_cable_needed.png)
 

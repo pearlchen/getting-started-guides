@@ -17,8 +17,8 @@ You will need to install the Windows drivers manually. Refer to [Set Up Your Com
 
 **Table of contents**
 
-* [Download and run the Intel® Edison integrated installer](##download-and-run-the-intel-edison-integrated-installer)
-* [Restart your computer](#restart-your-computer)
+* [Download and run the Intel® Edison integrated installer »](##download-and-run-the-intel-edison-integrated-installer)
+* [Restart your computer »](#restart-your-computer)
 
 
 **Related videos**
@@ -38,7 +38,7 @@ The integrated installer program for 64-bit Windows gives you options to automat
 
   **Online option:**
 
-  1. Visit the Intel® Edison Software Downloads page: [software.intel.com/iot/hardware/edison/downloads](https://software.intel.com/iot/hardware/edison/downloads).
+  1. Visit the Intel® Edison Software Downloads page: [http://software.intel.com/iot/hardware/edison/downloads](https://software.intel.com/iot/hardware/edison/downloads).
   2. Scroll down to the "**Driver software**" section. 
   3. Click the "**Windows 64-bit Integrated Installer**" link to download ![file icon](/icons/file_icon_blue.png) _iotdk_win_installer.exe_ to your computer
   
@@ -51,7 +51,7 @@ The integrated installer program for 64-bit Windows gives you options to automat
 
   ![Micro-USB cable being plugged into the top micro-USB connector](/assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png)
 
-  Refer to [_Connecting Cables_](/assembly/arduino_expansion_board/details-device_mode_cable.md) for more detailed cable connection information.
+  Refer to [Device mode micro-USB cable](/assembly/arduino_expansion_board/details-device_mode_cable.md) for more detailed cable connection information.
 
 3. Double-click on the ![file icon](/icons/file_icon_blue.png) *iotdk_win_installer.exe* on your computer to begin installation. 
 
