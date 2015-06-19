@@ -3,8 +3,8 @@
 
 **Table of contents**
 
-* [Cancel/exit an already submitted command](#cancelexit-an-already-submitted-command)
-* [Save connection settings for re-use](#save-connection-settings-for-re-use)
+* [Cancel/exit an already submitted command »](#cancelexit-an-already-submitted-command)
+* [Save connection settings for re-use »](#save-connection-settings-for-re-use)
 
 
 ## Cancel/exit an already submitted command
@@ -26,7 +26,9 @@ To quickly connect to the same IoT board the next time, save the session setting
 
 	![Saved sessions section of PuTTY](images/putty-saved_sessions.png)
 
-3. The next time you want to connect using those presets, double-click on the saved session name.	![Click on saved session to connect](images/putty-click_saved_session.png)
+3. The next time you want to connect using those presets, double-click on the saved session name.
+
+	![Click on saved session to connect](images/putty-click_saved_session.png)
 
 
 ---

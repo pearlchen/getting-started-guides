@@ -2,8 +2,8 @@
 
 **Table of contents**
 
-* [Cancel/exit an already submitted command](#cancelexit-an-already-submitted-command)
-* [Disconnect from the serial connection](#disconnect-from-the-serial-connection)
+* [Cancel/exit an already submitted command »](#cancelexit-an-already-submitted-command)
+* [Disconnect from the serial connection »](#disconnect-from-the-serial-connection)
 
 
 ## Cancel/exit an already submitted command
@@ -27,12 +27,12 @@ Failing to close the Screen connection fully may stop you from being able to log
 
     3. Then type **Ctrl+\\** (the forward slash is located below Delete)
 
-2. At the bottom of the Terminal window, you should see "Really quit and kill all your windows [y/n]". Type "**y**".	![A confirmation to quit screen will show up in the bottom left corner of Terminal](images/screen-quit.png)
+2. At the bottom of the Terminal window, you should see "Really quit and kill all your windows [y/n]". Type "**y**".
+
+	![A confirmation to quit screen will show up in the bottom left corner of Terminal](images/screen-quit.png)
 
 3. You are now back in your regular Terminal command line.
 
 ---
 
-Return to [Shell Access - Mac »](serial_connection-mac.md#next-steps).
-
-Or [Shell Access - Linux »](serial_connection-linux.md#next-steps)
+Return to Shell Access [Mac »](serial_connection-mac.md#next-steps) or [Linux »](serial_connection-linux.md#next-steps)

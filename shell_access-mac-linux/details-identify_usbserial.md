@@ -26,9 +26,10 @@ Use the `ls /dev/tty.*` command in Terminal to find the device name of the "**us
   ls /dev/tty.*
   ```
 
-3. Look for a device that contains "**cu.usbserial**" or "**tty.usbseria**l".
+3. Look for a device that contains "**usbserial**".
 
   ![the device found was "/dev/tty.usbserial-A402YSYU"](images_mac/terminal-usbserial_device_highlighted.png)
+
   In this case, the device found was "/dev/tty.usbserial-A402YSYU".
 
 ---

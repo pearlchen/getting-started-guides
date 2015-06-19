@@ -12,9 +12,11 @@ Use the Screen utility in Terminal to gain command line access of your IoT board
   screen /dev/xx.usbserial-XXXXXXXX 115200
   ```
 
-  **Replace "/dev/xx.usbserial-XXXXXXXX" with your device's unique name.** 
+  * **Replace "/dev/xx.usbserial-XXXXXXXX" with your device's unique name.** 
 
-  "115200" indicates the baud rate. **Always use 115200.**
+  * "115200" indicates the baud rate. **Always use 115200.**
+
+  * "-L" turns on output logging so you can see what the result of your commands are.
 
 2. When you see a blank screen, **press the Enter key**.
  

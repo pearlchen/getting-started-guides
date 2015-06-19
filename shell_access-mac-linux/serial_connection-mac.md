@@ -33,15 +33,17 @@ Use the Screen utility in Terminal to gain command line access of your IoT board
 
 ![Animated gif: using Screen utility to connect to IoT board](images_mac/screen_connection-animated.gif)
 
-[View detailed instructions »](details-screen_connect.md)
+[View detailed instructions »](details-screen_connection.md)
 
 ---
 
-You are now logged into your IoT board and can run shell commands. For example, in order to output the version number of the firmware running on your board:
+You are now logged into your IoT board and can run shell commands. For example, to output the version number of the firmware running on your board:
 
 ```
 cat /etc/version
 ```
+
+![example output after running cat command](images/firmware_version_output.png)
 
 The firmware version is in YYYYMMDDHHMM format so, in this case, Sept 3, 2014.
 

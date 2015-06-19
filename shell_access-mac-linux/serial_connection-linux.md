@@ -70,11 +70,13 @@ Use the Screen utility that you installed in the previous section to gain comman
 
 ---
 
-You are now logged into your IoT board and can run shell commands. For example, in order to output the version number of the firmware running on your board:
+You are now logged into your IoT board and can run shell commands. For example, to output the version number of the firmware running on your board:
 
 ```
 cat /etc/version
 ```
+
+![example output after running cat command](images/firmware_version_output.png)
 
 The firmware version is in YYYYMMDDHHMM format so, in this case, Sept 3, 2014.
 
