@@ -17,7 +17,7 @@ Your computer may not have come with a pre-installed shell session manager. Down
 
 3. Wait for Screen to finish downloading and the installation to complete.
 
-  ![Installing Screen via Terminal](images_linux/install_screen.jpg)
+  ![Installing Screen via Terminal](images/install_screen.jpg)
 
 ---
 

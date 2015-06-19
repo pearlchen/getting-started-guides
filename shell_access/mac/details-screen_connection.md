@@ -2,7 +2,7 @@
 
 Use the Screen utility in Terminal to gain command line access of your IoT board. For example: `screen /dev/tty.usbserial-A102GW3T 115200`
 
-![Animated gif: using Screen utility to connect to IoT board](images_mac/screen_connection-animated.gif)
+![Animated gif: using Screen utility to connect to IoT board](images/screen_connection-animated.gif)
 
 ---
 
@@ -22,10 +22,10 @@ Use the Screen utility in Terminal to gain command line access of your IoT board
  
   **For Intel® Edison boards running older firmware**: You may need to press the Enter key **twice**.
 
-  ![blank screen](images_mac/screen-blank_screen.png)
+  ![blank screen](images/screen-blank_screen.png)
 
 3. Once connected you will see a login prompt. 
 
   Type in "**root**" for the username and press **Enter**.
 
-  ![login as "root"](images_mac/screen-login_root.png)
+  ![login as "root"](images/screen-login_root.png)

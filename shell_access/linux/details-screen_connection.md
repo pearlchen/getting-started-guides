@@ -24,4 +24,14 @@ Use the Screen utility that you installed in the previous section to gain comman
 
   Type in "**root**" for the username and press **Enter**.
 
-  ![Login prompt](images_linux/screen-login_prompt.jpg)
+  ![Login prompt](images/screen-login_prompt.jpg)
+
+---
+
+### Troubleshooting 
+
+**Don't see a "usbserial" device listed?**
+
+* **Do you have the UART/serial cable connected?** Refer to [UART/serial micro-USB cable](../../assembly-arduino_expansion_board/details-serial_cable.md).
+
+* Is your IoT board powered on?

@@ -1,6 +1,6 @@
 # Shell Access - Mac 
 
-![computer icon with command prompt](../icons/set_up_your_computer_shell.png)
+![computer icon with command prompt](../images/set_up_your_computer_shell.png)
 
 If you need to configure your IoT board, you will need to remotely connect to the Intel® Edison or Intel® Galileo. Once connected to your Intel® IoT board, you have access to the Linux-based Yocto operating system running on the board. 
 
@@ -22,7 +22,7 @@ You can then execute special Linux commands such: changing the hostname and pass
 
 Use the `ls /dev/tty.*` command in Terminal to find the device name of the "**usbserial**" connection. You will need the exact device name for use in [Establish a serial connection](#establish-a-serial-connection) next.
 
-![Animated gif: using Terminal to find the USB device name](images_mac/identify_usbserial-animated.gif)
+![Animated gif: using Terminal to find the USB device name](images/identify_usbserial-animated.gif)
 
 [View detailed instructions »](details-identify_usbserial.md)
 
@@ -31,7 +31,7 @@ Use the `ls /dev/tty.*` command in Terminal to find the device name of the "**us
 
 Use the Screen utility in Terminal to gain command line access of your IoT board. For example: `screen /dev/tty.usbserial-A102GW3T 115200`
 
-![Animated gif: using Screen utility to connect to IoT board](images_mac/screen_connection-animated.gif)
+![Animated gif: using Screen utility to connect to IoT board](images/screen_connection-animated.gif)
 
 [View detailed instructions »](details-screen_connection.md)
 
@@ -43,7 +43,7 @@ You are now logged into your IoT board and can run shell commands. For example, 
 cat /etc/version
 ```
 
-![example output after running cat command](images/firmware_version_output.png)
+![example output after running cat command](../images/firmware_version_output.png)
 
 The firmware version is in YYYYMMDDHHMM format so, in this case, Sept 3, 2014.
 
@@ -51,13 +51,11 @@ The firmware version is in YYYYMMDDHHMM format so, in this case, Sept 3, 2014.
 
 ### Additional resources
 
-For more info on using Screen such as quitting, read [Using Screen »](using_screen.md)
+For more info on using Screen such as quitting, read [Using Screen »](../mac-and-linux/using_screen.md)
 
 
 ### Next Steps
 
 Some Edison boards have older firmware images on them. You **_may_** need to update the firmware to a newer version to get access to important features.
 
-[Flash Edison Firmware Manually »](../flash_firmware/manual.md)
-
-
+Go to [Flash Edison Firmware Manually »](../../flash_firmware/manually.md)

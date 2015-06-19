@@ -79,11 +79,11 @@ Install software and drivers specifically for your computer's operating system.
 
 * **Mac user?** 
 
-  You have no special setup. Skip to [Shell Access - Mac »](../shell_access-mac-linux/serial_connection-mac.md).
+  You have no special setup. Skip to [Shell Access - Mac »](../shell_access/mac/serial_connection.md)
 
 * **Linux user?** 
 
-  You have no special setup. Skip to [Shell Access - Linux »](../shell_access-mac-linux/serial_connection-linux.md).
+  You have no special setup. Skip to [Shell Access - Linux »](../shell_access/linux/serial_connection.md)
 
 * **Windows 64-bit user?** 
 
