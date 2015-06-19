@@ -42,7 +42,7 @@ Launch the Device Manager utility on Windows in order to debug your Intel® IoT 
 
 	![Micro-USB cable being plugged into the top micro-USB connector](../assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png)
 
-	Refer to [_Connecting Cables_](../assembly/arduino_expansion_board/connecting_cables.md#device-mode-micro-usb-cable) for more detailed cable connection information.
+	Refer to [_Connecting Cables_](../assembly/arduino_expansion_board/details-device_mode_cable.md) for more detailed cable connection information.
 
 If you see both "**Intel Edison USB Composite Device**" and "**Intel Edison Virtual Com Port**" items show up in Device Manager under "Ports (COM & LPT)", the drivers have been successfully installed. 
 

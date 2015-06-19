@@ -8,7 +8,7 @@ This document will guide you through installing the Intel® XDK IoT Edition IDE,
 
 **Using a 64-bit Windows computer?**
 
-Intel® XDK IoT Edition can be installed via the Windows 64-bit integrated installer. Refer to [Set Up Your Computer - Windows (64-bit integrated installer)](../set_up_your_computer-windows/64bit_integrated_installer.md) for more info.
+Intel® XDK IoT Edition can be installed via the Windows 64-bit integrated installer. Refer to [Set Up Your Computer - Windows (64-bit integrated installer)](../computer_setup/windows/64bit_integrated_installer.md) for more info.
 
 ---
 
@@ -187,7 +187,7 @@ However, if you are unable to get your IoT board online to the same network as y
 
 * **Intel® Edison users:**
 
-  Use the device mode micro-USB cable to establish an "Ethernet over USB" connection. Refer to [Ethernet over USB](../ethernet_over_usb/) for further instruction.
+  Use the device mode micro-USB cable to establish an "Ethernet over USB" connection. Refer to [Ethernet over USB](../connectivity/ethernet_over_usb/) for further instruction.
 
 ---
 

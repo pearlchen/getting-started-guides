@@ -10,7 +10,7 @@ When you are in a busy or restricted network environment, connect to the Intel®
 
 HoRNDIS has been found to crash some computers running Mac OS. Please proceed with caution and only attempt to use Ethernet over USB if you are unable to use Wi-Fi.
 
-If you have access to a Wi-Fi network, instead follow [Connect Your Intel Edison to Wi-Fi »](../connect_to_wifi/connect.md)
+If you have access to a Wi-Fi network, instead follow [Connect Your Intel Edison to Wi-Fi »](../connectivity/wifi/connect.md)
 
 ---
 
@@ -158,7 +158,7 @@ ping google.com
 
 (Use the Ctrl+C keyboard command to exit the ping process.)
 
-To re-enable WiFi on the Intel® Edison, use the `configure_edison --wifi` command as described in [Connect Your Intel Edison to Wi-Fi](../connect_to_wifi/connect.md).
+To re-enable WiFi on the Intel® Edison, use the `configure_edison --wifi` command as described in [Connect Your Intel Edison to Wi-Fi](../connectivity/wifi/connect.md).
 
 ---
 
@@ -182,9 +182,9 @@ See what you can do [once connected »](once_connected.md)
 Based on your programming language preference, install an IDE for Intel® IoT development:
 
 * **For C/C++:**
-  * [Set Up IoT Dev Kit Eclipse »](../set_up_eclipse/setup.md)
+  * [Set Up IoT Dev Kit Eclipse »](../ide_setup-eclipse/setup.md)
 
 * **For JavaScript:**
-  * [Set Up Intel XDK for IoT »](../set_up_xdk/setup.md)
+  * [Set Up Intel XDK for IoT »](../ide_setup-xdk/setup.md)
 
 

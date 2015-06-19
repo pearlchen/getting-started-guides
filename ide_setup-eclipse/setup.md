@@ -8,7 +8,7 @@ This document will guide you through installing the Eclipse IDE distributed with
 
 **Using a 64-bit Windows computer?**
 
-Intel® XDK IoT Edition can be installed via the Windows 64-bit integrated installer. Refer to [Set Up Your Computer - Windows (64-bit integrated installer)](../set_up_your_computer-windows/64bit_integrated_installer.md) for more info.
+Intel® XDK IoT Edition can be installed via the Windows 64-bit integrated installer. Refer to [Set Up Your Computer - Windows (64-bit integrated installer)](../computer_setup/windows/64bit_integrated_installer.md) for more info.
 
 ---
 
@@ -206,8 +206,8 @@ To connect to your IoT board, you will need to configure Eclipse with your Intel
 
 	Refer to:
 
-	* [Connect Your Intel Edison to Wi-Fi → Identify the IP address](../connect_to_wifi/connect.md#identify-the-ip-address). 
-	* Or use 192.168.2.15 if you're using [Ethernet over USB](../ethernet_over_usb/).
+	* [Connect Your Intel Edison to Wi-Fi → Identify the IP address](../connectivity/wifi/connect.md#identify-the-ip-address). 
+	* Or use 192.168.2.15 if you're using [Ethernet over USB](../connectivity/ethernet_over_usb/).
 
 	---
 
@@ -223,7 +223,7 @@ Connect an Ethernet cable directly from your computer to the Intel® Galileo.
 
 **Intel® Edison users:**
 
-Use the device mode micro-USB cable to establish an "Ethernet over USB" connection. Refer to [Ethernet over USB](../ethernet_over_usb/) for further instruction.
+Use the device mode micro-USB cable to establish an "Ethernet over USB" connection. Refer to [Ethernet over USB](../connectivity/ethernet_over_usb/) for further instruction.
 
 ---
 

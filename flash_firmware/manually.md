@@ -16,7 +16,7 @@ There are 3 parts to updating the firmware on the Intel® Edison:
 
 **Using a 64-bit Windows computer?**
 
-A streamlined firmware flashing process is included with the Windows 64-bit integrated installer. Refer to S[et Up Your Computer - Windows (64-bit integrated installer)](../set_up_your_computer-windows/64bit_integrated_installer.md) for more info.
+A streamlined firmware flashing process is included with the Windows 64-bit integrated installer. Refer to S[et Up Your Computer - Windows (64-bit integrated installer)](../computer_setup/windows/64bit_integrated_installer.md) for more info.
 
 **Want to know if your current firmware is old before flashing?**
 Refer to [Check installed firmware version](check_firmware_version.md).
@@ -246,10 +246,10 @@ Get your board online in order to turn your IoT board into a true "Internet of T
 
 Connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as "Ethernet over USB":
 
-* [Windows »](../ethernet_over_usb/windows.md)
-* [Linux »](../ethernet_over_usb/linux.md)
-* Note: At this time, Ethernet over USB on [Mac](../ethernet_over_usb/mac.md) is not officially supported.
+* [Windows »](../connectivity/ethernet_over_usb/windows.md)
+* [Linux »](../connectivity/ethernet_over_usb/linux.md)
+* Note: At this time, Ethernet over USB on [Mac](../connectivity/ethernet_over_usb/mac.md) is not officially supported.
 
 **At home? Have a dependable Wi-Fi connection?**
 
-* [Get Your Edison Board Online »](../connect_to_wifi/connect.md)
+* [Get Your Edison Board Online »](../connectivity/wifi/connect.md)

@@ -87,8 +87,8 @@ Install software and drivers specifically for your computer's operating system.
 
 * **Windows 64-bit user?** 
 
-  [Set Up Your Computer - Windows (64-bit integrated installer) »](../set_up_your_computer-windows/64bit_integrated_installer.md)
+  [Set Up Your Computer - Windows (64-bit integrated installer) »](../computer_setup/windows/64bit_integrated_installer.md)
 
 * **Windows 32-bit user?** *Or can't get 64-bit integrated installer running?* 
 
-  [Set Up Your Computer - Windows (manual installation) »](../set_up_your_computer-windows/manual_installation.md)
+  [Set Up Your Computer - Windows (manual installation) »](../computer_setup/windows/manual_installation.md)

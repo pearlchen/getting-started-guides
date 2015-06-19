@@ -25,11 +25,11 @@ Install software and drivers specifically for your computer's operating system.
 
 	* **Do you have 64-bit Windows and a reliable internet connection?**  
 
-  		[Set Up Your Computer - Windows (64-bit integrated installer) »](../set_up_your_computer-windows/64bit_integrated_installer.md)
+  		[Set Up Your Computer - Windows (64-bit integrated installer) »](../computer_setup/windows/64bit_integrated_installer.md)
 
 	* **At a hackathon with unreliable internet? Or can't click 'Next' in the 64-bit integrated installer wizard?** 
 
-  		[Set Up Your Computer - Windows (manual installation) »](../set_up_your_computer-windows/manual_installation.md)
+  		[Set Up Your Computer - Windows (manual installation) »](../computer_setup/windows/manual_installation.md)
 
 
 ## 3. Shell Access
@@ -56,13 +56,13 @@ Get your board online in order to turn your IoT board into a true "Internet of T
 	
 	Connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as "Ethernet over USB":
 	
-  * [Windows »](../ethernet_over_usb/windows.md)
-  * [Linux »](../ethernet_over_usb/linux.md)
+  * [Windows »](../connectivity/ethernet_over_usb/windows.md)
+  * [Linux »](../connectivity/ethernet_over_usb/linux.md)
   * Note: At this time, Ethernet over USB on [Mac](mac.md) is not officially supported.
 
 * **At home? Have a dependable Wi-Fi connection?**
 
-  * [Connect Your Intel Edison to Wi-Fi »](../connect_to_wifi/connect.md)
+  * [Connect Your Intel Edison to Wi-Fi »](../connectivity/wifi/connect.md)
 
 
 ## 6. Install an IDE
@@ -70,10 +70,10 @@ Get your board online in order to turn your IoT board into a true "Internet of T
 Based on your programming language preference, install an IDE for Intel® IoT development:
 
 * **For C/C++:**
-  * [Set Up IoT Dev Kit Eclipse »](../set_up_eclipse/setup.md)
+  * [Set Up IoT Dev Kit Eclipse »](../ide_setup-eclipse/setup.md)
 
 * **For JavaScript:**
-  * [Set Up Intel XDK for IoT »](../set_up_xdk/setup.md)
+  * [Set Up Intel XDK for IoT »](../ide_setup-xdk/setup.md)
 
 * **For simplified C++:** 
   * [Set Up Arduino IDE »](https://software.intel.com/en-us/articles/install-arduino-ide-on-intel-iot-platforms)
