@@ -14,59 +14,17 @@ You can then execute special Linux commands such: changing the hostname and pass
 
 ## Install a shell session manager (Screen)
 
-Your computer may not have come with a pre-installed shell session manager. Download and install the GNU Screen utility.
+Your computer may not have come with a pre-installed shell session manager. Download and install the GNU Screen utility using `sudo apt-get install screen`.
 
-1. Launch Terminal.
-
-2. Install **screen** via the "apt-get install" command.
-
-  ```
-  sudo apt-get install screen
-  ```
-
-  You may be asked for your root password. Type in your root password and press Enter.
-
-3. Wait for Screen to finish downloading and the installation to complete.
-
-  ![Installing Screen via Terminal](images_linux/install_screen.jpg)
-
----
-
-You should now have a shell session manager for your Terminal. 
-To confirm that it has been installed, you can run the "screen" command with the "--help" flag to see what your options are.
-
-```
-sudo screen --help
-```
-
----
+[View detailed instructions »](details-install_screen.md)
 
 
 ## Establish a serial connection
 
 Use the Screen utility that you installed in the previous section to gain command line access of your IoT board. For example: `sudo screen /dev/ttyUSB0 115200`
 
-1. Open a new Terminal window.
+[View detailed instructions »](details-screen_connection_linux.md)
 
-2. Connect to the USB serial device using Screen.
-
-  ```
-  sudo screen /dev/ttyUSB0 115200
-  ```
-
-  "115200" indicates the baud rate. Always use 115200.
-
-  You may be asked for your root password. Type in your root password and press Enter.
-
-3. When you see a blank screen, **press the Enter key**. 
-
-  **For Intel® Edison boards running older firmware**: You may need to press the Enter key **twice**.
-
-4. Once connected you will see a login prompt. 
-
-  Type in "**root**" for the username and press **Enter**.
-
-  ![Login prompt](images_linux/screen-login_prompt.jpg)
 
 ---
 
