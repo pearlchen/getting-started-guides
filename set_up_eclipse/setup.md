@@ -207,7 +207,7 @@ To connect to your IoT board, you will need to configure Eclipse with your Intel
 	Refer to:
 
 	* [Connect Your Intel Edison to Wi-Fi → Identify the IP address](../connect_to_wifi/connect.md#identify-the-ip-address). 
-	* Or use 192.168.2.15 if you're using [Ethernet over USB](../README.md#5-get-your-iot-board-online).
+	* Or use 192.168.2.15 if you're using [Ethernet over USB](../ethernet_over_usb/).
 
 	---
 
@@ -223,7 +223,7 @@ Connect an Ethernet cable directly from your computer to the Intel® Galileo.
 
 **Intel® Edison users:**
 
-Use the device mode micro-USB cable to establish an "Ethernet over USB" connection. Refer to [Ethernet over USB](../README.md#5-get-your-iot-board-online) for further instruction.
+Use the device mode micro-USB cable to establish an "Ethernet over USB" connection. Refer to [Ethernet over USB](../ethernet_over_usb/) for further instruction.
 
 ---
 

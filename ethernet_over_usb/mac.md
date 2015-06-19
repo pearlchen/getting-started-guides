@@ -6,11 +6,11 @@ When you are in a busy or restricted network environment, connect to the Intel®
 
 ---
 
-**Do not use this guide if you are on Mac OS 10.10 (Yosemite)**
+**IMPORTANT NOTE: At this time, Ethernet over USB on Mac is not officially supported.**
 
-This process has been found to crash computers running Yosemite. Please proceed with caution and only use Ethernet over USB if you are on 10.9 (Mavericks) or lower.
+HoRNDIS has been found to crash some computers running Mac OS. Please proceed with caution and only attempt to use Ethernet over USB if you are unable to use Wi-Fi.
 
-If you are on Mac 10.10, instead follow [Connect Your Intel Edison to Wi-Fi »](../connect_to_wifi/connect.md)
+If you have access to a Wi-Fi network, instead follow [Connect Your Intel Edison to Wi-Fi »](../connect_to_wifi/connect.md)
 
 ---
 

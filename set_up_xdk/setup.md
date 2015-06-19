@@ -187,7 +187,7 @@ However, if you are unable to get your IoT board online to the same network as y
 
 * **Intel® Edison users:**
 
-  Use the device mode micro-USB cable to establish an "Ethernet over USB" connection. Refer to [Ethernet over USB](../README#5-get-your-iot-board-online) for further instruction.
+  Use the device mode micro-USB cable to establish an "Ethernet over USB" connection. Refer to [Ethernet over USB](../ethernet_over_usb/) for further instruction.
 
 ---
 
@@ -207,7 +207,7 @@ However, if you are unable to get your IoT board online to the same network as y
 
   * If your internet network requires additional login credentials (e.g. a university Wi-Fi network), you may need to add the IP address manually. Refer to [Add a device manually](troubleshooting.md#add-a-device-manually) in the Troubleshooting appendix.
 
-  * If you are using Ethernet over USB for the Intel® Edison, or a direct ethernet connection for the Intel® Galileo, you may need to add the IP address manually. Refer to [Add a device manually](troubleshooting.md#add-a-device-manually) in the Troubleshooting appendix.
+  * If you are using Ethernet over USB for the Intel® Edison, or a direct Ethernet connection for the Intel® Galileo, you may need to add the IP address manually. Refer to [Add a device manually](troubleshooting.md#add-a-device-manually) in the Troubleshooting appendix.
 
   * For more detailed troubleshooting steps, refer to [Don't see your device in the "IoT Device" drop down list?](troubleshooting.md#dont-see-your-device-in-the-iot-device-drop-down-list) in the Troubleshooting appendix.
 

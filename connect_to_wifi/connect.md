@@ -87,7 +87,7 @@ When you see a "Done" message, you are now connected to a Wi-Fi network.
 
 If the connection fails, you may have typed in your credentials incorrectly.  Try again by typing in "configure_edison --wifi" and repeating the steps again.
 
-If you cannot get online using Wi-Fi but need to program your board using the Intel® IoT Developer Kit IDEs, try Ethernet over USB instead.
+If you cannot get online using Wi-Fi but need to program your board using the Intel® IoT Developer Kit IDEs, try [Ethernet over USB](../ethernet_over_usb/) instead.
 
 ---
 
