@@ -25,7 +25,7 @@ Use PuTTY to establish a **serial** connection to the IoT board using the COM # 
 
 5. When you see a blank screen, **press the Enter key**.
  
-  **For Intel® Edison boards running older firmare**: You may need to press the Enter key **twice**.
+  **For Intel® Edison boards running older firmware**: You may need to press the Enter key **twice**.
 
   ![Blank screen in PuTTY after connecting to Intel® Edison](images/putty-blank_screen.png)
 
