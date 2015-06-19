@@ -41,7 +41,7 @@ This guide will demonstrate how you can use JavaScript and the Grove Starter Kit
 * the Intel® XDK IoT Edition installed on your development computer
 * the Grove Starter Kit for Arduino or Grove Starter Kit Plus - Intel IoT Edition
 
-You also should have already completed the [Set Up Intel XDK for IoT guide](../ide_setup-xdk/setup.md), and you can successfully blink the onboard LED on your Intel® Edison or Intel® Galileo.
+You also should have already completed the [Set Up Intel XDK for IoT guide](/ide_setup-xdk/setup.md), and you can successfully blink the onboard LED on your Intel® Edison or Intel® Galileo.
 
 ---
 
@@ -129,7 +129,7 @@ Intel® maintains the [MRAA library on Github](https://github.com/intel-iot-devk
 
 1. Establish an SSH or serial connection to your Intel® Galileo or Intel® Edison.
 
-  _Don't know how? Refer to [Shell Access](../shell_access/)._
+  _Don't know how? Refer to [Shell Access](/shell_access/)._
 
 2. Run the following commands on your board. The first command will edit the mraa-upm config file on the board. The last two commands use the board's built-in Opkg package manager to download and update the missing library.
 

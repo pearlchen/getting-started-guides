@@ -10,7 +10,7 @@ When you are in a busy or restricted network environment, connect to the Intel®
 
 HoRNDIS has been found to crash some computers running Mac OS. Please proceed with caution and only attempt to use Ethernet over USB if you are unable to use Wi-Fi.
 
-If you have access to a Wi-Fi network, instead follow [Connect Your Intel Edison to Wi-Fi »](../connectivity/wifi/connect.md)
+If you have access to a Wi-Fi network, instead follow [Connect Your Intel Edison to Wi-Fi »](/connectivity/wifi/connect.md)
 
 ---
 
@@ -31,7 +31,7 @@ If you have access to a Wi-Fi network, instead follow [Connect Your Intel Edison
 
 **Are you using the device mode micro-USB cable?**
 
-In order to use Ethernet over USB, your Intel® Edison must have the microswitch set to device mode and the appropriate micro-USB cable plugged in. Refer to [Device mode micro-USB cable](../assembly/arduino_expansion_board/details-device_mode_cable.md) for full assembly instructions.
+In order to use Ethernet over USB, your Intel® Edison must have the microswitch set to device mode and the appropriate micro-USB cable plugged in. Refer to [Device mode micro-USB cable](/assembly/arduino_expansion_board/details-device_mode_cable.md) for full assembly instructions.
 
 ---
 
@@ -43,7 +43,7 @@ Install the HoRNDIS (pronounced "horrendous") kernel extension to use Ethernet o
 
 2. Double-click on the downloaded *HoRNDIS-rel[version].pkg* to start the installation wizard.
 
-	![HoRNDIS install wizard](images_mac/horndis-install.png)
+  ![HoRNDIS install wizard](images_mac/horndis-install.png)
 
 3. Follow the installation wizard prompts. Click "**Next**" where needed.
 
@@ -54,27 +54,27 @@ Install the HoRNDIS (pronounced "horrendous") kernel extension to use Ethernet o
 
 1. Open your **Network** preference settings.
 
-	(i.e. In the OS X menu bar, choose ![Mac OS icon](../icons/os_icon_mac.png) → System Preferences → Network)
+  (i.e. In the OS X menu bar, choose ![Mac OS icon](/icons/os_icon_mac.png) → System Preferences → Network)
 
 2. Plug in the device mode micro-USB cable from your Intel® Edison to your computer. 
 
-	Wait one minute for the Intel® Edison to finish booting up.
+  Wait one minute for the Intel® Edison to finish booting up.
 
 3. You should see an "**Edison**" entry (or "Multifunction Composite Gadget" if your Intel® Edison firmware is old) with a yellow dot status show up in the Network settings side panel on the left. 
 
-	Select the "Edison" entry.
+  Select the "Edison" entry.
 
-	![Edison entry with yellow dot status](images_mac/network_settings-edison_yellow_dot.png)
+  ![Edison entry with yellow dot status](images_mac/network_settings-edison_yellow_dot.png)
 
 4. For "Configure IPv4", from the drop down choose "**Using DHCP with manual address**".
 
-	![Choose "Using DHCP with manual address" from drop down](images_mac/network_settings-dhcp_manual_address.png) 
+  ![Choose "Using DHCP with manual address" from drop down](images_mac/network_settings-dhcp_manual_address.png) 
 
 5. Change "IP Address" to be "**192.168.2.2**".
 
-	![Change IP Address to be 192.168.2.2](images_mac/network_settings-ip_19216822.png)
+  ![Change IP Address to be 192.168.2.2](images_mac/network_settings-ip_19216822.png)
 
-	Keep "Subnet Mask" at default "255.255.255.0".
+  Keep "Subnet Mask" at default "255.255.255.0".
 
 6. Click "**Apply**". 
 
@@ -108,43 +108,43 @@ Turn on Internet Sharing to cut down on Wi-Fi traffic in a crowded room. Sharing
 Internet sharing is an optional step but is highly recommended if you are at a hackathon.
 
 1. Open your **Sharing** preference settings.
-	(i.e. In the OS X menu bar, choose ![Mac OS icon](../icons/os_icon_mac.png) → System Preferences → Sharing)
+  (i.e. In the OS X menu bar, choose ![Mac OS icon](/icons/os_icon_mac.png) → System Preferences → Sharing)
 
 2. If "**Internet Sharing**" is currently checked in the lefthand services list, **uncheck it** in order to make changes to your Mac Sharing settings.
 
-	![Internet Sharing settings screen with nothing checked](images_mac/sharing_settings-sharing_off.png)
+  ![Internet Sharing settings screen with nothing checked](images_mac/sharing_settings-sharing_off.png)
 
 3. Select "**Wi-Fi**" from the "**Share your connection from**" dropdown list, if not already selected.
 
-	!["Wi-Fi" option selected in the ""Share your connection from" dropdown](images_mac/sharing_settings-wifi_selected.png)
+  !["Wi-Fi" option selected in the ""Share your connection from" dropdown](images_mac/sharing_settings-wifi_selected.png)
 
 4. Check "**Edison**" under "**To computers using**".
 
-	!["To computers using" option selected under "To computers using"](images_mac/sharing_settings-edison_selected.png)
+  !["To computers using" option selected under "To computers using"](images_mac/sharing_settings-edison_selected.png)
 
 5. Enable sharing by checking "**Internet Sharing**" in the lefthand services list.
 
 6. You will see a warning. Click "**Start**" to continue.
 
-	![System warning shown before Internet Sharing can be enabled](images_mac/sharing_settings-enable_warning.png)
+  ![System warning shown before Internet Sharing can be enabled](images_mac/sharing_settings-enable_warning.png)
 
 7. Unplug and replug the device mode micro-USB cable to reset the Ethernet over USB connection.
 
 8. Use Terminal to establish a serial connection to the Intel® Edison.
 
-	_Don't know how? Refer to [Shell Access](../shell_access/mac/serial_connection.md)._
+  _Don't know how? Refer to [Shell Access](/shell_access/mac/serial_connection.md)._
 
 9. On your Intel® Edison, disconnect from any WiFi networks the board might be logged into using the wireless command line interface ("wpa_cli") command:
 
-	```
-	wpa_cli disconnect
-	```
+  ```
+  wpa_cli disconnect
+  ```
 
 10. Then use the "route" command to add a default gateway. Use the same static IP address you set in the **Network** settings in the previous section.
 
-	```
-	route add default gw 192.168.2.2
-	```
+  ```
+  route add default gw 192.168.2.2
+  ```
 
 ---
 
@@ -158,7 +158,7 @@ ping google.com
 
 (Use the Ctrl+C keyboard command to exit the ping process.)
 
-To re-enable WiFi on the Intel® Edison, use the `configure_edison --wifi` command as described in [Connect Your Intel Edison to Wi-Fi](../connectivity/wifi/connect.md).
+To re-enable WiFi on the Intel® Edison, use the `configure_edison --wifi` command as described in [Connect Your Intel Edison to Wi-Fi](/connectivity/wifi/connect.md).
 
 ---
 
@@ -182,9 +182,9 @@ See what you can do [once connected »](once_connected.md)
 Based on your programming language preference, install an IDE for Intel® IoT development:
 
 * **For C/C++:**
-  * [Set Up IoT Dev Kit Eclipse »](../ide_setup-eclipse/setup.md)
+  * [Set Up IoT Dev Kit Eclipse »](/ide_setup-eclipse/setup.md)
 
 * **For JavaScript:**
-  * [Set Up Intel XDK for IoT »](../ide_setup-xdk/setup.md)
+  * [Set Up Intel XDK for IoT »](/ide_setup-xdk/setup.md)
 
 

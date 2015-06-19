@@ -4,13 +4,13 @@ Find out what firmware version is currently flashed on your IoT board by running
 
 1. Establish an SSH or serial connection to the Intel® Edison.
 
-	_Don't know how? Refer to [Shell Access](../shell_access/)._
+  _Don't know how? Refer to [Shell Access](/shell_access/)._
 
 2. Run the "configure_edison" command with the "--help" flag to figure out the right approach for your board based on the output of this command.
 
-	```
-	configure_edison --help
-	```
+  ```
+  configure_edison --help
+  ```
 
 ---
 
@@ -28,31 +28,31 @@ The screenshot on the left is missing the --version and --latest-version flags.
 
 3. If you see a "--version" flag and your Intel® Edison is online via the onboard Wi-Fi, run the "configure_edison" command with the "--version" flag, followed by the  "--latest-version" flag.
 
-	```
-	configure_edison --version; configure_edison --latest-version
-	```
+  ```
+  configure_edison --version; configure_edison --latest-version
+  ```
 
-	If the outputted numbers are the **same**, your board is up to date.
+  If the outputted numbers are the **same**, your board is up to date.
 
-	![Running a version compasion shows this board has the same version as the latest](images/configure_edison_version_comparison.png)
+  ![Running a version compasion shows this board has the same version as the latest](images/configure_edison_version_comparison.png)
 
-	In this example, the build version on the board is "120" and the latest is "120".
+  In this example, the build version on the board is "120" and the latest is "120".
 
-	---
+  ---
 
-	**Is the first version number (yours) lower than the second (latest) version?**
+  **Is the first version number (yours) lower than the second (latest) version?**
 
-	If so, your board's firmware is out of date. Continue to Update the firmware.
+  If so, your board's firmware is out of date. Continue to Update the firmware.
 
-	In this example, the build version on the board is "16" but the latest is "17".
+  In this example, the build version on the board is "16" but the latest is "17".
 
-	---
+  ---
 
 4. **If the "--latest-version" flag is not available because your board is offline**, use the "cat" command to print out the text in the "/etc/version" file on the Intel® Edison.
 
-	```
-	cat /etc/version
-	```
+  ```
+  cat /etc/version
+  ```
 
 ---
 

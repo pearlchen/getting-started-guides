@@ -23,13 +23,13 @@ Install software and drivers specifically for your computer's operating system.
 
 * **Windows user?**
 
-	* **Do you have 64-bit Windows and a reliable internet connection?**  
+  * **Do you have 64-bit Windows and a reliable internet connection?**  
 
-  		[Set Up Your Computer - Windows (64-bit integrated installer) »](/computer_setup/windows/64bit_integrated_installer.md)
+      [Set Up Your Computer - Windows (64-bit integrated installer) »](/computer_setup/windows/64bit_integrated_installer.md)
 
-	* **At a hackathon with unreliable internet? Or can't click 'Next' in the 64-bit integrated installer wizard?** 
+  * **At a hackathon with unreliable internet? Or can't click 'Next' in the 64-bit integrated installer wizard?** 
 
-  		[Set Up Your Computer - Windows (manual installation) »](/computer_setup/windows/manual_installation.md)
+      [Set Up Your Computer - Windows (manual installation) »](/computer_setup/windows/manual_installation.md)
 
 
 ## 3. Shell Access
@@ -53,9 +53,9 @@ Some Edison boards have older firmware images on them. You **_may_** need to upd
 Get your board online in order to turn your IoT board into a true "Internet of Things" device. You also need the IP address of your IoT board to program it using the dev kit IDEs.
 
 * **At a hackathon? On a busy or restricted Wi-Fi network?**
-	
-	Connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as "Ethernet over USB":
-	
+  
+  Connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as "Ethernet over USB":
+  
   * [Windows »](/connectivity/ethernet_over_usb/windows.md)
   * [Linux »](/connectivity/ethernet_over_usb/linux.md)
   * Note: At this time, Ethernet over USB on [Mac](mac.md) is not officially supported.

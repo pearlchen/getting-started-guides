@@ -20,7 +20,7 @@ Use the bottom micro-USB port to send serial commands to your Intel® Edison via
 
 ---
 
-Refer to [Shell Access](../shell_access/) for more instructions on gaining command line access.
+Refer to [Shell Access](/shell_access/) for more instructions on gaining command line access.
 
 ---
 

@@ -36,8 +36,8 @@ You will need to add the IP address of your IoT device manually if you are using
 
   Refer to:
 
-  * [Connect Your Intel Edison to Wi-Fi → Identify the IP address](../connectivity/wifi/connect.md#identify-the-ip-address). 
-  * Or use 192.168.2.15 if you're using [Ethernet over USB](../connectivity/ethernet_over_usb/).
+  * [Connect Your Intel Edison to Wi-Fi → Identify the IP address](/connectivity/wifi/connect.md#identify-the-ip-address). 
+  * Or use 192.168.2.15 if you're using [Ethernet over USB](/connectivity/ethernet_over_usb/).
 
   ---
 
@@ -49,14 +49,14 @@ The Intel® XDK app daemon may not be running on the Intel® IoT board.
 
 1. Establish a serial connection to your Intel® Galileo or Intel® Edison.
 
-  _Don't know how? Refer to [Shell Access](../shell_access/)._
+  _Don't know how? Refer to [Shell Access](/shell_access/)._
 
 2. Use the `systemctl` command to enable and restart the xdk-daemon on the IoT board.
 
-	```
-	systemctl enable xdk-daemon
-	systemctl restart xdk-daemon
-	```
+  ```
+  systemctl enable xdk-daemon
+  systemctl restart xdk-daemon
+  ```
 
 3. Re-check the "IoT Device" drop down list for your device.
 

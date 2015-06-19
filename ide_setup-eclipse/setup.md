@@ -8,7 +8,7 @@ This document will guide you through installing the Eclipse IDE distributed with
 
 **Using a 64-bit Windows computer?**
 
-Intel® XDK IoT Edition can be installed via the Windows 64-bit integrated installer. Refer to [Set Up Your Computer - Windows (64-bit integrated installer)](../computer_setup/windows/64bit_integrated_installer.md) for more info.
+Intel® XDK IoT Edition can be installed via the Windows 64-bit integrated installer. Refer to [Set Up Your Computer - Windows (64-bit integrated installer)](/computer_setup/windows/64bit_integrated_installer.md) for more info.
 
 ---
 
@@ -198,18 +198,18 @@ To connect to your IoT board, you will need to configure Eclipse with your Intel
 
 3. A "**Properties**" panel will update in the lower left of the Eclipse screen. Replace the entry for "**Host name**" with the IP address of your Intel® Edison or Intel® Galileo.
 
-	![Editing "Host name" in the "Properties" panel](images/eclipse-properties-host_name.png)
+  ![Editing "Host name" in the "Properties" panel](images/eclipse-properties-host_name.png)
 
-	---
+  ---
 
-	**Don't know the IP address?**
+  **Don't know the IP address?**
 
-	Refer to:
+  Refer to:
 
-	* [Connect Your Intel Edison to Wi-Fi → Identify the IP address](../connectivity/wifi/connect.md#identify-the-ip-address). 
-	* Or use 192.168.2.15 if you're using [Ethernet over USB](../connectivity/ethernet_over_usb/).
+  * [Connect Your Intel Edison to Wi-Fi → Identify the IP address](/connectivity/wifi/connect.md#identify-the-ip-address). 
+  * Or use 192.168.2.15 if you're using [Ethernet over USB](/connectivity/ethernet_over_usb/).
 
-	---
+  ---
 
 ---
 
@@ -223,7 +223,7 @@ Connect an Ethernet cable directly from your computer to the Intel® Galileo.
 
 **Intel® Edison users:**
 
-Use the device mode micro-USB cable to establish an "Ethernet over USB" connection. Refer to [Ethernet over USB](../connectivity/ethernet_over_usb/) for further instruction.
+Use the device mode micro-USB cable to establish an "Ethernet over USB" connection. Refer to [Ethernet over USB](/connectivity/ethernet_over_usb/) for further instruction.
 
 ---
 
@@ -305,7 +305,7 @@ Look at your Intel® IoT board for a blinking light.
 
 Experiment with sample code supplied for available sensors and actuators.
 
-* [Grove Starter Kit - JavaScript »](../sensor_examples-javascript/grove_starter_kit.md)
+* [Grove Starter Kit - JavaScript »](/sensor_examples-javascript/grove_starter_kit.md)
 
 
 ### Having troubles?

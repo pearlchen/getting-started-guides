@@ -1,6 +1,6 @@
 # Shell Access - Windows
 
-![computer icon with command prompt](../images/computer_setup_shell.png)
+![computer icon with command prompt](/images/computer_setup_shell.png)
 
 If you need to configure your IoT board, you will need to remotely connect to the Intel® Edison or Intel® Galileo. Once connected to your Intel® IoT board, you have access to the Linux-based Yocto operating system running on the board. 
 
@@ -54,7 +54,7 @@ You are now logged into your IoT board and can run shell commands. For example, 
 cat /etc/version
 ```
 
-![example output after running cat command](../images/firmware_version_output.png)
+![example output after running cat command](/images/firmware_version_output.png)
 
 The firmware version is in YYYYMMDDHHMM format so, in this case, Sept 3, 2014.
 
@@ -69,4 +69,4 @@ For more info on using PuTTY such as saving profiles, read [Using PuTTY »](usin
 
 Some Edison boards have older firmware images on them. You _may_ need to update the firmware to a newer version to get access to important features.
 
-Go to [Flash Edison Firmware Manually »](../../flash_firmware/manually.md)
+Go to [Flash Edison Firmware Manually »](/flash_firmware/manually.md)

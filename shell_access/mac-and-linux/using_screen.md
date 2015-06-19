@@ -29,10 +29,10 @@ Failing to close the Screen connection fully may stop you from being able to log
 
 2. At the bottom of the Terminal window, you should see "Really quit and kill all your windows [y/n]". Type "**y**".
 
-	![A confirmation to quit screen will show up in the bottom left corner of Terminal](images/screen-quit.png)
+  ![A confirmation to quit screen will show up in the bottom left corner of Terminal](images/screen-quit.png)
 
 3. You are now back in your regular Terminal command line.
 
 ---
 
-Return to Shell Access [Mac »](../mac/serial_connection.md#next-steps) or [Linux »](../linux/serial_connection.md#next-steps)
+Return to Shell Access [Mac »](/mac/serial_connection.md#next-steps) or [Linux »](/linux/serial_connection.md#next-steps)

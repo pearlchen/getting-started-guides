@@ -24,11 +24,11 @@ To quickly connect to the same IoT board the next time, save the session setting
 
 2. Under "Saved Sessions", enter a descriptive name for your session presets. Then click "Save".
 
-	![Saved sessions section of PuTTY](images/putty-saved_sessions.png)
+  ![Saved sessions section of PuTTY](images/putty-saved_sessions.png)
 
 3. The next time you want to connect using those presets, double-click on the saved session name.
 
-	![Click on saved session to connect](images/putty-click_saved_session.png)
+  ![Click on saved session to connect](images/putty-click_saved_session.png)
 
 
 ---

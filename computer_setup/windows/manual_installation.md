@@ -35,19 +35,21 @@ The Intel® Edison drivers for Windows include several USB drivers in one instal
 
 1. Get the latest Intel® Edison Device USB drivers for Windows installer.
 
-	* **Online option:**
+  * **Online option:**
 
-		1. Visit the Intel® Edison Software Downloads page: [software.intel.com/iot/hardware/edison/downloads](https://software.intel.com/iot/hardware/edison/downloads).
-		2. Scroll down to the "**Driver software**" section. 
-		3. Click the "**Windows Standalone Driver**" link to download ![file icon](../icons/file_icon_blue.png) _IntelEdisonDriverSetup[version].exe_ to your computer.
-	
-	* **Hackathon attendees:**
-	
-		1. On the USB key: ![folder icon](../icons/folder_icon_blue.png) files → ![folder icon](../icons/folder_icon_blue.png) Windows
-		2. Copy ![file icon](../icons/file_icon_blue.png)  _IntelEdisonDriverSetup[version].exe_ to your computer.
+    1. Visit the Intel® Edison Software Downloads page: [software.intel.com/iot/hardware/edison/downloads](https://software.intel.com/iot/hardware/edison/downloads).
+    2. Scroll down to the "**Driver software**" section. 
+    3. Click the "**Windows Standalone Driver**" link to download ![file icon](/icons/file_icon_blue.png) _IntelEdisonDriverSetup[version].exe_ to your computer.
+  
+  * **Hackathon attendees:**
+  
+    1. On the USB key: ![folder icon](/icons/folder_icon_blue.png) files → ![folder icon](/icons/folder_icon_blue.png) Windows
+    2. Copy ![file icon](/icons/file_icon_blue.png)  _IntelEdisonDriverSetup[version].exe_ to your computer.
 
-	
-2. Double-click on the ![file icon](../icons/file_icon_blue.png) _IntelEdisonDriverSetup[version].exe_ on your computer to begin installation. 	![Intel® Edison USB drivers installer wizard](images/intel_edison_drivers-installer_wizard.jpg)
+  
+2. Double-click on the ![file icon](/icons/file_icon_blue.png) _IntelEdisonDriverSetup[version].exe_ on your computer to begin installation. 
+
+  ![Intel® Edison USB drivers installer wizard](images/intel_edison_drivers-installer_wizard.jpg)
 
 3. Follow the installation wizard. Click "**Next**" where needed. The default settings can be adjusted to your needs if required but you may wish to leave the defaults as is. 
 
@@ -70,19 +72,23 @@ However, if you see a "New Hardware Found" message when you plug in the Intel® 
  
 1. Get the latest FTDI CDM driver installer.
 
-	* **Online option:**
-		1. Visit [ftdichip.com/Drivers/D2XX.htm](http://ftdichip.com/Drivers/D2XX.htm).
-		2. Scroll down to the "**Currently Supported D2XX Drivers**" table. 
-		3. In the row for "**Windows***", click the "**setup executable**" link to download ![file icon](../icons/file_icon_blue.png) _CDM [version] WHQL Certified.exe_ to your computer.
-		
-	* **Hackathon attendees:**
-		1. On the USB key: ![folder icon](../icons/folder_icon_blue.png) files → ![folder icon](../icons/folder_icon_blue.png) Windows
-		2. Copy ![file icon](../icons/file_icon_blue.png) _CDM [version] WHQL Certified.exe_ to your computer.
+  * **Online option:**
+    1. Visit [ftdichip.com/Drivers/D2XX.htm](http://ftdichip.com/Drivers/D2XX.htm).
+    2. Scroll down to the "**Currently Supported D2XX Drivers**" table. 
+    3. In the row for "**Windows***", click the "**setup executable**" link to download ![file icon](/icons/file_icon_blue.png) _CDM [version] WHQL Certified.exe_ to your computer.
+    
+  * **Hackathon attendees:**
+    1. On the USB key: ![folder icon](/icons/folder_icon_blue.png) files → ![folder icon](/icons/folder_icon_blue.png) Windows
+    2. Copy ![file icon](/icons/file_icon_blue.png) _CDM [version] WHQL Certified.exe_ to your computer.
 
 
-2. Right-click on ![file icon](../icons/file_icon_blue.png) *CDM [version] WHQL Certified.exe***. **Select "**Run as administrator**".	![Select "Run as administrtor" in file context menu](images/cdm_drivers-run_as_admin.png)
+2. Right-click on ![file icon](/icons/file_icon_blue.png) *CDM [version] WHQL Certified.exe***. **Select "**Run as administrator**".
 
-3. Click "**Extract**" to start the installation process. 	![FTDI CDM Drivers installer wizard](images/cdm_drivers-installer_wizard.png)
+  ![Select "Run as administrtor" in file context menu](images/cdm_drivers-run_as_admin.png)
+
+3. Click "**Extract**" to start the installation process. 
+
+  ![FTDI CDM Drivers installer wizard](images/cdm_drivers-installer_wizard.png)
 
 4. Follow the installation wizard prompts. Click "**Next**" where needed.
 
@@ -93,7 +99,9 @@ However, if you see a "New Hardware Found" message when you plug in the Intel® 
 
 To ensure driver installation changes take effect, reboot your Windows computer at this point.
 
-1. Based on your version of Windows, select the option to fully shut down and restart your computer.	![Choose Restart from the Windows Start menu](images/restart_windows.png)
+1. Based on your version of Windows, select the option to fully shut down and restart your computer.
+
+  ![Choose Restart from the Windows Start menu](images/restart_windows.png)
 
 ---
 

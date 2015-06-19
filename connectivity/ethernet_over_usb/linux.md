@@ -15,7 +15,7 @@ When you are in a busy or restricted network environment, connect to the Intel®
 
 **Are you using the device mode micro-USB cable?**
 
-In order to use Ethernet over USB, your Intel® Edison must have the microswitch set to device mode and the appropriate micro-USB cable plugged in. Refer to [Device mode micro-USB cable](../assembly/arduino_expansion_board/details-device_mode_cable.md) for full assembly instructions.
+In order to use Ethernet over USB, your Intel® Edison must have the microswitch set to device mode and the appropriate micro-USB cable plugged in. Refer to [Device mode micro-USB cable](/assembly/arduino_expansion_board/details-device_mode_cable.md) for full assembly instructions.
 
 ---
 
@@ -29,9 +29,9 @@ Use Terminal and the "ifconfig" command to forward connections to the IP address
 
 3. Use the "ifconfig" command to forward connections to the IP address "192.168.2.2" through "usb0" which should be the USB cable. You may be prompted for your user password.
 
-	```
-	sudo ifconfig usb0 192.168.2.2
-	```
+  ```
+  sudo ifconfig usb0 192.168.2.2
+  ```
 
 ---
 
@@ -63,19 +63,19 @@ Internet sharing is an optional step but is highly recommended if you are at a h
 
 2. Use Terminal to establish a serial connection to the Intel® Edison.
 
-	_Don't know how? Refer to [Shell Access](../shell_access/linux/serial_connection.md)._
+  _Don't know how? Refer to [Shell Access](/shell_access/linux/serial_connection.md)._
 
 3. On your Intel® Edison, disconnect from any WiFi networks the board might be logged into using the wireless command line interface ("wpa_cli") command:
 
-	```
-	wpa_cli disconnect
-	```
+  ```
+  wpa_cli disconnect
+  ```
 
 4. Then use the "route" command to add a default gateway. Use the same static IP address you set in the **Network** settings in the previous section.
 
-	```
-	route add default gw 192.168.2.2
-	```
+  ```
+  route add default gw 192.168.2.2
+  ```
 
 ---
 
@@ -89,7 +89,7 @@ ping google.com
 
 (Use the Ctrl+C keyboard command to exit the ping process.)
 
-To re-enable WiFi on the Intel® Edison, use the `configure_edison --wifi` command as described in [Connect Your Intel Edison to Wi-Fi](../connectivity/wifi/connect.md).
+To re-enable WiFi on the Intel® Edison, use the `configure_edison --wifi` command as described in [Connect Your Intel Edison to Wi-Fi](/connectivity/wifi/connect.md).
 
 ---
 
@@ -114,9 +114,9 @@ See what you can do [once connected »](once_connected.md)
 Based on your programming language preference, install an IDE for Intel® IoT development:
 
 * **For C/C++:**
-  * [Set Up IoT Dev Kit Eclipse »](../ide_setup-eclipse/setup.md)
+  * [Set Up IoT Dev Kit Eclipse »](/ide_setup-eclipse/setup.md)
 
 * **For JavaScript:**
-  * [Set Up Intel XDK for IoT »](../ide_setup-xdk/setup.md)
+  * [Set Up Intel XDK for IoT »](/ide_setup-xdk/setup.md)
 
 

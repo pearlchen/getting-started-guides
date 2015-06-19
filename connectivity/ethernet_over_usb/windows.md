@@ -17,7 +17,7 @@ When you are in a busy or restricted network environment, connect to the Intel®
 
 **Are you using the device mode micro-USB cable?**
 
-In order to use Ethernet over USB, your Intel® Edison must have the microswitch set to device mode and the appropriate micro-USB cable plugged in. Refer to [Device mode micro-USB cable](../assembly/arduino_expansion_board/details-device_mode_cable.md) for full assembly instructions.
+In order to use Ethernet over USB, your Intel® Edison must have the microswitch set to device mode and the appropriate micro-USB cable plugged in. Refer to [Device mode micro-USB cable](/assembly/arduino_expansion_board/details-device_mode_cable.md) for full assembly instructions.
 
 ---
 
@@ -36,29 +36,29 @@ If you have not followed Set Up Your Computer - Windows (64-bit integrated insta
 1. View your **Network Connections**.
 
     1. **Windows 8**: 
-		
-		Right-click on the Start menu button. Select "**Network Connections**".
+    
+    Right-click on the Start menu button. Select "**Network Connections**".
 
     2. **Windows 7 and below**: 
 
-		Go to Control Panel. Under "**Network and Internet**", click "**View network status and tasks**". 
+    Go to Control Panel. Under "**Network and Internet**", click "**View network status and tasks**". 
 
-		Then click "**Change Adapter Settings**" in sidebar. 
+    Then click "**Change Adapter Settings**" in sidebar. 
 
-	!["View network status and tasks" under "Network and Internet" in Control Panel](images_windows/control_panel-view_network_status_and_tasks.png)
+  !["View network status and tasks" under "Network and Internet" in Control Panel](images_windows/control_panel-view_network_status_and_tasks.png)
 
-	!["Change Adapter Settings" in sidebar](images_windows/control_panel-chanage_adpater_settings.png)
+  !["Change Adapter Settings" in sidebar](images_windows/control_panel-chanage_adpater_settings.png)
 
 2. Plug in the **device mode micro-USB cable** from your Intel® Edison to your computer. Wait one minute for the Intel® Edison to finish booting up.
 
 3. **Right-click** on the "**Local Area Connection**" network adapter entry with the label "**Intel Edison USB RNDIS Device**", then select "**Properties**".
 
-	!["Local Area Connection" network adapter entry with label "Intel Edison USB RNDIS Device"](images_windows/control_panel-lan_adapter.png)
-	![Select "Properties" in context menu](images_windows/control_panel-context_menu-properties.png)
+  !["Local Area Connection" network adapter entry with label "Intel Edison USB RNDIS Device"](images_windows/control_panel-lan_adapter.png)
+  ![Select "Properties" in context menu](images_windows/control_panel-context_menu-properties.png)
 
 4. In the new "Local Area Connection Properties" window, select "**Internet Protocol Version 4 (TCP/IPv4)**" from the list, then click "**Properties**".
 
-	!["Internet Protocol Version 4 (TCP/IPv4)" selected. Click "Properties" button.](images_windows/lan_properties-ipv4-properties_button.png)
+  !["Internet Protocol Version 4 (TCP/IPv4)" selected. Click "Properties" button.](images_windows/lan_properties-ipv4-properties_button.png)
 
 5. In the new dialog window, select "**Use the following IP address**" and change the IP information as follows:
 
@@ -66,7 +66,7 @@ If you have not followed Set Up Your Computer - Windows (64-bit integrated insta
 
     4. **Subnet m****ask**: 255.255.255.0 (default)
 
-	![Adding 192.168.2.2 static IP address](images_windows/ipv4_properties-add_static_ip.png)
+  ![Adding 192.168.2.2 static IP address](images_windows/ipv4_properties-add_static_ip.png)
 
 6. Click "OK" to apply your changes and close the IPv4 properties window. 
 
@@ -98,19 +98,19 @@ Internet sharing is an optional step but is highly recommended if you are at a h
 
 2. **Right-click** on the "**Wi-Fi**" network adapter entry, then select "**Properties**".
 
-	![Select "Properties" from context menu](images_windows/control_panel-wifi_adapter-properties.png)
+  ![Select "Properties" from context menu](images_windows/control_panel-wifi_adapter-properties.png)
 
 3. Select the "**Sharing**" tab. 
 
 4. Check "**Allow other network users to connect through this computer’s Internet connection**" to enable Internet Connection Sharing (ICS).
 
-	![Sharing tab of WiFi](images_windows/wifi_properties-sharing_tab.png)
+  ![Sharing tab of WiFi](images_windows/wifi_properties-sharing_tab.png)
 
 5. Click "**Ok**". 
 
 6. You will receive an alert about enabling ICS. Click "**Yes**" to continue.
 
-	![Internet Connection Sharing warning message](images_windows/ics-warning_message.png)
+  ![Internet Connection Sharing warning message](images_windows/ics-warning_message.png)
 
 ---
 
@@ -121,21 +121,21 @@ Enabling ICS may have changed the IPv4 LAN settings you set in the previous sect
 7. Unplug and replug the device mode micro-USB cable to reset the Ethernet over USB connection.
 
 8. Use PuTTY to establish a serial connection to the Intel® Edison.
-	
-	_Don't know how? Refer to [Shell Access](../shell_access/windows/serial_connection.md)._
+  
+  _Don't know how? Refer to [Shell Access](/shell_access/windows/serial_connection.md)._
 
 9. On your Intel® Edison, disconnect from any WiFi networks the board might be logged into using the wireless command line interface ("wpa_cli") command:
 
-	```
-	wpa_cli disconnect
-	```
+  ```
+  wpa_cli disconnect
+  ```
 
 10. Then use the "route" command to add a default gateway. Use the same static IPv4 address you set in the **Network Connections** LAN settings in the previous section.
 
-	```
-	route add default gw 192.168.2.2
-	```
-	
+  ```
+  route add default gw 192.168.2.2
+  ```
+  
 ---
 
 You can now use the Intel® Edison as if it is connected to the internet on its own as long as you keep the device mode micro-USB cable plugged in.
@@ -148,7 +148,7 @@ ping google.com
 
 (Use the Ctrl+C keyboard command to exit the ping process.)
 
-To re-enable WiFi on the Intel® Edison, use the "configure_edison --wifi" command as described in [Connect Your Intel Edison to Wi-Fi](../connectivity/wifi/connect.md).
+To re-enable WiFi on the Intel® Edison, use the "configure_edison --wifi" command as described in [Connect Your Intel Edison to Wi-Fi](/connectivity/wifi/connect.md).
 
 ---
 
@@ -172,9 +172,9 @@ See what you can do [once connected »](once_connected.md)
 Based on your programming language preference, install an IDE for Intel® IoT development:
 
 * **For C/C++:**
-  * [Set Up IoT Dev Kit Eclipse »](../ide_setup-eclipse/setup.md)
+  * [Set Up IoT Dev Kit Eclipse »](/ide_setup-eclipse/setup.md)
 
 * **For JavaScript:**
-  * [Set Up Intel XDK for IoT »](../ide_setup-xdk/setup.md)
+  * [Set Up Intel XDK for IoT »](/ide_setup-xdk/setup.md)
 
 

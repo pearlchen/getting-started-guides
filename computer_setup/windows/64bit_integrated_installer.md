@@ -36,55 +36,55 @@ The integrated installer program for 64-bit Windows gives you options to automat
 
 1. Get the latest Intel® Edison 64-bit Windows installer.
 
-	**Online option:**
+  **Online option:**
 
-	1. Visit the Intel® Edison Software Downloads page: [software.intel.com/iot/hardware/edison/downloads](https://software.intel.com/iot/hardware/edison/downloads).
-	2. Scroll down to the "**Driver software**" section. 
-	3. Click the "**Windows 64-bit Integrated Installer**" link to download ![file icon](../icons/file_icon_blue.png) _iotdk_win_installer.exe_ to your computer
-	
-	**Hackathon attendees:**
+  1. Visit the Intel® Edison Software Downloads page: [software.intel.com/iot/hardware/edison/downloads](https://software.intel.com/iot/hardware/edison/downloads).
+  2. Scroll down to the "**Driver software**" section. 
+  3. Click the "**Windows 64-bit Integrated Installer**" link to download ![file icon](/icons/file_icon_blue.png) _iotdk_win_installer.exe_ to your computer
+  
+  **Hackathon attendees:**
 
-	1. On the USB key: ![folder icon](../icons/folder_icon_blue.png) files → ![folder icon](../icons/folder_icon_blue.png) Windows
-	2. Copy ![file icon](../icons/file_icon_blue.png) _iotdk_win_installer.exe_ to your computer.
+  1. On the USB key: ![folder icon](/icons/folder_icon_blue.png) files → ![folder icon](/icons/folder_icon_blue.png) Windows
+  2. Copy ![file icon](/icons/file_icon_blue.png) _iotdk_win_installer.exe_ to your computer.
 
 2. Connect a micro-USB cable to the **device mode** micro-USB port of the Intel® Edison expansion board, and the other end to your computer.
 
-	![Micro-USB cable being plugged into the top micro-USB connector](../assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png)
+  ![Micro-USB cable being plugged into the top micro-USB connector](/assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png)
 
-	Refer to [_Connecting Cables_](../assembly/arduino_expansion_board/details-device_mode_cable.md) for more detailed cable connection information.
+  Refer to [_Connecting Cables_](/assembly/arduino_expansion_board/details-device_mode_cable.md) for more detailed cable connection information.
 
-3. Double-click on the ![file icon](../icons/file_icon_blue.png) *iotdk_win_installer.exe* on your computer to begin installation. 
+3. Double-click on the ![file icon](/icons/file_icon_blue.png) *iotdk_win_installer.exe* on your computer to begin installation. 
 
-	![Intel® Edison 64-bit integrated installer wizard](images/integrated_installer_wizard.png)
+  ![Intel® Edison 64-bit integrated installer wizard](images/integrated_installer_wizard.png)
 
 4. Follow the installation wizard. Click "**Next**" where needed. 
 
-	---
+  ---
 
-	**Is the "Next" button greyed out?**
+  **Is the "Next" button greyed out?**
 
-	The integrated installer is unable to detect your Intel® Edison. Ensure that the board is powered on and plugged into your computer via the device mode micro-USB port on the expansion board.
+  The integrated installer is unable to detect your Intel® Edison. Ensure that the board is powered on and plugged into your computer via the device mode micro-USB port on the expansion board.
 
-	Otherwise you will need to install the Windows drivers manually. Refer to Set Up Your Computer - Windows (manual). 
+  Otherwise you will need to install the Windows drivers manually. Refer to Set Up Your Computer - Windows (manual). 
 
-	---
+  ---
 
 
 5. The default settings can be adjusted to your needs, or leave the defaults as is. 
 
-	![Configure Intel® Edison 64-bit integrated installion](images/integrated_installer_wizard-config_screen.png)
+  ![Configure Intel® Edison 64-bit integrated installion](images/integrated_installer_wizard-config_screen.png)
 
-	In the component selection screen, check the options you would like to install:
+  In the component selection screen, check the options you would like to install:
 
     * **Drivers:** 
     
-    	Installs the Intel® Edison drivers and FTDI serial drivers for Windows.
+      Installs the Intel® Edison drivers and FTDI serial drivers for Windows.
 
     * **Update image:** 
     
-    	Flashes the latest firmware image directly on your Intel® Edison.
-    	
-    	(Note: You will not be able to use this option until after you have installed the drivers. Re-run the integrated installer if you wish to use it to flash Intel® Edison firmware.)
+      Flashes the latest firmware image directly on your Intel® Edison.
+      
+      (Note: You will not be able to use this option until after you have installed the drivers. Re-run the integrated installer if you wish to use it to flash Intel® Edison firmware.)
 
     * **Development Environment:** Choose from 
 
@@ -104,7 +104,7 @@ To ensure driver installation changes take effect, reboot your Windows computer 
 
 1. Based on your version of Windows, select the option to fully shut down and restart your computer.
 
-	![Choose Restart from the Windows Start menu](images/restart_windows.png)
+  ![Choose Restart from the Windows Start menu](images/restart_windows.png)
 
 ---
 
