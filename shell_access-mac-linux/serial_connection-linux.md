@@ -1,21 +1,15 @@
 # Shell Access - Linux
 
-Instructions for the **Intel® Galileo** and **Intel® Edison** on **Linux**
-
-This setup document will guide you through establishing a serial connection to either the Intel® Galileo or the Intel® Edison using a Linux computer.
+![computer icon with command prompt](images/set_up_your_computer_shell.png)
 
 If you need to configure your IoT board, you will need to remotely connect to the Intel® Edison or Intel® Galileo. Once connected to your Intel® IoT board, you have access to the Linux-based Yocto operating system running on the board. 
 
-You can then execute special Linux commands such:
-
-* changing the hostname and password, 
-* setting up Wi-Fi, or 
-* flashing new firmware.
+You can then execute special Linux commands such: changing the hostname and password, setting up Wi-Fi, or flashing new firmware.
 
 **Table of contents**
 
-* [Install a shell session manager (Screen)](#install-a-shell-session-manager-screen)
-* [Establish a serial connection](#establish-a-serial-connection)
+* [Install a shell session manager (Screen) »](#install-a-shell-session-manager-screen)
+* [Establish a serial connection »](#establish-a-serial-connection)
 
 
 ## Install a shell session manager (Screen)
@@ -26,13 +20,15 @@ Your computer may not have come with a pre-installed shell session manager. Down
 
 2. Install **screen** via the "apt-get install" command.
 
-	```
-	sudo apt-get install screen
-	```
+  ```
+  sudo apt-get install screen
+  ```
 
-	You may be asked for your root password. Type in your root password and press Enter.
+  You may be asked for your root password. Type in your root password and press Enter.
 
-3. Wait for Screen to finish downloading and the installation to complete.	![Installing Screen via Terminal](images_linux/install_screen.jpg)
+3. Wait for Screen to finish downloading and the installation to complete.
+
+  ![Installing Screen via Terminal](images_linux/install_screen.jpg)
 
 ---
 
@@ -54,17 +50,23 @@ Use the Screen utility that you installed in the previous section to gain comman
 
 2. Connect to the USB serial device using Screen.
 
-	```
-	sudo screen /dev/ttyUSB0 115200
-	```
+  ```
+  sudo screen /dev/ttyUSB0 115200
+  ```
 
-	"115200" indicates the baud rate. Always use 115200.
+  "115200" indicates the baud rate. Always use 115200.
 
-	You may be asked for your root password. Type in your root password and press Enter.
+  You may be asked for your root password. Type in your root password and press Enter.
 
-3. When you see a blank screen, **press the Enter key**. 	**For Intel® Edison boards running older firmare**: You may need to press the Enter key **twice**.
+3. When you see a blank screen, **press the Enter key**. 
 
-4. Once connected you will see a login prompt. 	Type in "**root**" for the username and press **Enter**.	![Login prompt](images_linux/screen-login_prompt.jpg)
+  **For Intel® Edison boards running older firmware**: You may need to press the Enter key **twice**.
+
+4. Once connected you will see a login prompt. 
+
+  Type in "**root**" for the username and press **Enter**.
+
+  ![Login prompt](images_linux/screen-login_prompt.jpg)
 
 ---
 
