@@ -1,115 +1,15 @@
-![Arduino Expansion Board with Intel® Edison](arduino_expansion_board_with_edison.jpg)
+Getting started guides for the Intel® Edison.
 
-# How to go from Zero to Blinking Light Hero
+###What breakout board do you have?
 
-_Instructions for **Intel® Edison** installed on an **Arduino-compatible expansion board** using the Intel® IoT Developer Kit **(C/C++ or JavaScript development workflow)**_
+---
 
+[![Arduino Expansion Board with Intel® Edison](__START_HERE__/images/arduino_expansion_board_with_edison-small.png)](__START_HERE__/arduino_expansion_board.md)
 
-## 1. Get Started with Intel® Edison
+**Intel® Edison Kit for Arduino:** [START HERE »](__START_HERE__/arduino_expansion_board.md)
 
-Find out what hardware is included with your Intel® IoT Developer Kit ("dev kit"). And review important assembly and cable hook up instructions.
+---
+  
+[![Xadow Wearables Kit for Intel® Edison](__START_HERE__/images/xadow_wearables_kit_for_edison-small.png)](__START_HERE__/xadow_wearables_kit.md)
 
-* [Assembly - Arduino expansion board »](assembly-arduino_expansion_board/assembly.md)
-* [Connecting Cables - Arduino expansion board »](assembly-arduino_expansion_board/connecting_cables.md)
-
-
-## 2. Set Up Your Computer
-
-Install software and drivers specifically for your computer's operating system. 
-
-* **Mac or Linux user?** 
-
-  You have no special setup. Skip to [Step 3](#3-shell-access) below.
-
-* **Windows user?**
-
-	* **Do you have 64-bit Windows and a reliable internet connection?**  
-
-  		[Set Up Your Computer - Windows (64-bit integrated installer) »](set_up_your_computer-windows/64bit_integrated_installer.md)
-
-	* **At a hackathon with unreliable internet? Or can't click 'Next' in the 64-bit integrated installer wizard?** 
-
-  		[Set Up Your Computer - Windows (manual installation) »](set_up_your_computer-windows/manual_installation.md)
-
-
-## 3. Shell Access
-
-Gain command line access of your IoT board. Execute special Linux commands to configure your IoT board such as setting up Wi-Fi.
-
-* [Windows »](shell_access/windows/serial_connection.md)
-* [Mac »](shell_access/mac/serial_connection.md)
-* [Linux »](shell_access/linux/serial_connection.md)
-
-
-## 4. Flash Edison Firmware
-
-Some Edison boards have older firmware images on them. You **_may_** need to update the firmware to a newer version to get access to important features.
-
-* [Flash Edison Firmware Manually »](flash_firmware/manually.md)
-
-
-## 5. Get Your IoT Board Online
-
-Get your board online in order to turn your IoT board into a true "Internet of Things" device. You also need the IP address of your IoT board to program it using the dev kit IDEs.
-
-* **At a hackathon? On a busy or restricted Wi-Fi network?**
-	
-	Connect to the Intel® Edison using the device mode micro-USB cable and a virtual ethernet connection known as "Ethernet over USB":
-	
-  * [Windows »](ethernet_over_usb/windows.md)
-  * [Mac (10.9 or lower only) »](ethernet_over_usb/mac.md)
-  * [Linux »](ethernet_over_usb/linux.md)
-
-* **At home? Have a dependable Wi-Fi connection?**
-
-  * [Connect Your Intel Edison to Wi-Fi »](connect_to_wifi/connect.md)
-
-
-## 6. Install an IDE
-
-Based on your programming language preference, install an IDE for Intel® IoT development:
-
-* **For C/C++:**
-  * [Set Up IoT Dev Kit Eclipse »](set_up_eclipse/setup.md)
-
-* **For JavaScript:**
-  * [Set Up Intel XDK for IoT »](set_up_xdk/setup.md)
-
-* **For simplified C++:** 
-  * [Set Up Arduino IDE »](https://software.intel.com/en-us/articles/install-arduino-ide-on-intel-iot-platforms)
-
-
-## 7. Sensor Tutorials
-
-Experiment with sample code supplied for available sensors and actuators.
-
-* [Grove Starter Kit - JavaScript »](sensor_examples-javascript/grove_starter_kit.md)
-
-Also search for your component on [software.intel.com/en-us/iot/sensors](software.intel.com/en-us/iot/sensors).
-
-
-## Now make your own creation!
-
-Take pictures along the way. Create your own guide and
-post them to [Instructables.com](http://instructables.com/id/intel).
-
-
-## Running into issues?
-
-Search for answers and post your questions to the [Intel® Edison Support Community](https://communities.intel.com/community/tech/edison).
-
-
-## Resources
-
-* [Intel® Edison Product Brief](http://www.intel.com/support/edison/sb/CS-035277.htm) (Specs)
-
-* [Intel® Edison Arduino Expansion Board Hardware Guide](http://www.intel.com/support/edison/sb/CS-035275.htm) - For pinout listing, see page 7
-
-* [Intel® Edison Mini Breakout Board Hardware Guide](http://www.intel.com/support/edison/sb/CS-035252.htm) - For pinout listing, see page 9 
-
-* [Yocto Project: Foundation for the Internet of Things](https://www.youtube.com/watch?v=ztsnQ3p59jA&list=PLg-UKERBljNw254jnyMNZiu8yqF8pPq0m&index=24) (Introduction to Yocto video)
-
-* [Intel® IoT Developer Kit Cloud-based Analytics User Guide](https://software.intel.com/en-us/intel-iot-developer-kit-cloud-based-analytics-user-guide) 
-
-* [Seeed Studio Sketchbook Starter Kit](https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_V2.0) (Sensor sample code for Arduino IDE)
-
+**Xadow Wearables Kit for Intel® Edison:** [START HERE »](__START_HERE__/xadow_wearables_kit.md)
