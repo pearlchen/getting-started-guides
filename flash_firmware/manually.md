@@ -42,7 +42,7 @@ Refer to [Check installed firmware version](check_firmware_version.md).
 
 1. In order to read or write to the Intel® Edison's built-in flash storage, connect the Intel® Edison to your computer via the **device mode** micro-USB connector.
 
-	![Micro-USB cable being plugged into the top micro-USB connector](../assembly-arduino_expansion_board/images/device_mode-usb_cable-before_after.png)
+	![Micro-USB cable being plugged into the top micro-USB connector](../assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png)
 
 ### On Windows
 

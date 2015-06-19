@@ -38,6 +38,6 @@ Use the `ls /dev/tty.*` command in Terminal to find the device name of the "**us
 
 **Don't see a "usbserial" device listed?**
 
-* **Do you have the UART/serial cable connected?** Refer to [UART/serial micro-USB cable](../../assembly-arduino_expansion_board/details-serial_cable.md).
+* **Do you have the UART/serial cable connected?** Refer to [UART/serial micro-USB cable](../../assembly/arduino_expansion_board/details-serial_cable.md).
 
 * Is your IoT board powered on?

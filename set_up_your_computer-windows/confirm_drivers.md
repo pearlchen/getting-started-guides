@@ -40,9 +40,9 @@ Launch the Device Manager utility on Windows in order to debug your Intel® IoT 
 
 1. Connect a micro-USB cable to the **device mode** micro-USB port of the Intel® Edison expansion board, and the other end to your computer.
 
-	![Micro-USB cable being plugged into the top micro-USB connector](../arduino_expansion_board-assembly/images/device_mode-usb_cable-before_after.png)
+	![Micro-USB cable being plugged into the top micro-USB connector](../assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png)
 
-	Refer to [_Connecting Cables_](../arduino_expansion_board-assembly/connecting_cables.md#device-mode-micro-usb-cable) for more detailed cable connection information.
+	Refer to [_Connecting Cables_](../assembly/arduino_expansion_board/connecting_cables.md#device-mode-micro-usb-cable) for more detailed cable connection information.
 
 If you see both "**Intel Edison USB Composite Device**" and "**Intel Edison Virtual Com Port**" items show up in Device Manager under "Ports (COM & LPT)", the drivers have been successfully installed. 
 
@@ -61,13 +61,13 @@ If you see both "**Intel Edison USB Composite Device**" and "**Intel Edison Virt
 
 1. Power the Intel® Edison via the **device mode** micro-USB port and/or via the power barrel connector.
 
-	![DC power supply plugged into power barrel connector](../arduino_expansion_board-assembly/images/ac_power_barrel.png) or ![Micro-USB cable plugged into the top micro-USB connector](../arduino_expansion_board-assembly/images/device_mode-usb-cable.png)
+	![DC power supply plugged into power barrel connector](../assembly/arduino_expansion_board/images/ac_power_barrel.png) or ![Micro-USB cable plugged into the top micro-USB connector](../assembly/arduino_expansion_board/images/device_mode-usb-cable.png)
 
 2. Connect a micro-USB cable to the **UART/serial** micro-USB port of the Intel® Edison expansion board, and the other end to your computer.
 
-	![Micro-USB cable being plugged into the bottom micro-USB connector](../arduino_expansion_board-assembly/images/uart_serial-usb_cable-before_after.png)
+	![Micro-USB cable being plugged into the bottom micro-USB connector](../assembly/arduino_expansion_board/images/uart_serial-usb_cable-before_after.png)
 
-	Refer to [_Connecting Cables_](../arduino_expansion_board-assembly/connecting_cables.md#uartserial-micro-usb-cable) for more detailed cable connection information.
+	Refer to [_Connecting Cables_](../assembly/arduino_expansion_board/connecting_cables.md#uartserial-micro-usb-cable) for more detailed cable connection information.
 
 If you see "USB Serial Port" show up in Device Manager under "Ports (COM & LPT)", the drivers have been successfully installed. 
 
