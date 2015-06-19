@@ -129,7 +129,7 @@ Intel® maintains the [MRAA library on Github](https://github.com/intel-iot-devk
 
 1. Establish an SSH or serial connection to your Intel® Galileo or Intel® Edison.
 
-  _Don't know how? Refer to [Shell Access](../README.md#3-shell-access)._
+  _Don't know how? Refer to [Shell Access](../shell_access/)._
 
 2. Run the following commands on your board. The first command will edit the mraa-upm config file on the board. The last two commands use the board's built-in Opkg package manager to download and update the missing library.
 

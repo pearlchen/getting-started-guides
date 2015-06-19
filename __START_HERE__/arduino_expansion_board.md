@@ -9,8 +9,8 @@ _Instructions for **Intel® Edison** installed on an **Arduino-compatible expans
 
 Find out what hardware is included with your Intel® IoT Developer Kit ("dev kit"). And review important assembly and cable hook up instructions.
 
-* [Assembly - Arduino expansion board »](assembly-arduino_expansion_board/assembly.md)
-* [Connecting Cables - Arduino expansion board »](assembly-arduino_expansion_board/connecting_cables.md)
+* [Assembly - Arduino expansion board »](../assembly-arduino_expansion_board/assembly.md)
+* [Connecting Cables - Arduino expansion board »](../assembly-arduino_expansion_board/connecting_cables.md)
 
 
 ## 2. Set Up Your Computer
@@ -25,27 +25,27 @@ Install software and drivers specifically for your computer's operating system.
 
 	* **Do you have 64-bit Windows and a reliable internet connection?**  
 
-  		[Set Up Your Computer - Windows (64-bit integrated installer) »](set_up_your_computer-windows/64bit_integrated_installer.md)
+  		[Set Up Your Computer - Windows (64-bit integrated installer) »](../set_up_your_computer-windows/64bit_integrated_installer.md)
 
 	* **At a hackathon with unreliable internet? Or can't click 'Next' in the 64-bit integrated installer wizard?** 
 
-  		[Set Up Your Computer - Windows (manual installation) »](set_up_your_computer-windows/manual_installation.md)
+  		[Set Up Your Computer - Windows (manual installation) »](../set_up_your_computer-windows/manual_installation.md)
 
 
 ## 3. Shell Access
 
 Gain command line access of your IoT board. Execute special Linux commands to configure your IoT board such as setting up Wi-Fi.
 
-* [Windows »](shell_access/windows/serial_connection.md)
-* [Mac »](shell_access/mac/serial_connection.md)
-* [Linux »](shell_access/linux/serial_connection.md)
+* [Windows »](../shell_access/windows/serial_connection.md)
+* [Mac »](../shell_access/mac/serial_connection.md)
+* [Linux »](../shell_access/linux/serial_connection.md)
 
 
 ## 4. Flash Edison Firmware
 
 Some Edison boards have older firmware images on them. You **_may_** need to update the firmware to a newer version to get access to important features.
 
-* [Flash Edison Firmware Manually »](flash_firmware/manually.md)
+* [Flash Edison Firmware Manually »](../flash_firmware/manually.md)
 
 
 ## 5. Get Your IoT Board Online
@@ -56,13 +56,13 @@ Get your board online in order to turn your IoT board into a true "Internet of T
 	
 	Connect to the Intel® Edison using the device mode micro-USB cable and a virtual ethernet connection known as "Ethernet over USB":
 	
-  * [Windows »](ethernet_over_usb/windows.md)
-  * [Mac (10.9 or lower only) »](ethernet_over_usb/mac.md)
-  * [Linux »](ethernet_over_usb/linux.md)
+  * [Windows »](../ethernet_over_usb/windows.md)
+  * [Mac (10.9 or lower only) »](../ethernet_over_usb/mac.md)
+  * [Linux »](../ethernet_over_usb/linux.md)
 
 * **At home? Have a dependable Wi-Fi connection?**
 
-  * [Connect Your Intel Edison to Wi-Fi »](connect_to_wifi/connect.md)
+  * [Connect Your Intel Edison to Wi-Fi »](../connect_to_wifi/connect.md)
 
 
 ## 6. Install an IDE
@@ -70,10 +70,10 @@ Get your board online in order to turn your IoT board into a true "Internet of T
 Based on your programming language preference, install an IDE for Intel® IoT development:
 
 * **For C/C++:**
-  * [Set Up IoT Dev Kit Eclipse »](set_up_eclipse/setup.md)
+  * [Set Up IoT Dev Kit Eclipse »](../set_up_eclipse/setup.md)
 
 * **For JavaScript:**
-  * [Set Up Intel XDK for IoT »](set_up_xdk/setup.md)
+  * [Set Up Intel XDK for IoT »](../set_up_xdk/setup.md)
 
 * **For simplified C++:** 
   * [Set Up Arduino IDE »](https://software.intel.com/en-us/articles/install-arduino-ide-on-intel-iot-platforms)
@@ -83,9 +83,9 @@ Based on your programming language preference, install an IDE for Intel® IoT de
 
 Experiment with sample code supplied for available sensors and actuators.
 
-* [Grove Starter Kit - JavaScript »](sensor_examples-javascript/grove_starter_kit.md)
+* [Grove Starter Kit - JavaScript »](../sensor_examples-javascript/grove_starter_kit.md)
 
-Also search for your component on [software.intel.com/en-us/iot/sensors](software.intel.com/en-us/iot/sensors).
+Also search for your component on [software.intel.com/en-us/iot/sensors](http://software.intel.com/en-us/iot/sensors).
 
 
 ## Now make your own creation!

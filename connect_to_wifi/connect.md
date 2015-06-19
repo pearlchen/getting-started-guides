@@ -35,7 +35,7 @@ Shell into your Intel® Edison and run the `configure_edison --wifi` command. Ch
 
 1. Establish a serial connection to the Intel® Edison.
 
-	_Don't know how? Refer to [Shell Access](../README.md#3-shell-access)._
+	_Don't know how? Refer to [Shell Access](../shell_access/)._
 
 2. Use the "configure_edison" command with the "--wifi" flag to start the wifi configuration process.
 
@@ -97,7 +97,7 @@ Once your Intel® Edison is online, identify the IP address in order to: manuall
 
 1. Establish a serial connection to the Intel® Edison.
 
-	_Don't know how? Refer to [Shell Access](../README.md#3-shell-access)._
+	_Don't know how? Refer to [Shell Access](../shell_access/)._
 
 2. In newer versions of the Intel® Edison firmware you can use the "configure_edison" command.
 

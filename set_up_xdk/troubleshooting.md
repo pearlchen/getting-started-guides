@@ -49,7 +49,7 @@ The Intel® XDK app daemon may not be running on the Intel® IoT board.
 
 1. Establish a serial connection to your Intel® Galileo or Intel® Edison.
 
-  _Don't know how? Refer to [Shell Access](../README.md#3-shell-access)._
+  _Don't know how? Refer to [Shell Access](../shell_access/)._
 
 2. Use the `systemctl` command to enable and restart the xdk-daemon on the IoT board.
 

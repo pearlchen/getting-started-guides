@@ -63,7 +63,7 @@ Internet sharing is an optional step but is highly recommended if you are at a h
 
 2. Use Terminal to establish a serial connection to the Intel® Edison.
 
-	_Don't know how? Refer to [Shell Access](../README.md#3-shell-access)._
+	_Don't know how? Refer to [Shell Access](../shell_access/linux/serial_connection.md)._
 
 3. On your Intel® Edison, disconnect from any WiFi networks the board might be logged into using the wireless command line interface ("wpa_cli") command:
 

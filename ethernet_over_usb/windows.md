@@ -122,7 +122,7 @@ Enabling ICS may have changed the IPv4 LAN settings you set in the previous sect
 
 8. Use PuTTY to establish a serial connection to the Intel® Edison.
 	
-	_Don't know how? Refer to [Shell Access](../README.md#3-shell-access)._
+	_Don't know how? Refer to [Shell Access](../shell_access/windows/serial_connection.md)._
 
 9. On your Intel® Edison, disconnect from any WiFi networks the board might be logged into using the wireless command line interface ("wpa_cli") command:
 
