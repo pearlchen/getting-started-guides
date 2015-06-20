@@ -1,6 +1,5 @@
 # Confirm driver installation - Windows 
 
-_Instructions for the **Intel® Edison** on **Windows 32-bit or 64-bit**_
 
 **Table of contents**
 
@@ -11,66 +10,35 @@ _Instructions for the **Intel® Edison** on **Windows 32-bit or 64-bit**_
 
 **Related videos**
 
-* [Intel Edison: Set Up Your Computer Manually - Windows (preview video)]()
-* [Intel Edison: Set Up Your Computer - Windows Integrated Installer (preview video)]()
+* [Intel Edison: Set Up Your Computer Manually - Windows (preview video)](https://drive.google.com/open?id=0B6gHgawzKtxCbUxicmpBc2JZSmM&authuser=0)
+* [Intel Edison: Set Up Your Computer - Windows Integrated Installer (preview video)](https://drive.google.com/open?id=0B6gHgawzKtxCejNuYjc3a216X3M&authuser=0)
+
 
 ## Open Windows Device Manager
 
 Launch the Device Manager utility on Windows in order to debug your Intel® IoT board USB connections.
 
-1. Launch ![Windows icon](/icons/os_icon_windows.png) Device Manager.
+![Animated gif: opening Windows Device Manager using the Start menu](images/open_device_manager-animated.gif)
 
-  * **Windows 7 and below:**
-  
-    1. Open ![Windows icon](/icons/os_icon_windows.png) Start menu.
-    2. Start typing "device manager" in the search field. 
-    3. Select "Device Manager" under "Control Panel"
-  
-  * **Windows 8:**
-    1. Go into Windows Desktop mode.
-    2. Right-click on the ![Windows icon](/icons/os_icon_windows.png) Start menu button.
-    3. Select "Device Manager".
-    
-1. In ![Windows icon](/icons/os_icon_windows.png) Device Manager, locate and toggle open "**Ports (COM & LPT)**".
-
-  ![Open Ports](images/device_manager-open_com_lpt_ports.png)
+[View detailed instructions »](details-open_device_manager.md)
 
 
 ## Confirm installation of Intel® Edison Drivers
 
-1. Connect a micro-USB cable to the **device mode** micro-USB port of the Intel® Edison expansion board, and the other end to your computer.
+Look for both "Intel Edison USB Composite Device" and "Intel Edison Virtual Com Port" items in Device Manager under “Ports (COM & LPT)” after plugging in the device mode USB cable.
 
-  ![Micro-USB cable being plugged into the top micro-USB connector](/assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png)
+![Animated gif: confirming the installation of Intel Edison drivers](images/confirm_edison_drivers-animated.gif)
 
-  Refer to [Device mode micro-USB cable](/assembly/arduino_expansion_board/details-device_mode_cable.md) for more detailed cable connection information.
-
-If you see both "**Intel Edison USB Composite Device**" and "**Intel Edison Virtual Com Port**" items show up in Device Manager under "Ports (COM & LPT)", the drivers have been successfully installed. 
-
-**Do not see Intel® Edison devices show up in Device Manager?**
-
-* Check that the Intel® Edison is in device mode.
-  * Arduino expansion board: the microswitch is toggled downwards.
-  * Xadow expansion board: the microswitch is toggled towards "Device" label.
-* Check that the micro-USB cable is securely connected to the device mode micro-USB port of the Intel® Edison expansion board.
-* Restart your computer to ensure driver changes to take effect.
-* Try a different micro-USB cable to eliminate errors due to a bad cable.
-* Update the firmware on the Intel® Edison. Refer to [Flash Edison Firmware Manually](/flash_firmware/manually.md).
+[View detailed instructions »](details-confirm_edison_drivers.md)
 
 
 ## Confirm installation of FTDI serial drivers
 
-1. Power the Intel® Edison via the **device mode** micro-USB port and/or via the power barrel connector.
+Look for "USB Serial Port" in Device Manager under “Ports (COM & LPT)” after plugging in the UART/serial USB cable.
 
-  ![DC power supply plugged into power barrel connector](/assembly/arduino_expansion_board/images/ac_power_barrel.png) or ![Micro-USB cable plugged into the top micro-USB connector](/assembly/arduino_expansion_board/images/device_mode-usb-cable.png)
+![Animated gif: confirming the installation of FTDI CDM drivers](images/confirm_ftdi_cdm_drivers-animated.gif)
 
-2. Connect a micro-USB cable to the **UART/serial** micro-USB port of the Intel® Edison expansion board, and the other end to your computer.
-
-  ![Micro-USB cable being plugged into the bottom micro-USB connector](/assembly/arduino_expansion_board/images/uart_serial-usb_cable-before_after.png)
-
-  Refer to [UART/serial micro-USB cable](/assembly/arduino_expansion_board/details-serial_cable.md) for more detailed cable connection information.
-
-If you see "USB Serial Port" show up in Device Manager under "Ports (COM & LPT)", the drivers have been successfully installed. 
-
+[View detailed instructions »](details-confirm_ftdi_cdm_drivers.md)
 
 ---
 
