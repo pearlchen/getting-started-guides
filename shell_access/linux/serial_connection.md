@@ -1,6 +1,6 @@
 # Shell Access - Linux
 
-![computer icon with command prompt](../images/computer_setup_shell.png)
+![computer icon with command prompt](../images/icon-computer_shell.png)
 
 If you need to configure your IoT board, you will need to remotely connect to the Intel® Edison or Intel® Galileo. Once connected to your Intel® IoT board, you have access to the Linux-based Yocto operating system running on the board. 
 
