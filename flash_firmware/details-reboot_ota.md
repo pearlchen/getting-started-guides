@@ -40,7 +40,7 @@ If the output is "120" (or higher, depending on how up to date this document is)
 
 **No "configure_edison --version" option? Don't see "120" (or higher) outputted as the build version number?**
 
-* Your board was not updated with the latest image.
+Your board was not updated with the latest image.
 
 * Incomplete zip downloads may cause issues. Re-download the "Yocto complete image" zip file from Intel® Edison Boards and Compute Modules - Software Downloads and try again from [Step 1: Prepare built-in flash storage](manually.md#step-1-prepare-built-in-flash-storage).
 

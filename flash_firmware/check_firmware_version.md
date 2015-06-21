@@ -16,9 +16,9 @@ Find out what firmware version is currently flashed on your IoT board by running
 
   **Get a "configure_edison: not found" message?**
 
-  !["configure_edison: not found" message](images/configure_edison-not_found.png)
-
   Your board's firmware is very out of date. [Update the firmware »](manually.md)
+
+  !["configure_edison: not found" message](images/configure_edison-not_found.png)
 
   ---
 
