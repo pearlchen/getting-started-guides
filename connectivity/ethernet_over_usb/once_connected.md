@@ -1,15 +1,17 @@
 # Once connected...
 
+
 **Table of contents**
 
-* [Ping or visit 192.168.2.15](#ping-or-visit-192168215)
-* [Use SSH instead of a serial connection](#use-ssh-instead-of-a-serial-connection)
-* [Program IoT board while offline](#program-iot-board-while-offline)
+* [Ping or visit 192.168.2.15 »](#ping-or-visit-192168215)
+* [Use SSH instead of a serial connection »](#use-ssh-instead-of-a-serial-connection)
+* [Program IoT board while offline »](#program-iot-board-while-offline)
+
 
 **Related videos**
 
-* [Ethernet over USB - Intel Edison - Windows (preview)]()
-* [Ethernet over USB - Intel Edison - Mac (preview)]()
+* [Ethernet over USB - Intel Edison - Windows (preview)](https://drive.google.com/open?id=0B2ywC78pxngCUWJxZXJiYngycU0&authuser=0)
+* [Ethernet over USB - Intel Edison - Mac (preview)](https://drive.google.com/open?id=0B2ywC78pxngCSlJtbTNmNGhVVEU&authuser=0)
 
 
 ## Ping or visit 192.168.2.15
@@ -48,12 +50,8 @@ systemctl restart xdk-daemon
 
 ---
 
----
-
-Return to Ethernet over USB:
+Return to **Ethernet over USB** for:
 
 * [Windows »](windows.md)
 * [Mac »](mac.md)
 * [Linux »](linux.md)
-
-

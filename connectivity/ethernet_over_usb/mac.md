@@ -1,8 +1,8 @@
 # Set Up Ethernet over USB - Mac
 
-This document will guide you through obtaining an IP address for the Intel® Edison in order to program your board offline using the Intel® IoT Developer Kit IDEs.
+When you are in a busy or restricted network environment, connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as "Ethernet over USB". Ethernet over USB uses the RNDIS protocol.
 
-When you are in a busy or restricted network environment, connect to the Intel® Edison using the device mode micro-USB cable and a virtual ethernet connection known as "Ethernet over USB". Ethernet over USB uses the RNDIS protocol.
+This document will guide you through obtaining an IP address for the Intel® Edison in order to program your board offline using the Intel® IoT Developer Kit IDEs.
 
 ---
 
@@ -17,23 +17,15 @@ If you have access to a Wi-Fi network, instead follow [Connect Your Intel Edison
 
 **Table of contents**
 
-* [Install HoRNDIS](#install-horndis)
-* [Configure network settings](#configure-network-settings)
-* [Share your computer's WiFi connection (optional)](#share-your-computers-wifi-connection-optional)
+* [Install HoRNDIS »](#install-horndis)
+* [Configure network settings »](#configure-network-settings)
+* [Share your computer's WiFi connection (optional) »](#share-your-computers-wifi-connection-optional)
 
 
 **Related videos**
 
-[Ethernet over USB - Intel Edison - Mac (preview)]()
+[Ethernet over USB - Intel Edison - Mac (preview)](https://drive.google.com/open?id=0B2ywC78pxngCSlJtbTNmNGhVVEU&authuser=0)
 
-
----
-
-**Are you using the device mode micro-USB cable?**
-
-In order to use Ethernet over USB, your Intel® Edison must have the microswitch set to device mode and the appropriate micro-USB cable plugged in. Refer to [Device mode micro-USB cable](/assembly/arduino_expansion_board/details-device_mode_cable.md) for full assembly instructions.
-
----
 
 ## Install HoRNDIS
 
@@ -56,9 +48,13 @@ Install the HoRNDIS (pronounced "horrendous") kernel extension to use Ethernet o
 
   (i.e. In the OS X menu bar, choose ![Mac OS icon](/icons/os_icon_mac.png) → System Preferences → Network)
 
-2. Plug in the device mode micro-USB cable from your Intel® Edison to your computer. 
+2. Make sure your IoT board has the microswitch set to **device mode** and plug in the **device mode micro-USB cable** from your Intel® Edison to your computer. 
 
   Wait one minute for the Intel® Edison to finish booting up.
+
+  ![Micro-USB cable being plugged into the top micro-USB connector](/assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png)
+
+  _Refer to [Device mode micro-USB cable](/assembly/arduino_expansion_board/details-device_mode_cable.md) for full assembly instructions._
 
 3. You should see an "**Edison**" entry (or "Multifunction Composite Gadget" if your Intel® Edison firmware is old) with a yellow dot status show up in the Network settings side panel on the left. 
 
@@ -78,27 +74,31 @@ Install the HoRNDIS (pronounced "horrendous") kernel extension to use Ethernet o
 
 6. Click "**Apply**". 
 
+  ---
+
+  **IP address taken?**
+
+  If you get a system notification that 192.168.2.2 is taken, try any IP address within the ranges of 192.168.2.1 to 192.168.2.14. 
+
+  Do not use 192.168.2.15 which is already reserved for the USB Gadget network interface.
+
+  ---
+
 ---
 
 You should see the yellow status dot turn green. 
 
+![Edison entry with green dot status](images_mac/network_settings-edison_green_dot.png)
+
 See [Once connected...](once_connected.md) for what you can do now.
-
----
-
----
-
-**IP address taken?**
-
-If you get a system notification that 192.168.2.2 is taken, try any IP address within the ranges of 192.168.2.1 to 192.168.2.14. 
-
-Do not use 192.168.2.15 which is already reserved for the USB Gadget network interface.
 
 ---
 
 If you are on Mavericks, you may see multiple numbered "Multifunction Composite Gadget" or "Edison" service entries show up each time you plug in the same Intel® Edison. It is safe to delete old ones when done.
 
 If you select one of the duplicate entries and do not see a "Configure IPv4" drop down, keep looking for the correct service entry to configure.
+
+![An Edison entry that doesn't have a Configure IPv4 drop down](images_mac/network_settings-multiple_edison_entries.png)
 
 ---
 
@@ -134,13 +134,13 @@ Internet sharing is an optional step but is highly recommended if you are at a h
 
   _Don't know how? Refer to [Shell Access](/shell_access/mac/serial_connection.md)._
 
-9. On your Intel® Edison, disconnect from any WiFi networks the board might be logged into using the wireless command line interface ("wpa_cli") command:
+9. On your Intel® Edison, disconnect from any WiFi networks the board might be logged into using the wireless command line interface (`wpa_cli`) command:
 
   ```
   wpa_cli disconnect
   ```
 
-10. Then use the "route" command to add a default gateway. Use the same static IP address you set in the **Network** settings in the previous section.
+10. Then use the `route` command to add a default gateway. Use the same static IP address you set in the **Network** settings in the previous section.
 
   ```
   route add default gw 192.168.2.2
@@ -162,13 +162,14 @@ To re-enable WiFi on the Intel® Edison, use the `configure_edison --wifi` comma
 
 ---
 
-**Unable to ping anything from the Intel® Edison?**
+### Troubleshooting 
 
-Unplug and replug the device mode micro-USB cable to reset the Ethernet over USB connection.
+Unable to ping anything from the Intel® Edison?
 
-1. Turn your computer's WiFi connections off, then back on.
-2. Restart your Windows computer.
-3. Check that the IP address set in the IPv4 LAN settings is "192.168.2.2"
+* Unplug and replug the device mode micro-USB cable to reset the Ethernet over USB connection.
+* Turn your computer's WiFi connections off, then back on.
+* Restart your computer.
+* Check that the IP address set in the IPv4 LAN settings is "192.168.2.2"
 
 ---
 
@@ -176,6 +177,7 @@ Unplug and replug the device mode micro-USB cable to reset the Ethernet over USB
 
 See what you can do [once connected »](once_connected.md)
 
+---
 
 ### Next Steps
 
