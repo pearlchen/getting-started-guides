@@ -1,22 +1,20 @@
 ## Connect Your Intel Edison to Wi-Fi
 
-Instructions for the **Intel® Edison**
-
-This setup document will guide you through connecting the Intel® Edison board to the Internet using Wi-Fi.
-
-Naturally, an important part of an Internet of Things project is access to the Internet. The Intel® Edison has built-in Wi-Fi that you can turn on by logging into your board and enabling.
+The Intel® Edison has built-in Wi-Fi that you can turn on by logging into your board and enabling. This setup document will guide you through connecting the Intel® Edison board to the Internet using Wi-Fi.
 
 Once your board is online, turn your Intel® Edison into a true "Internet of Things" device. You will also need the IP address of your Intel® board to program it using the Intel® IoT Developer Kit IDEs.
-
-**Related videos**
-
-[Get Your Intel Edison Online (preview)]()
 
 
 **Table of contents**
 
-* [Connect to a Wi-Fi network](#connect-to-a-wi-fi-network)
-* [Identify the IP address](#identify-the-ip-address)
+* [Connect to a Wi-Fi network »](#connect-to-a-wi-fi-network)
+* [Identify the IP address »](#identify-the-ip-address)
+
+
+**Related videos**
+
+[Get Your Intel Edison Online (preview)](https://drive.google.com/open?id=0B2ywC78pxngCS2c3TndOT2EtT0k&authuser=0)
+
 
 ---
 
@@ -31,13 +29,13 @@ Note: Many larger companies have strict internet security policies and restrict 
 
 ## Connect to a Wi-Fi network
 
-Shell into your Intel® Edison and run the `configure_edison --wifi` command. Choose a Wi-Fi network to connect to and input any login credentials for that network.
+Shell into your Intel® Edison and run the `configure_edison --wifi` command. Choose a Wi-Fi network to connect to, then input any login credentials for that network.
 
 1. Establish a serial connection to the Intel® Edison.
 
   _Don't know how? Refer to [Shell Access](/shell_access/)._
 
-2. Use the "configure_edison" command with the "--wifi" flag to start the wifi configuration process.
+2. Use the `configure_edison` command with the `--wifi` flag to start the wifi configuration process.
 
   ```
   configure_edison --wifi
@@ -47,21 +45,21 @@ Shell into your Intel® Edison and run the `configure_edison --wifi` command. Ch
 
   **Get a "configure_edison: not found" message?**
   
-  You need to update your Edison firmware. Refer to Flash Edison Firmware Manually for instructions. 
+  You need to update your Edison firmware. Refer to [Flash Firmware Manually](/flash_firmware/manually.md) for instructions. 
   
-  Or, if you are using Windows 64-bit, a streamlined firmware flashing process is included with the Windows 64-bit integrated installer. Refer to Set Up Your Computer - Windows (64-bit integrated installer).
+  Or, if you are using Windows 64-bit, a streamlined firmware flashing process is included with the Windows 64-bit integrated installer. Refer to [Set Up Your Computer - Windows (64-bit integrated installer)](/computer_setup/windows/64bit_integrated_installer.md).
 
   ---
 
-1. If you are asked if you want to set up the wifi, type "**Y**" and press Enter. (This prompt will occur on older Intel® Edison firmware only.)
+3. If you are asked if you want to set up the wifi, type "**Y**" and press Enter. (This prompt will occur on older Intel® Edison firmware only.)
 
-1. The Intel® Edison will scan for Wi-Fi networks and display a list of available networks when finished.
+4. The Intel® Edison will scan for Wi-Fi networks and display a list of available networks when finished.
 
   ![A list of Wi-Fi networks](images/list_of_networks.png)
 
   If you do not see any networks, but you know they exist, try re-scanning by entering "0", or repeat steps 2-3.
 
-1. Locate the network you would like to connect to in the list and enter the **corresponding number** in the prompt. Press Enter. 
+5. Locate the network you would like to connect to in the list and enter the **corresponding number** in the prompt. Press Enter. 
 
   To confirm your entry, type "**Y**" and press Enter.
 
@@ -69,23 +67,23 @@ Shell into your Intel® Edison and run the `configure_edison --wifi` command. Ch
 
   In this example, to connect to "kafka" use the number “16”.
 
-1. The network in this example requires a password. Your network might require other information. Enter the appropriate network credentials. Press Enter when finished. 
+6. The network in this example requires a password. Your network might require other information. Enter the appropriate network credentials. Press Enter when finished. 
 
   ![Network password prompt](images/network_password_prompt.png)
 
-1. The Intel® Edison will attempt to make a connection to the network.
+7. The Intel® Edison will attempt to make a connection to the network.
 
 ---
 
 When you see a "Done" message, you are now connected to a Wi-Fi network.
 
----
+!["Done" message](images/connection_successful.png)
 
 ---
 
 **Failed connection?**
 
-If the connection fails, you may have typed in your credentials incorrectly.  Try again by typing in "configure_edison --wifi" and repeating the steps again.
+If the connection fails, you may have typed in your credentials incorrectly.  Try again by typing in `configure_edison --wifi` and repeating the steps again.
 
 If you cannot get online using Wi-Fi but need to program your board using the Intel® IoT Developer Kit IDEs, try [Ethernet over USB](/connectivity/ethernet_over_usb/) instead.
 
@@ -99,13 +97,13 @@ Once your Intel® Edison is online, identify the IP address in order to: manuall
 
   _Don't know how? Refer to [Shell Access](/shell_access/)._
 
-2. In newer versions of the Intel® Edison firmware you can use the "configure_edison" command.
+2. In newer versions of the Intel® Edison firmware you can use the `configure_edison` command with the `--showWiFiIP` flag.
 
   ```
   configure_edison --showWiFiIP
   ```
 
-3. If the "--showWiFiIP" is not available to you, use the "**ip a**" command to output details of your network connection.
+3. If the `--showWiFiIP` flag is not available to you, use the `ip a` command to output details of your network connection.
 
   ```
   ip a
@@ -117,12 +115,11 @@ Once your Intel® Edison is online, identify the IP address in order to: manuall
 
   In this example, the IP address is "192.168.1.14". The number after the slash ("24") is the netmask (which we do not have to worry about here).
 
-
   ---
   
   **Do not see an IP address in the "wlan0" entry?**
   
-  Your Intel® Edison is not online via Wi-Fi. You may need to re-run the steps in Connect to a Wi-Fi network.
+  Your Intel® Edison is not online via Wi-Fi. You may need to re-run the steps in [Connect to a Wi-Fi network](#connect-to-a-wi-fi-network).
 
   ----
   
