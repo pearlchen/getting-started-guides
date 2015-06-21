@@ -38,11 +38,11 @@ If you have not followed [Set Up Your Computer - Windows (64-bit integrated inst
     1. Go to the Windows Control Panel. 
     2. Under "**Network and Internet**", click "**View network status and tasks**".
 
-       !["View network status and tasks" under "Network and Internet" in Control Panel](images_windows/control_panel-view_network_status_and_tasks.png)
+       !["View network status and tasks" under "Network and Internet" in Control Panel](images/control_panel-view_network_status_and_tasks.png)
 
     3. Click "**Change Adapter Settings**" in sidebar.
 
-      !["Change Adapter Settings" in sidebar](images_windows/control_panel-chanage_adpater_settings.png)
+      !["Change Adapter Settings" in sidebar](images/control_panel-chanage_adpater_settings.png)
 
 2. Make sure your IoT board has the microswitch set to **device mode** and plug in the **device mode micro-USB cable** from your Intel® Edison to your computer. 
 
@@ -54,13 +54,13 @@ If you have not followed [Set Up Your Computer - Windows (64-bit integrated inst
 
 3. **Right-click** on the "**Local Area Connection**" network adapter entry with the label "**Intel Edison USB RNDIS Device**", then select "**Properties**".
 
-  !["Local Area Connection" network adapter entry with label "Intel Edison USB RNDIS Device"](images_windows/control_panel-lan_adapter.png)
+  !["Local Area Connection" network adapter entry with label "Intel Edison USB RNDIS Device"](images/control_panel-lan_adapter.png)
 
-  ![Select "Properties" in context menu](images_windows/control_panel-context_menu-properties.png)
+  ![Select "Properties" in context menu](images/control_panel-context_menu-properties.png)
 
 4. In the new "Local Area Connection Properties" window, select "**Internet Protocol Version 4 (TCP/IPv4)**" from the list, then click "**Properties**".
 
-  !["Internet Protocol Version 4 (TCP/IPv4)" selected. Click "Properties" button.](images_windows/lan_properties-ipv4-properties_button.png)
+  !["Internet Protocol Version 4 (TCP/IPv4)" selected. Click "Properties" button.](images/lan_properties-ipv4-properties_button.png)
 
 5. In the new dialog window, select "**Use the following IP address**" and change the IP information as follows:
 
@@ -68,7 +68,7 @@ If you have not followed [Set Up Your Computer - Windows (64-bit integrated inst
 
   * **Subnet m****ask**: 255.255.255.0 (default)
 
-  ![Adding 192.168.2.2 static IP address](images_windows/ipv4_properties-add_static_ip.png)
+  ![Adding 192.168.2.2 static IP address](images/ipv4_properties-add_static_ip.png)
 
 6. Click "OK" to apply your changes and close the IPv4 properties window. 
 
@@ -86,7 +86,7 @@ If you have not followed [Set Up Your Computer - Windows (64-bit integrated inst
 
 ---
 
-There is no noticeable difference to the "Local Area Connection" adapter icon. See [Once connected...](once_connected.md) to confirm a successful connection to the Intel® Edison.
+There is no noticeable difference to the "Local Area Connection" adapter icon. See [Once connected...](/connectivity/ethernet_over_usb/shared/once_connected.md) to confirm a successful connection to the Intel® Edison.
 
 ---
 
@@ -100,19 +100,19 @@ Internet sharing is an optional step but is highly recommended if you are at a h
 
 2. **Right-click** on the "**Wi-Fi**" network adapter entry, then select "**Properties**".
 
-  ![Select "Properties" from context menu](images_windows/control_panel-wifi_adapter-properties.png)
+  ![Select "Properties" from context menu](images/control_panel-wifi_adapter-properties.png)
 
 3. Select the "**Sharing**" tab. 
 
 4. Check "**Allow other network users to connect through this computer’s Internet connection**" to enable Internet Connection Sharing (ICS).
 
-  ![Sharing tab of WiFi](images_windows/wifi_properties-sharing_tab.png)
+  ![Sharing tab of WiFi](images/wifi_properties-sharing_tab.png)
 
 5. Click "**Ok**". 
 
 6. You will receive an alert about enabling ICS. Click "**Yes**" to continue.
 
-  ![Internet Connection Sharing warning message](images_windows/ics-warning_message.png)
+  ![Internet Connection Sharing warning message](images/ics-warning_message.png)
 
 ---
 
@@ -167,7 +167,7 @@ Unable to ping anything from the Intel® Edison?
 
 ### Additional Resources
 
-See what you can do [once connected »](once_connected.md)
+See what you can do [once connected »](/connectivity/ethernet_over_usb/shared/once_connected.md)
 
 ---
 

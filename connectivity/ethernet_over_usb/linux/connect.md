@@ -47,9 +47,9 @@ Use Terminal and the `ifconfig` command to forward connections to the IP address
 
 If you type the `ipconfig` command, you should see "192.168.2.2" for the usb0 entry:
 
-![usb0 entry in Terminal](images_linux/terminal-ipconfig_usb0.png)
+![usb0 entry in Terminal](images/terminal-ipconfig_usb0.png)
 
-See [Once connected...](once_connected.md) for what you can do now.
+See [Once connected...](/connectivity/ethernet_over_usb/shared/once_connected.md) for what you can do now.
 
 ---
 
@@ -103,7 +103,7 @@ Unable to ping anything from the Intel® Edison?
 
 ### Additional Resources
 
-See what you can do [once connected »](once_connected.md)
+See what you can do [once connected »](/connectivity/ethernet_over_usb/shared/once_connected.md)
 
 ---
 

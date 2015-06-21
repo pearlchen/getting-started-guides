@@ -35,7 +35,7 @@ Install the HoRNDIS (pronounced "horrendous") kernel extension to use Ethernet o
 
 2. Double-click on the downloaded *HoRNDIS-rel[version].pkg* to start the installation wizard.
 
-  ![HoRNDIS install wizard](images_mac/horndis-install.png)
+  ![HoRNDIS install wizard](images/horndis-install.png)
 
 3. Follow the installation wizard prompts. Click "**Next**" where needed.
 
@@ -60,15 +60,15 @@ Install the HoRNDIS (pronounced "horrendous") kernel extension to use Ethernet o
 
   Select the "Edison" entry.
 
-  ![Edison entry with yellow dot status](images_mac/network_settings-edison_yellow_dot.png)
+  ![Edison entry with yellow dot status](images/network_settings-edison_yellow_dot.png)
 
 4. For "Configure IPv4", from the drop down choose "**Using DHCP with manual address**".
 
-  ![Choose "Using DHCP with manual address" from drop down](images_mac/network_settings-dhcp_manual_address.png) 
+  ![Choose "Using DHCP with manual address" from drop down](images/network_settings-dhcp_manual_address.png) 
 
 5. Change "IP Address" to be "**192.168.2.2**".
 
-  ![Change IP Address to be 192.168.2.2](images_mac/network_settings-ip_19216822.png)
+  ![Change IP Address to be 192.168.2.2](images/network_settings-ip_19216822.png)
 
   Keep "Subnet Mask" at default "255.255.255.0".
 
@@ -88,9 +88,9 @@ Install the HoRNDIS (pronounced "horrendous") kernel extension to use Ethernet o
 
 You should see the yellow status dot turn green. 
 
-![Edison entry with green dot status](images_mac/network_settings-edison_green_dot.png)
+![Edison entry with green dot status](images/network_settings-edison_green_dot.png)
 
-See [Once connected...](once_connected.md) for what you can do now.
+See [Once connected...](/connectivity/ethernet_over_usb/shared/once_connected.md) for what you can do now.
 
 ---
 
@@ -98,7 +98,7 @@ If you are on Mavericks, you may see multiple numbered "Multifunction Composite 
 
 If you select one of the duplicate entries and do not see a "Configure IPv4" drop down, keep looking for the correct service entry to configure.
 
-![An Edison entry that doesn't have a Configure IPv4 drop down](images_mac/network_settings-multiple_edison_entries.png)
+![An Edison entry that doesn't have a Configure IPv4 drop down](images/network_settings-multiple_edison_entries.png)
 
 ---
 
@@ -112,21 +112,21 @@ Internet sharing is an optional step but is highly recommended if you are at a h
 
 2. If "**Internet Sharing**" is currently checked in the lefthand services list, **uncheck it** in order to make changes to your Mac Sharing settings.
 
-  ![Internet Sharing settings screen with nothing checked](images_mac/sharing_settings-sharing_off.png)
+  ![Internet Sharing settings screen with nothing checked](images/sharing_settings-sharing_off.png)
 
 3. Select "**Wi-Fi**" from the "**Share your connection from**" dropdown list, if not already selected.
 
-  !["Wi-Fi" option selected in the ""Share your connection from" dropdown](images_mac/sharing_settings-wifi_selected.png)
+  !["Wi-Fi" option selected in the ""Share your connection from" dropdown](images/sharing_settings-wifi_selected.png)
 
 4. Check "**Edison**" under "**To computers using**".
 
-  !["To computers using" option selected under "To computers using"](images_mac/sharing_settings-edison_selected.png)
+  !["To computers using" option selected under "To computers using"](images/sharing_settings-edison_selected.png)
 
 5. Enable sharing by checking "**Internet Sharing**" in the lefthand services list.
 
 6. You will see a warning. Click "**Start**" to continue.
 
-  ![System warning shown before Internet Sharing can be enabled](images_mac/sharing_settings-enable_warning.png)
+  ![System warning shown before Internet Sharing can be enabled](images/sharing_settings-enable_warning.png)
 
 7. Unplug and replug the device mode micro-USB cable to reset the Ethernet over USB connection.
 
@@ -175,7 +175,7 @@ Unable to ping anything from the Intel® Edison?
 
 ### Additional Resources
 
-See what you can do [once connected »](once_connected.md)
+See what you can do [once connected »](/connectivity/ethernet_over_usb/shared/once_connected.md)
 
 ---
 
