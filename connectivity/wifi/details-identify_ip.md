@@ -1,6 +1,6 @@
 ## Identify the IP address
 
-Once your Intel® Edison is online, identify the IP address in order to: manually add an IP to an Intel® IoT Developer Kit IDE, use with SSH clients, or use your IoT device as a web server.
+Once your Intel® Edison is online, identify the IP address using the `configure_edison --showWiFiIP` or `ip a` commands in order to: manually add an IP to an Intel® IoT Developer Kit IDE, use with SSH clients, or use your IoT device as a web server.
 
 ![Animated gif: copying images files to flash storage](images/identify_ip-animated.gif)
 
@@ -32,6 +32,6 @@ Once your Intel® Edison is online, identify the IP address in order to: manuall
   
   **Do not see an IP address in the "wlan0" entry?**
   
-  Your Intel® Edison is not online via Wi-Fi. You may need to re-run the steps in [Connect to a Wi-Fi network](#connect-to-a-wi-fi-network).
+  Your Intel® Edison is not online via Wi-Fi. You may need to re-run the steps in [Connect to a Wi-Fi network](connect.md#connect-to-a-wi-fi-network).
 
   ----
