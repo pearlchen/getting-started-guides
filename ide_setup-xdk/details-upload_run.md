@@ -2,6 +2,10 @@
 
 Upload the project files to the IoT device and run it. Remember that every time you make changes to files and you want to see the changes: (1) save the file, (2) upload, (3) run.
 
+![Animated gif: creating a project in the Intel® XDK](images/upload_run-animated.gif)
+
+---
+
 1. In the bottom toolbar, click the "**Upload**" icon to upload the current project to the device.
 
   !["Upload" button in bottom toolbar](images/xdk-upload_button.png)
@@ -24,6 +28,8 @@ Upload the project files to the IoT device and run it. Remember that every time 
 
 **Get a "cannot find module mraa" message?**
 
+!["cannot find module mraa" message](iamges/xdk-console-mraa_missing.png)
+
 If you see this error message, your board is missing libmraa, a library for GPIO communication on Linux platforms. 
 Connect to your IoT board via serial or SSH. Then run the following commands: 
 
@@ -36,21 +42,3 @@ opkg install libmraa0
 The first command will edit the mraa-upm config file on the board. The last two commands use the board's built-in Opkg package manager to download and update the missing library.
 
 After updating the MRAA libraries, return to the Intel® XDK. Click the "Run" icon again to re-run the project on the device.
-
----
-
----
-
-Look at your Intel® IoT board for a blinking light.
-
-* **Intel® Galileo Gen 2**
-  
-  A green LED is located near the USB port.
-
-* **Intel® Edison**
-  
-  The LED is located near the center of the board.
-
-**Congratulations, you just ran your first Intel® XDK application!**
-
----

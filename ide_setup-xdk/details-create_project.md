@@ -2,6 +2,8 @@
 
 The Intel® XDK IoT Edition has various project creation options. To start, create a blinking LED project from a pre-existing sample.
 
+![Animated gif: creating a project in the Intel® XDK](images/create_xdk_project-animated.gif)
+
 ---
 
 1. Under the "**Internet of Things (IoT) with Node.js Projects**" option in the lefthand menu, select "**Start with a Sample or Template**".
@@ -32,6 +34,8 @@ The Intel® XDK IoT Edition has various project creation options. To start, crea
 
 If Bonjour is not installed on your machine, you will see a "Bonjour is missing" message.
 
-**Windows users:** Complete the steps in [Step 1b: Install Bonjour](#step-1b-install-bonjour-windows-only).
+![Bonjour is missing message](images/bonjour_missing.png)
+
+**Windows users:** Complete the steps in [Install Bonjour](details-install_bonjour.md).
 
 ---
