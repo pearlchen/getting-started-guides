@@ -69,11 +69,12 @@ Get your board online in order to turn your IoT board into a true "Internet of T
 
 Based on your programming language preference, install an IDE for Intel® IoT development:
 
-* **For C/C++:**
-  * [Set Up IoT Dev Kit Eclipse »](/ide_setup-eclipse/setup.md)
-
 * **For JavaScript:**
   * [Set Up Intel XDK for IoT »](/ide_setup-xdk/setup.md)
+  * [Run a Sample Intel XDK for IoT Project »](/ide_setup-xdk/create_project.md)
+
+* **For C/C++:**
+  * [Set Up IoT Dev Kit Eclipse »](/ide_setup-eclipse/setup.md)
 
 * **For simplified C++:** 
   * [Set Up Arduino IDE »](https://software.intel.com/en-us/articles/install-arduino-ide-on-intel-iot-platforms)
@@ -102,14 +103,8 @@ Search for answers and post your questions to the [Intel® Edison Support Commun
 ## Resources
 
 * [Intel® Edison Product Brief](http://www.intel.com/support/edison/sb/CS-035277.htm) (Specs)
-
 * [Intel® Edison Arduino Expansion Board Hardware Guide](http://www.intel.com/support/edison/sb/CS-035275.htm) - For pinout listing, see page 7
-
 * [Intel® Edison Mini Breakout Board Hardware Guide](http://www.intel.com/support/edison/sb/CS-035252.htm) - For pinout listing, see page 9 
-
 * [Yocto Project: Foundation for the Internet of Things](https://www.youtube.com/watch?v=ztsnQ3p59jA&list=PLg-UKERBljNw254jnyMNZiu8yqF8pPq0m&index=24) (Introduction to Yocto video)
-
 * [Intel® IoT Developer Kit Cloud-based Analytics User Guide](https://software.intel.com/en-us/intel-iot-developer-kit-cloud-based-analytics-user-guide) 
-
 * [Seeed Studio Sketchbook Starter Kit](https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_V2.0) (Sensor sample code for Arduino IDE)
-

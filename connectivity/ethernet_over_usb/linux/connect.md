@@ -40,6 +40,4 @@ Based on your programming language preference, install an IDE for Intel® IoT de
   * [Set Up IoT Dev Kit Eclipse »](/ide_setup-eclipse/setup.md)
 
 * **For JavaScript:**
-  * [Set Up Intel XDK for IoT »](/ide_setup-xdk/setup.md)
-
-
+  * [Set Up Intel XDK for IoT »](/ide_setup-xdk/)
