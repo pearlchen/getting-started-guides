@@ -70,12 +70,12 @@ Get your board online in order to turn your IoT board into a true "Internet of T
 Based on your programming language preference, install an IDE for Intel® IoT development:
 
 * **For JavaScript:**
-  * [Set Up Intel XDK for IoT »](/ide_setup-xdk/setup.md)
-  * [Run a Sample Intel XDK for IoT Project »](/ide_setup-xdk/create_project.md)
+  * [Set Up Intel XDK for IoT »](/ide_setup/xdk/setup.md)
+  * [Run a Sample Intel XDK for IoT Project »](/ide_setup/xdk/create_project.md)
 
 * **For C/C++:**
-  * [Set Up IoT Dev Kit Eclipse »](/ide_setup-eclipse/setup.md)
-  * [Run a Sample Eclipse Project »](/ide_setup-eclipse/create_project.md)
+  * [Set Up IoT Dev Kit Eclipse »](/ide_setup/eclipse/setup.md)
+  * [Run a Sample Eclipse Project »](/ide_setup/eclipse/create_project.md)
 
 * **For simplified C++:** 
   * [Set Up Arduino IDE »](https://software.intel.com/en-us/articles/install-arduino-ide-on-intel-iot-platforms)

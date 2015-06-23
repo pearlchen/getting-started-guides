@@ -50,4 +50,4 @@ Before you can use the Intel® XDK, you must sign up for an Intel® XDK account 
 
 Create and run a Hello Word project (blinking the onboard LED) on either the Intel® Galileo or the Intel® Edison.
 
-* [Run a Sample Intel XDK for IoT Project »](/ide_setup-xdk/create_project.md)
+* [Run a Sample Intel XDK for IoT Project »](/ide_setup/xdk/create_project.md)

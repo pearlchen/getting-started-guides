@@ -72,4 +72,4 @@ Refer to the [Troubleshooting - Intel XDK »](troubleshooting.md)
 
 Create and run a Hello Word project (blinking the onboard LED) on either the Intel® Galileo or the Intel® Edison.
 
-* [Run a Sample Eclipse Project »](/ide_setup-eclipse/create_project.md)
+* [Run a Sample Eclipse Project »](/ide_setup/eclipse/create_project.md)

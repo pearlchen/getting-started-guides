@@ -37,7 +37,7 @@ See what you can do [once connected »](/connectivity/ethernet_over_usb/shared/o
 Based on your programming language preference, install an IDE for Intel® IoT development:
 
 * **For C/C++:**
-  * [Set Up IoT Dev Kit Eclipse »](/ide_setup-eclipse/)
+  * [Set Up IoT Dev Kit Eclipse »](/ide_setup/eclipse/)
 
 * **For JavaScript:**
-  * [Set Up Intel XDK for IoT »](/ide_setup-xdk/)
+  * [Set Up Intel XDK for IoT »](/ide_setup/xdk/)
