@@ -39,10 +39,14 @@ export DEVKIT_HOME="/my parent folder/iotdk-ide-mac/"
 
 ## Windows only: Get a "No Java virtual machine" message?
 
-Refer to [Install Java](setup.md#install-java) to install a JRE or JDK.
+![No Java message on Windows](images/java-not_installed_message.png)
+
+Refer to [Install Java](details-install-java.md) to install a JRE or JDK.
 
 
 ## Windows only: Get a "Windows cannot find eclipse.exe" message?
+
+![Cannot find Eclipse message on Windows](images/eclipse-cannot_find_message.png)
 
 You are trying to open this dev kit package on a 32-bit Windows OS. You will need to make some adjustments to your dev kit package:
 
@@ -89,7 +93,3 @@ The batch file is not working with your current development setup. Run the batch
 ## Adding a Library to an Eclipse Project
 
 Oftentimes when you are building a project and using a particular sensor, you must include the UPM library for that sensor in your Eclipse project.
-
----
-
-Return to [Set Up Intel® IoT Dev Kit Eclipse »](setup.md)
