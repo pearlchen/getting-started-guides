@@ -24,3 +24,9 @@ Getting started guides for the Intel® Edison.
 ![Xadow Wearables Kit for Intel® Edison](START_HERE/images/xadow_wearables_kit_for_edison.png)
 * **JavaScript with the Intel® XDK** or **C/C++ with Eclipse IDE**: [START HERE »](START_HERE/xadow_wearables_kit.md)
 * **Arduino IDE**: [START HERE »](http://www.seeedstudio.com/wiki/Xadow_Wearable_Kit_For_Edison)
+
+---
+
+### Contributing
+
+We welcome pull requests and bug reports on these docs. Please read [CONTRIBUTOR.md](CONTRIBUTOR.md) for more information.
