@@ -60,4 +60,5 @@ Refer to the [Troubleshooting - Intel XDK »](troubleshooting.md)
 
 Experiment with sample code supplied for available sensors and actuators.
 
-* [Grove Starter Kit - C++ »](/sensor_examples/c/grove_starter_kit.md)
+* **[Grove Starter Kit - Intro »](/sensor_examples/grove_starter_kit/intro.md)**
+  * [C++ »](/sensor_examples/grove_starter_kit/c/samples.md)

@@ -85,11 +85,9 @@ Based on your programming language preference, install an IDE for Intel® IoT de
 
 Experiment with sample code supplied for available sensors and actuators.
 
-* **For JavaScript:**
-  * [Grove Starter Kit - JavaScript »](/sensor_examples/javascript/grove_starter_kit.md)
-
-* **For C/C++:**
- * [Grove Starter Kit - C++ »](/sensor_examples/c/grove_starter_kit.md)
+* **[Grove Starter Kit - Intro »](/sensor_examples/grove_starter_kit/intro.md)**
+  * [JavaScript »](/sensor_examples/grove_starter_kit/javascript/samples.md)
+  * [C++ »](/sensor_examples/grove_starter_kit/c/samples.md)
 
 Also search for your component on [software.intel.com/en-us/iot/sensors](http://software.intel.com/en-us/iot/sensors).
 
