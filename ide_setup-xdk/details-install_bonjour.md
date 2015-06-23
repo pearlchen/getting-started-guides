@@ -2,6 +2,10 @@
 
 [Bonjour](http://support.apple.com/kb/DL999) (or zeroconf) is a service that enables the Intel® XDK to auto detect Intel® IoT devices on your network. This service is already available on Mac and Linux; only Windows users need to install an additional Bonjour service.
 
+![Animated gif: installing Bonjour](images/install_bonjour-animated.gif)
+
+---
+
 1. Download Bonjour via *Bonjour Print Services for Windows*.
 
     1. Go to [http://support.apple.com/kb/DL999](http://support.apple.com/kb/DL999).

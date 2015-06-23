@@ -29,6 +29,8 @@ Get the latest [Intel® XDK IoT Edition installer](http://software.intel.com/en-
 
 [Bonjour](http://support.apple.com/kb/DL999) (or zeroconf) is a service that enables the Intel® XDK to auto detect Intel® IoT devices on your network. This service is already available on Mac and Linux; only Windows users need to install an additional Bonjour service.
 
+![Animated gif: installing Bonjour](images/install_bonjour-animated.gif)
+
 [View detailed instructions »](details-install_bonjour.md)
 
 
@@ -36,7 +38,7 @@ Get the latest [Intel® XDK IoT Edition installer](http://software.intel.com/en-
 
 Before you can use the Intel® XDK, you must sign up for an Intel® XDK account or log in to a pre-existing account.
 
-![Log in or sign up screen of the Intel® XDK IoT Edition](images/xdk-signup_or_login.png)
+![Animated gif: launching Intel® XDK for the first time](images/launch_xdk-animated.gif)
 
 [View detailed instructions »](details-launch_xdk.md)
 

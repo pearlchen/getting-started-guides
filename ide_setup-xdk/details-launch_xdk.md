@@ -4,6 +4,8 @@ Before you can use the Intel® XDK, you must sign up for an Intel® XDK account 
 
 **Note:** You will need to have an internet connection for the first time you launch the Intel XDK.
 
+![Animated gif: launching Intel® XDK for the first time](images/launch_xdk-animated.gif)
+
 ---
 
 1. Launch Intel® XDK IoT Edition.
