@@ -77,10 +77,6 @@ Based on your programming language preference, install an IDE for Intel® IoT de
   * [Set Up IoT Dev Kit Eclipse »](/ide_setup/eclipse/setup.md)
   * [Run a Sample Eclipse Project »](/ide_setup/eclipse/create_project.md)
 
-* **For simplified C++:** 
-  * [Set Up Arduino IDE »](https://software.intel.com/en-us/articles/install-arduino-ide-on-intel-iot-platforms)
-
-
 ## 7. Sensor Tutorials
 
 Experiment with sample code supplied for available sensors and actuators.
