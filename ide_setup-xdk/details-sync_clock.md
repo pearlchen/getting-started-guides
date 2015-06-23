@@ -18,4 +18,4 @@ Sync your computer's time with the clock on the target board to avoid timing iss
 
 A message in the console log will appear to confirm the update.
 
-![New System Time message in console](iamges/xdk-console-new_system_time.png)
+![New System Time message in console](images/xdk-console-new_system_time.png)

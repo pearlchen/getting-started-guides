@@ -28,7 +28,7 @@ Upload the project files to the IoT device and run it. Remember that every time 
 
 **Get a "cannot find module mraa" message?**
 
-!["cannot find module mraa" message](iamges/xdk-console-mraa_missing.png)
+!["cannot find module mraa" message](images/xdk-console-mraa_missing.png)
 
 If you see this error message, your board is missing libmraa, a library for GPIO communication on Linux platforms. 
 Connect to your IoT board via serial or SSH. Then run the following commands: 

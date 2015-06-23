@@ -36,7 +36,7 @@ You will need to add the IP address of your IoT device manually if you are using
 
   Refer to:
 
-  * [Connect Your Intel Edison to Wi-Fi → Identify the IP address](/connectivity/wifi/connect.md#identify-the-ip-address). 
+  * [Connect Your Intel Edison to Wi-Fi → Identify the IP address](/connectivity/wifi/details-identify_ip.md). 
   * Or use 192.168.2.15 if you're using [Ethernet over USB](/connectivity/ethernet_over_usb/).
 
   ---
@@ -72,7 +72,3 @@ For additional help using the Intel® XDK, explore the articles or videos listed
 * [Securely Accessing Your Internet of Things (IoT) Device](https://software.intel.com/en-us/html5/documentation/secure-communication-intel-xdk-iot-edition)
 
 * [Removing Intel® XDK Local Data on Windows, Apple OS X, & Linux](https://software.intel.com/en-us/html5/blogs/remove-xdk-local-data)
-
----
-
-Return to [Set Up Intel XDK for IoT »](setup.md)
