@@ -29,4 +29,4 @@ Getting started guides for the Intel® Edison.
 
 ### Contributing
 
-We welcome pull requests and bug reports on these docs. Please read [CONTRIBUTOR.md](CONTRIBUTOR.md) for more information.
+We welcome pull requests and bug reports on these docs. Please read the [Intel® IoT Getting Started Docs Contribution Guide](CONTRIBUTOR.md) for more information.
