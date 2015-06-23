@@ -38,13 +38,13 @@ The version of Eclipse distributed with the developer kit has some example proje
   
   A green LED is located near the USB port.
   
-  ![Green LED on Intel® Galileo Gen 2](images/green_light-galileo.png)
+  ![Green LED on Intel® Galileo Gen 2](/assembly/galileo_gen_2/images/on_board_led.png)
 
-* **Intel® Edison**
+* **Intel® Edison Kit for Arduino**
   
   The LED is located near the center of the board.
 
-  ![Green LED on Intel® Edison](images/green_light-edison.png)
+  ![Green LED on Intel® Edison](/assembly/arduino_expansion_board/images/on_board_led.png)
 
 **Congratulations, you just ran your first Intel® XDK application!**
 
