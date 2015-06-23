@@ -94,4 +94,4 @@ Refer to the [Troubleshooting - Intel XDK »](troubleshooting.md)
 
 Experiment with sample code supplied for available sensors and actuators.
 
-* [Grove Starter Kit - JavaScript »](/sensor_examples-javascript/grove_starter_kit.md)
+* [Grove Starter Kit - JavaScript »](/sensor_examples/javascript/grove_starter_kit.md)

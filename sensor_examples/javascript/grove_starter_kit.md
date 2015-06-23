@@ -41,7 +41,7 @@ This guide will demonstrate how you can use JavaScript and the Grove Starter Kit
 * the Intel® XDK IoT Edition installed on your development computer
 * the Grove Starter Kit for Arduino or Grove Starter Kit Plus - Intel IoT Edition
 
-You also should have already completed the [Set Up Intel XDK for IoT guide](/ide_setup-xdk/setup.md), and you can successfully blink the onboard LED on your Intel® Edison or Intel® Galileo.
+You also should have already completed the [Set Up Intel XDK for IoT](/ide_setup-xdk/setup.md) guide, and you can successfully blink the onboard LED on your Intel® Edison or Intel® Galileo.
 
 ---
 
