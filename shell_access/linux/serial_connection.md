@@ -38,7 +38,7 @@ The firmware version is in YYYYMMDDHHMM format so, in this case, Sept 3, 2014.
 
 ### Additional resources
 
-For more info on using Screen such as quitting, read [Using Screen »](/shell-access/mac-and-linux/using_screen.md)
+For more info on using Screen such as quitting, read [Using Screen »](/shell_access/mac-and-linux/using_screen.md)
 
 
 ### Next Steps
