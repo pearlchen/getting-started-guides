@@ -8,17 +8,16 @@ Get the latest Eclipse IDE for Intel® IoT development. Download the compressed 
 
 1. Get the latest IoT dev kit Eclipse IDE package.
 
-  **Online option:**
-  1. Visit [software.intel.com/en-us/iot/downloads](http://software.intel.com/en-us/iot/downloads). 
-  2. Scroll down to "IDEs" section.
-  3. Under "Eclipse", click the button for your OS platform to start downloading the compressed IDE package.
-
   **Hackathon attendees:**
   1. On the USB key: files → [your OS]
-  2. Copy the appropriate iotdk-ide file to your computer:
+  2. Copy the appropriate **iotdk-ide** file to your computer:
     * **Windows**: iotdk-ide-win.7z
     * **Mac**: iotdk-ide-mac.tar.bz2 
     * **Linux**: iotdk-ide-linux.tar.bz2
+
+  **Online option:**
+  1. Visit [software.intel.com/en-us/iot/downloads#ides](http://software.intel.com/en-us/iot/downloads#ides). 
+  2. Under "**Eclipse**", click the button for your OS platform to start downloading the compressed IDE package.
 
 ---
 
@@ -49,7 +48,7 @@ Intel® XDK IoT Edition can be installed via the Windows 64-bit integrated insta
 
   ---
 
-  1. **Right-click** on iotdk-ide-win.7z.
+  1. **Right-click** on **iotdk-ide-win.7z**.
 
   2. Select "**7zip**", then "**Extract here**". 
 
@@ -60,14 +59,14 @@ Intel® XDK IoT Edition can be installed via the Windows 64-bit integrated insta
 
 ### Mac
 
-1. Double-click iotdk-ide-mac.tar.bz2 to extract the contents of the archive.
+1. Double-click **iotdk-ide-mac.tar.bz2** to extract the contents of the archive.
 
   ![The 7-Zip archive being extracted by Mac Archive Utility](images/7zip-mac_archive_utility.png)
 
 
 ### Linux
 
-1. Extract the contents of iotdk-ide-linux.tar.bz2.
+1. Extract the contents of **iotdk-ide-linux.tar.bz2**.
 
   1. Open a new Terminal window.
 

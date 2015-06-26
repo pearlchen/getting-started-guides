@@ -16,18 +16,17 @@ However, if you see a "New Hardware Found" message when you plug in the Intel® 
 ---
  
 1. Get the latest FTDI CDM driver installer.
+    
+  * **Hackathon attendees:**
+    1. On the USB key: files → Windows
+    2. Copy **CDM [version] WHQL Certified.exe** to your computer.
 
   * **Online option:**
     1. Visit [ftdichip.com/Drivers/D2XX.htm](http://ftdichip.com/Drivers/D2XX.htm).
     2. Scroll down to the "**Currently Supported D2XX Drivers**" table. 
-    3. In the row for "**Windows**", click the "**setup executable**" link to download _CDM [version] WHQL Certified.exe_ to your computer.
-    
-  * **Hackathon attendees:**
-    1. On the USB key: files → Windows
-    2. Copy _CDM [version] WHQL Certified.exe_ to your computer.
+    3. In the row for "**Windows**", click the "**setup executable**" link to download **CDM [version] WHQL Certified.exe** to your computer.
 
-
-2. Right-click on _CDM [version] WHQL Certified.exe_. Select "**Run as administrator**".
+2. Right-click on **CDM [version] WHQL Certified.exe**. Select "**Run as administrator**".
 
   ![Select "Run as administrator" in file context menu](images/cdm_drivers-run_as_admin.png)
 
