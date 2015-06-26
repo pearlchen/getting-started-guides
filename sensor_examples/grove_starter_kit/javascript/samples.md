@@ -5,12 +5,12 @@ To follow the instructions in this guide, you should have already completed the 
 
 **Table of contents**
 
-* [Grove component types](#grove-component-types)
-  * [Digital outputs](#digital-outputs)
-  * [Digital inputs](#digital-inputs)
-  * [Analog inputs](#analog-inputs)
-  * [Analog outputs](#analog-outputs)
-  * [I2C](#i2c)
+* [Grove component types »](#grove-component-types)
+  * [Digital outputs »](#digital-outputs)
+  * [Digital inputs »](#digital-inputs)
+  * [Analog inputs »](#analog-inputs)
+  * [Analog outputs »](#analog-outputs)
+  * [I2C »](#i2c)
 
 
 **Related videos**
