@@ -1,4 +1,4 @@
-![Arduino Expansion Board with Intel® Edison](images/arduino_expansion_board_with_edison.jpg)
+![Arduino Expansion Board with Intel® Edison](images/arduino_expansion_board_with_edison.png)
 
 # How to go from Zero to Blinking Light Hero
 
