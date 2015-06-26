@@ -72,18 +72,16 @@ Use the standard-sized USB port in USB host mode to allow the Intel® Edison to 
 
 Install software and drivers specifically for your computer's operating system. 
 
-* **Mac user?** 
+* **Mac or Linux user?** 
 
-  You have no special setup. Skip to [Shell Access - Mac »](/shell_access/mac/serial_connection.md)
+  You have no special setup. Skip to [Step 3](#3-shell-access) below.
 
-* **Linux user?** 
+* **Windows user?**
 
-  You have no special setup. Skip to [Shell Access - Linux »](/shell_access/linux/serial_connection.md)
+  * **Do you have 64-bit Windows and a reliable internet connection?**  
 
-* **Windows 64-bit user?** 
+      [Set Up Your Computer - Windows (64-bit integrated installer) »](/computer_setup/windows/64bit_integrated_installer.md)
 
-  [Set Up Your Computer - Windows (64-bit integrated installer) »](/computer_setup/windows/64bit_integrated_installer.md)
+  * **At a hackathon with unreliable internet? Or can't click 'Next' in the 64-bit integrated installer wizard?** 
 
-* **Windows 32-bit user?** *Or can't get 64-bit integrated installer running?* 
-
-  [Set Up Your Computer - Windows (manual installation) »](/computer_setup/windows/manual_installation.md)
+      [Set Up Your Computer - Windows (manual installation) »](/computer_setup/windows/manual_installation.md)
