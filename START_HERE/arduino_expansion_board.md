@@ -58,7 +58,7 @@ Get your board online in order to turn your IoT board into a true "Internet of T
   
   * [Windows »](/connectivity/ethernet_over_usb/windows/connect.md)
   * [Linux »](/connectivity/ethernet_over_usb/linux/connect.md)
-  * Note: At this time, Ethernet over USB on [Mac](/connectivity/ethernet_over_usb/mac/connect.md) is not officially supported.
+  * Note: At this time, Ethernet over USB on Mac is not officially supported.
 
 * **At home? Have a dependable Wi-Fi connection?**
 
