@@ -13,17 +13,12 @@ This document will guide you through obtaining an IP address for the Intel® Edi
 
 ## Forward usb0 connection
 
-Use Terminal and the `ifconfig` command to forward connections to the IP address 192.168.2.2 through "usb0" which should be the USB cable.
-
-[View detailed instructions »](details-forward_usb0.md)
+Use Terminal and the `ifconfig` command to forward connections to the IP address 192.168.2.2 through "usb0" which should be the USB cable. [View detailed instructions »](details-forward_usb0.md)
 
 
 ## Share your computer's WiFi connection (optional)
 
-Turn on Internet Sharing to cut down on Wi-Fi traffic in a crowded room. Sharing your computer's internet connection also means that you can log into networks that have HTML password pages and then share the connection with the Intel® Edison.
-Internet sharing is an optional step but is highly recommended if you are at a hackathon.
-
-[View detailed instructions »](details-share_internet.md)
+Turn on Internet Sharing to cut down on Wi-Fi traffic in a crowded room. Sharing your computer's internet connection also means that you can log into networks that have HTML password pages and then share the connection with the Intel® Edison. Internet sharing is an optional step but is highly recommended if you are at a hackathon. [View detailed instructions »](details-share_internet.md)
 
 
 ### Additional Resources

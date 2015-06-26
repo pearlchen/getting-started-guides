@@ -19,29 +19,23 @@ This document will guide you through installing the Intel® XDK IoT Edition IDE 
 
 ## Install Intel® XDK IoT Edition
 
-Get the latest [Intel® XDK IoT Edition installer](http://software.intel.com/en-us/html5/xdk-iot) for your computer's OS. Simply run the installer and follow the prompts.
+Get the latest [Intel® XDK IoT Edition installer](http://software.intel.com/en-us/html5/xdk-iot) for your computer's OS. Simply run the installer and follow the prompts. [View detailed instructions »](details-install_xdk.md)
 
 ![Animated gif: installing the Intel® XDK](images/install_xdk-animated.gif)
-
-[View detailed instructions »](details-install_xdk.md)
 
 
 ### Windows only: Install Bonjour
 
-[Bonjour](http://support.apple.com/kb/DL999) (or zeroconf) is a service that enables the Intel® XDK to auto detect Intel® IoT devices on your network. This service is already available on Mac and Linux; only Windows users need to install an additional Bonjour service.
+[Bonjour](http://support.apple.com/kb/DL999) (or zeroconf) is a service that enables the Intel® XDK to auto detect Intel® IoT devices on your network. This service is already available on Mac and Linux; only Windows users need to install an additional Bonjour service. [View detailed instructions »](details-install_bonjour.md)
 
 ![Animated gif: installing Bonjour](images/install_bonjour-animated.gif)
-
-[View detailed instructions »](details-install_bonjour.md)
 
 
 ## Launch and sign into Intel® XDK
 
-Before you can use the Intel® XDK, you must sign up for an Intel® XDK account or log in to a pre-existing account.
+Before you can use the Intel® XDK, you must sign up for an Intel® XDK account or log in to a pre-existing account. [View detailed instructions »](details-launch_xdk.md)
 
 ![Animated gif: launching Intel® XDK for the first time](images/launch_xdk-animated.gif)
-
-[View detailed instructions »](details-launch_xdk.md)
 
 
 ---

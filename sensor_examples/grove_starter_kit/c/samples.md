@@ -4,12 +4,12 @@ To follow the instructions in this guide, should have already completed the [Set
 
 **Table of contents**
 
-* [Grove component types](#grove-component-types)
-  * [Digital outputs](#digital-outputs)
-  * [Digital inputs](#digital-inputs)
-  * [Analog inputs](#analog-inputs)
-  * [Analog outputs](#analog-outputs)
-  * [I2C](#i2c)
+* [Grove component types »](#grove-component-types)
+  * [Digital outputs »](#digital-outputs)
+  * [Digital inputs »](#digital-inputs)
+  * [Analog inputs »](#analog-inputs)
+  * [Analog outputs »](#analog-outputs)
+  * [I2C »](#i2c)
 
 
 ## Grove component types
@@ -192,3 +192,11 @@ I²C (Inter-Integrated Circuit), pronounced both "I-two-C" or "I-squared-C", is 
 ```
 
 ```
+
+---
+
+### Next Steps
+
+You're done! Now make your own creation. 
+
+Return back to [START HERE »](/START_HERE/arduino_expansion_board.md#now-make-your-own-creation)

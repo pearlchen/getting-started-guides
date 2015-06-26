@@ -20,20 +20,17 @@ You can then execute special Linux commands such: changing the hostname and pass
 
 ## Identify the "usbserial" device name 
 
-Use the `ls /dev/tty.*` command in Terminal to find the device name of the "**usbserial**" connection. You will need the exact device name for use in [Establish a serial connection](#establish-a-serial-connection) next.
+Use the `ls /dev/tty.*` command in Terminal to find the device name of the "**usbserial**" connection. You will need the exact device name for use in [Establish a serial connection](#establish-a-serial-connection) next. [View detailed instructions »](details-identify_usbserial.md)
 
 ![Animated gif: using Terminal to find the USB device name](images/identify_usbserial-animated.gif)
-
-[View detailed instructions »](details-identify_usbserial.md)
 
 
 ## Establish a serial connection
 
-Use the Screen utility in Terminal to gain command line access of your IoT board. For example: `screen /dev/tty.usbserial-A102GW3T 115200`
+Use the Screen utility in Terminal to gain command line access of your IoT board. For example: `screen /dev/tty.usbserial-A102GW3T 115200`. [View detailed instructions »](details-screen_connection.md)
 
 ![Animated gif: using Screen utility to connect to IoT board](images/screen_connection-animated.gif)
 
-[View detailed instructions »](details-screen_connection.md)
 
 ---
 
@@ -51,7 +48,7 @@ The firmware version is in YYYYMMDDHHMM format so, in this case, Sept 3, 2014.
 
 ### Additional resources
 
-For more info on using Screen such as quitting, read [Using Screen »](/shell-access/mac-and-linux/using_screen.md)
+For more info on using Screen such as quitting, read [Using Screen »](/shell_access/mac-and-linux/using_screen.md)
 
 
 ### Next Steps

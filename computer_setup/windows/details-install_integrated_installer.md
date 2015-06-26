@@ -11,17 +11,17 @@ The [Windows 64-bit Integrated Installer](https://software.intel.com/iot/hardwar
 ---
 
 1. Get the latest Intel® Edison 64-bit Windows installer.
+  
+  **Hackathon attendees:**
+
+  1. On the USB key: files → Windows
+  2. Copy **iotdk_win_installer.exe** to your computer.
 
   **Online option:**
 
   1. Visit the Intel® Edison Software Downloads page: [http://software.intel.com/iot/hardware/edison/downloads](https://software.intel.com/iot/hardware/edison/downloads).
   2. Scroll down to the "**Driver software**" section. 
-  3. Click the "**Windows 64-bit Integrated Installer**" link to download _iotdk_win_installer.exe_ to your computer
-  
-  **Hackathon attendees:**
-
-  1. On the USB key: files → Windows
-  2. Copy _iotdk_win_installer.exe_ to your computer.
+  3. Click the "**Windows 64-bit Integrated Installer**" link to download **iotdk_win_installer.exe** to your computer
 
 2. Connect a micro-USB cable to the **device mode** micro-USB port of the Intel® Edison expansion board, and the other end to your computer.
 
@@ -29,7 +29,7 @@ The [Windows 64-bit Integrated Installer](https://software.intel.com/iot/hardwar
 
   Refer to [Device mode micro-USB cable](/assembly/arduino_expansion_board/details-device_mode_cable.md) for more detailed cable connection information.
 
-3. Double-click on the _iotdk_win_installer.exe_ on your computer to begin installation. 
+3. Double-click on the **iotdk_win_installer.exe** on your computer to begin installation. 
 
   ![Intel® Edison 64-bit integrated installer wizard](images/integrated_installer_wizard.png)
 

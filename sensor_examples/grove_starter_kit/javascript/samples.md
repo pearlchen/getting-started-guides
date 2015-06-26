@@ -5,12 +5,12 @@ To follow the instructions in this guide, you should have already completed the 
 
 **Table of contents**
 
-* [Grove component types](#grove-component-types)
-  * [Digital outputs](#digital-outputs)
-  * [Digital inputs](#digital-inputs)
-  * [Analog inputs](#analog-inputs)
-  * [Analog outputs](#analog-outputs)
-  * [I2C](#i2c)
+* [Grove component types »](#grove-component-types)
+  * [Digital outputs »](#digital-outputs)
+  * [Digital inputs »](#digital-inputs)
+  * [Analog inputs »](#analog-inputs)
+  * [Analog outputs »](#analog-outputs)
+  * [I2C »](#i2c)
 
 
 **Related videos**
@@ -251,3 +251,11 @@ var lcd = new jsUpmI2cLcd.Jhd1313m1(6, 0x3E, 0x62); // Initialize the LCD
 lcd.setCursor(0,1); // go to the 1st row, 2nd column (0-indexed)
 lcd.write("hello"); // print characters to the LCD screen
 ```
+
+---
+
+### Next Steps
+
+You're done! Now make your own creation. 
+
+Return back to [START HERE »](/START_HERE/arduino_expansion_board.md#now-make-your-own-creation)

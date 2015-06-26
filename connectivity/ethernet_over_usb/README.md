@@ -3,4 +3,4 @@ Connect to the Intel® Edison using the device mode micro-USB cable and a virtua
 * [Windows »](windows/connect.md)
 * [Linux »](linux/connect.md)
 
-_Note: At this time, Ethernet over USB on [Mac](mac/connect.md) is not officially supported._
+_Note: At this time, Ethernet over USB on Mac is not officially supported._

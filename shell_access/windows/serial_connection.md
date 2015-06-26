@@ -21,29 +21,23 @@ You can then execute special Linux commands such: changing the hostname and pass
 
 ## Download a terminal client (PuTTY)
 
-Windows does not come with a built-in terminal emulator so download and use the [PuTTY](http://www.putty.org/) client.
+Windows does not come with a built-in terminal emulator so download and use the [PuTTY](http://www.putty.org/) client. [View detailed instructions »](details-putty.md)
 
 ![Animated gif: downloading and installing PuTTY](images/install_putty-animated.gif)
-
-[View detailed instructions »](details-putty.md)
 
 
 ## Identify the serial COM port
 
-Use Device Manager to find the COM port number for the "**USB Serial Port**" connection. You will need the COM # to configure PuTTY in Establish a serial connection.
+Use Device Manager to find the COM port number for the "**USB Serial Port**" connection. You will need the COM # to configure PuTTY in Establish a serial connection. [View detailed instructions »](details-identify_com_port.md)
 
 ![Animated gif: identifying the serial COM port](images/identify_com_port-animated.gif)
-
-[View detailed instructions »](details-identify_com_port.md)
 
 
 ## Establish a serial connection
 
-Use PuTTY to establish a **serial** connection to the IoT board using the COM # you noted in the previous [Identify the serial COM port](#identify-the-serial-com-port) section and the baud rate **115200**.
+Use PuTTY to establish a **serial** connection to the IoT board using the COM # you noted in the previous [Identify the serial COM port](#identify-the-serial-com-port) section and the baud rate **115200**. [View detailed instructions »](details-putty_serial_connection.md)
 
 ![Animated gif: logging into the IoT board via a PuTTY serial connection](images/putty_serial_connection-animated.gif)
-
-[View detailed instructions »](details-putty_serial_connection.md)
 
 
 ---

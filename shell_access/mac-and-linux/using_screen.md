@@ -32,7 +32,3 @@ Failing to close the Screen connection fully may stop you from being able to log
   ![A confirmation to quit screen will show up in the bottom left corner of Terminal](images/screen-quit.png)
 
 3. You are now back in your regular Terminal command line.
-
----
-
-Return to Shell Access [Mac »](/mac/serial_connection.md#next-steps) or [Linux »](/linux/serial_connection.md#next-steps)

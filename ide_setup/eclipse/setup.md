@@ -25,46 +25,37 @@ Depending on your computer's operating system, you may need to install additiona
 
 ### Install 7Zip (Windows only)
 
-[7zip](http://www.7-zip.org) supports extended file paths which some of the contents of the compressed file have so only use 7zip software to extract the file. 
+[7zip](http://www.7-zip.org) supports extended file paths which some of the contents of the compressed file have so only use 7zip software to extract the file. [View detailed instructions »](details-install_7zip.md)
 
 ![7-zip.org download page](images/7zip-download.png)
-
-[View detailed instructions »](details-install_7zip.md)
 
 
 ### Install Java
 
-Eclipse depends on either a Java Runtime Engine (JRE) or Java Development Kit (JDK). Check if you have Java installed and, if you do not, install it.
+Eclipse depends on either a Java Runtime Engine (JRE) or Java Development Kit (JDK). Check if you have Java installed and, if you do not, install it. [View detailed instructions »](details-install_java.md)
 
 ![Oracle Java download page for Windows](images/java-download_page.png)
-
-[View detailed instructions »](details-install_java.md)
 
 
 ## Extract Intel® IoT dev kit Eclipse IDE
 
-Get the latest [Eclipse IDE for Intel® IoT](http://software.intel.com/en-us/iot/downloads) development. Download the compressed archive containing the customized IDE and extract the contents to your computer. 
-
-**Important Note:** Windows users _must_ use **7-zip** for extraction.
+Get the latest [Eclipse IDE for Intel® IoT](http://software.intel.com/en-us/iot/downloads) development. Download the compressed archive containing the customized IDE and extract the contents to your computer. **Important Note:** Windows users _must_ use **7-zip** for extraction. [View detailed instructions »](details-extract_iot_eclipse.md)
 
 ![The "Extract here" option in the Windows Explorer file context menu](images/7zip-extract_context_menu.png)
-
-[View detailed instructions »](details-extract_iot_eclipse.md)
 
 
 ## Launch Eclipse using batch file
 
-Use devkit-launcher.bat to launch Eclipse with all the necessary Intel® IoT environment settings. Use the launcher batch file (instead of eclipse.exe) to launch Eclipse **every time**.
+Use devkit-launcher.bat to launch Eclipse with all the necessary Intel® IoT environment settings. Use the launcher batch file (instead of eclipse.exe) to launch Eclipse **every time**. [View detailed instructions »](details-launch_eclipse_batch.md)
 
 ![The batch file highlighted in the iotdk_ide folder](images/iotdk_ide_folder.png)
 
-[View detailed instructions »](details-launch_eclipse_batch.md)
 
 ---
 
 ### Having troubles?
 
-Refer to the [Troubleshooting - Intel XDK »](troubleshooting.md)
+Refer to the [Troubleshooting »](troubleshooting.md)
 
 ---
 

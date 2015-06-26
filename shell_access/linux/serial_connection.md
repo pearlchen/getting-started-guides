@@ -14,16 +14,12 @@ You can then execute special Linux commands such: changing the hostname and pass
 
 ## Install a shell session manager (Screen)
 
-Your computer may not have come with a pre-installed shell session manager. Download and install the GNU Screen utility using `sudo apt-get install screen`.
-
-[View detailed instructions »](details-install_screen.md)
+Your computer may not have come with a pre-installed shell session manager. Download and install the GNU Screen utility using `sudo apt-get install screen`. [View detailed instructions »](details-install_screen.md)
 
 
 ## Establish a serial connection
 
-Use the Screen utility that you installed in the previous section to gain command line access of your IoT board. For example: `sudo screen /dev/ttyUSB0 115200`
-
-[View detailed instructions »](details-screen_connection.md)
+Use the Screen utility that you installed in the previous section to gain command line access of your IoT board. For example: `sudo screen /dev/ttyUSB0 115200`. [View detailed instructions »](details-screen_connection.md)
 
 
 ---
@@ -42,7 +38,7 @@ The firmware version is in YYYYMMDDHHMM format so, in this case, Sept 3, 2014.
 
 ### Additional resources
 
-For more info on using Screen such as quitting, read [Using Screen »](/shell-access/mac-and-linux/using_screen.md)
+For more info on using Screen such as quitting, read [Using Screen »](/shell_access/mac-and-linux/using_screen.md)
 
 
 ### Next Steps

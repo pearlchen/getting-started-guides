@@ -19,49 +19,41 @@ This document will guide you through creating and running a Hello Word project (
 
 ### Create a project
 
-The Intel® XDK IoT Edition has various project creation options. To start, create a blinking LED project from a pre-existing sample.
+The Intel® XDK IoT Edition has various project creation options. To start, create a blinking LED project from a pre-existing sample. [View detailed instructions »](details-create_project.md)
 
 ![Animated gif: creating a project in the Intel® XDK](images/create_xdk_project-animated.gif)
-
-[View detailed instructions »](details-create_project.md)
 
 
 ### Select a target IoT device
 
-The Intel® XDK IoT Edition will automatically detect Intel® IoT devices on your network and display them in the "IoT Device" drop down list.
+The Intel® XDK IoT Edition will automatically detect Intel® IoT devices on your network and display them in the "IoT Device" drop down list. [View detailed instructions »](details-select_target_device.md)
 
 ![Animated gif: selecting a target device in "IoT Device" drop down list](images/select_target_device-animated.gif)
-
-[View detailed instructions »](details-select_target_device.md)
 
 
 ### Sync device clocks
 
-Sync your computer's time with the clock on the target board to avoid timing issues. Do this step any time you connect to a new target IoT device or the device has been powered off.
+Sync your computer's time with the clock on the target board to avoid timing issues. Do this step any time you connect to a new target IoT device or the device has been powered off. [View detailed instructions »](details-sync_clock.md)
 
 ![Animated gif: syncing PC time w/ clock on target device](images/sync_clock-animated.gif)
-
-[View detailed instructions »](details-sync_clock.md)
 
 
 ### Build the application
 
-Fetch all the Node modules specified in package.json and install them on the IoT device. Run build any time you create a new project, or add/remove Node modules from an existing project.
+Fetch all the Node modules specified in package.json and install them on the IoT device. Run build any time you create a new project, or add/remove Node modules from an existing project. [View detailed instructions »](details-build.md)
 
 ![Animated gif: building the app](images/build-animated.gif)
 
-[View detailed instructions »](details-build.md)
 
 ---
 
 
 ### Upload and run the application
 
-Upload the project files to the IoT device and run it. Remember that every time you make changes to files and you want to see the changes: (1) save the file, (2) upload, (3) run.
+Upload the project files to the IoT device and run it. Remember that every time you make changes to files and you want to see the changes: (1) save the file, (2) upload, (3) run. [View detailed instructions »](details-upload_run.md)
 
 ![Animated gif: creating a project in the Intel® XDK](images/upload_run-animated.gif)
 
-[View detailed instructions »](details-upload_run.md)
 
 ---
 
@@ -86,7 +78,7 @@ Upload the project files to the IoT device and run it. Remember that every time 
 
 ### Having troubles?
 
-Refer to the [Troubleshooting - Intel XDK »](troubleshooting.md)
+Refer to the [Troubleshooting »](troubleshooting.md)
 
 ---
 

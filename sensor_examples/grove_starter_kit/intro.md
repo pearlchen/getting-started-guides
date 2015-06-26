@@ -11,14 +11,14 @@ This guide will demonstrate how you can use the Grove Starter Kit with any Intel
 
 **Table of contents**
 
-* [Inside the Grove Starter Kit box](#inside-the-grove-starter-kit-box)
-* [Install the Grove Base Shield](#install-the-grove-base-shield)
-* [Connect a Grove component](#connect-a-grove-component)
-* [Programming Grove components](#programming-grove-components)
-  * [Install code libraries](#install-code-libraries)
-    * [MRAA](#mraa)
-    * [UPM](#upm)
-* [Find code samples](#find-code-samples)
+* [Inside the Grove Starter Kit box »](#inside-the-grove-starter-kit-box)
+* [Install the Grove Base Shield »](#install-the-grove-base-shield)
+* [Connect a Grove component »](#connect-a-grove-component)
+* [Programming Grove components »](#programming-grove-components)
+  * [Install code libraries »](#install-code-libraries)
+    * [MRAA »](#mraa)
+    * [UPM »](#upm)
+* [Find code samples »](#find-code-samples)
 
 
 **Related videos**

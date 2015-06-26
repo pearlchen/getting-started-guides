@@ -45,20 +45,16 @@ Find out what is in your Intel® Edison Kit for Arduino box. Some assembly is re
 
 ### Install the Intel® Edison module
 
-The Intel® Edison module is meant to be used with breakout boards or custom PCBs. You will need to secure your Intel® Edison module to the Arduino expansion board before you can use it.
+The Intel® Edison module is meant to be used with breakout boards or custom PCBs. You will need to secure your Intel® Edison module to the Arduino expansion board before you can use it. [View detailed instructions »](details-install_module.md)
 
 ![Animated gif: installing the Intel® Edison module](images/module_install-animated.gif)
-
-[View detailed instructions »](details-install_module.md)
 
 
 ### Install the plastic spacers
 
-To add stability to the expansion board and to help avoid accidental short circuits, attach the four plastic spacers supplied in your Intel® Edison box to act as "legs" for the expansion board.
+To add stability to the expansion board and to help avoid accidental short circuits, attach the four plastic spacers supplied in your Intel® Edison box to act as "legs" for the expansion board. [View detailed instructions »](details-install_spacers.md)
 
 ![Animated gif: installing the plastic spacers](images/spacer_install-animated.gif)
-
-[View detailed instructions »](details-install_spacers.md)
 
 
 ## Example of a full development setup

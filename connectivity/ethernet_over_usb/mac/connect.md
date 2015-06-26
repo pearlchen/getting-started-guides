@@ -29,28 +29,21 @@ If you have access to a Wi-Fi network, instead follow [Connect Your Intel Edison
 
 ## Install HoRNDIS
 
-Install the HoRNDIS (pronounced "horrendous") kernel extension to use Ethernet over USB via the RNDIS protocol on your Mac. You must reboot your computer after installing HoRNDIS.
+Install the HoRNDIS (pronounced "horrendous") kernel extension to use Ethernet over USB via the RNDIS protocol on your Mac. You must reboot your computer after installing HoRNDIS. [View detailed instructions »](details-install_horndis.md)
 
 ![Animated gif: installing HoRNDIS](images/install_horndis-animated.gif)
-
-[View detailed instructions »](details-install_horndis.md)
 
 
 ## Configure network settings
 
-Update your computer's Network configuration with a static IP address to use Ethernet over USB.
+Update your computer's Network configuration with a static IP address to use Ethernet over USB. [View detailed instructions »](details-configure_mac_network.md)
 
 ![Animated gif: configuring DHCP IP address in Mac Network settings](images/configure_mac_network-animated.gif)
-
-[View detailed instructions »](details-configure_mac_network.md)
 
 
 ## Share your computer's WiFi connection (optional)
 
-Turn on Internet Sharing to cut down on Wi-Fi traffic in a crowded room. Sharing your computer's internet connection also means that you can log into networks that have HTML password pages and then share the connection with the Intel® Edison.
-Internet sharing is an optional step but is highly recommended if you are at a hackathon.
-
-[View detailed instructions »](details-share_internet.md)
+Turn on Internet Sharing to cut down on Wi-Fi traffic in a crowded room. Sharing your computer's internet connection also means that you can log into networks that have HTML password pages and then share the connection with the Intel® Edison. Internet sharing is an optional step but is highly recommended if you are at a hackathon. [View detailed instructions »](details-share_internet.md)
 
 
 ### Additional Resources

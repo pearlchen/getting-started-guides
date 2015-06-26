@@ -14,29 +14,29 @@ Intel® XDK IoT Edition can be installed via the Windows 64-bit integrated insta
 
 1. Get the latest Intel® XDK IoT Edition installer.
 
-  **Online option:**
-
-  1. Visit [software.intel.com/en-us/html5/xdk-iot](http://software.intel.com/en-us/html5/xdk-iot). 
-  2. Ensure that your OS platform is selected in the green download box, then click "Go!" to start downloading the installer.
-
   **Hackathon attendees:**
   
   1. On the USB key: files → [your OS]
-  2. Copy the appropriate iot_web file to your computer: 
+  2. Copy the appropriate **iot_web** installer file to your computer: 
     * **Windows**: iot_web_win_master_[version].exe
     * **Mac**: iot_web_mac_master_[version].dmg
     * **Linux 32-bit**: iot_web_linux32_master_[version].tgz
     * **Linux 64-bit**: iot_web_linux64_master_[version].tgz
 
+  **Online option:**
+
+  1. Visit [software.intel.com/en-us/html5/xdk-iot](http://software.intel.com/en-us/html5/xdk-iot). 
+  2. Ensure that your OS platform is selected in the green download box, then click "Go!" to start downloading the installer.
+
 ### On Windows
 
-2. Double-click on iot_web_win_master_[version].exe to start the installer. 
+2. Double-click on **iot_web_win_master_[version].exe** to start the installer. 
 
 ### On Mac
 
-2. Double-click on iot_web_mac_master_[version].dmg to open the Apple Disk Image.
+2. Double-click on **iot_web_mac_master_[version].dmg** to open the Apple Disk Image.
 
-3. Double-click on the extracted xdk_full_[version].pkg to start the installer.
+3. Double-click on the extracted **xdk_full_[version].pkg** to start the installer.
 
 ### On Linux
 
