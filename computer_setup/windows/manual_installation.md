@@ -30,18 +30,16 @@ The [Windows standalone drivers](https://software.intel.com/iot/hardware/edison/
 * Remote Network Driver Interface Spec (RNDIS) for Ethernet over USB, and
 * Device Firmware Upgrade (DFU) for updating firmware on devices.
 
-![Animated gif: installing Intel® Edison drivers](images/install_edison_drivers-animated.gif)
-
 [View detailed instructions »](details-install_edison_drivers.md)
+
+![Animated gif: installing Intel® Edison drivers](images/install_edison_drivers-animated.gif)
 
 
 ## Install FTDI serial drivers
 
-[FTDI CDM drivers](http://ftdichip.com/Drivers/D2XX.htm) allow your computer to communicate with USB serial devices, including the Intel® Edison.
+[FTDI CDM drivers](http://ftdichip.com/Drivers/D2XX.htm) allow your computer to communicate with USB serial devices, including the Intel® Edison. [View detailed instructions »](details-install_ftdi_cdm_drivers.md)
 
 ![Animated gif: installing Intel® Edison drivers](images/install_ftdi_cdm_drivers-animated.gif)
-
-[View detailed instructions »](details-install_ftdi_cdm_drivers.md)
 
 
 ## Restart your computer

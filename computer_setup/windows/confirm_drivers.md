@@ -16,29 +16,24 @@
 
 ## Open Windows Device Manager
 
-Launch the Device Manager utility on Windows in order to debug your Intel® IoT board USB connections.
+Launch the Device Manager utility on Windows in order to debug your Intel® IoT board USB connections. [View detailed instructions »](details-open_device_manager.md)
 
 ![Animated gif: opening Windows Device Manager using the Start menu](images/open_device_manager-animated.gif)
-
-[View detailed instructions »](details-open_device_manager.md)
 
 
 ## Confirm installation of Intel® Edison Drivers
 
-Look for both "Intel Edison USB Composite Device" and "Intel Edison Virtual Com Port" items in Device Manager under “Ports (COM & LPT)” after plugging in the device mode USB cable.
+Look for both "Intel Edison USB Composite Device" and "Intel Edison Virtual Com Port" items in Device Manager under “Ports (COM & LPT)” after plugging in the device mode USB cable. [View detailed instructions »](details-confirm_edison_drivers.md)
 
 ![Animated gif: confirming the installation of Intel Edison drivers](images/confirm_edison_drivers-animated.gif)
-
-[View detailed instructions »](details-confirm_edison_drivers.md)
 
 
 ## Confirm installation of FTDI serial drivers
 
-Look for "USB Serial Port" in Device Manager under “Ports (COM & LPT)” after plugging in the UART/serial USB cable.
+Look for "USB Serial Port" in Device Manager under “Ports (COM & LPT)” after plugging in the UART/serial USB cable. [View detailed instructions »](details-confirm_ftdi_cdm_drivers.md)
 
 ![Animated gif: confirming the installation of FTDI CDM drivers](images/confirm_ftdi_cdm_drivers-animated.gif)
 
-[View detailed instructions »](details-confirm_ftdi_cdm_drivers.md)
 
 ---
 

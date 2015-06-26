@@ -15,20 +15,17 @@ This document will guide you through creating and running a Hello Word project (
 
 ## Select a target IoT device
 
-To connect to your IoT board, you will need to configure Eclipse with your Intel® Edison or Intel® Galileo's IP address.
+To connect to your IoT board, you will need to configure Eclipse with your Intel® Edison or Intel® Galileo's IP address. [View detailed instructions »](details-select_target_device.md)
 
 ![Editing "Host name" in the "Properties" panel](images/eclipse-properties-host_name.png)
-
-[View detailed instructions »](details-select_target_device.md)
 
 
 ## Build and run a sample application
 
-The version of Eclipse distributed with the developer kit has some example projects already built in. To start, build a blinking LED project from a pre-existing sample.
+The version of Eclipse distributed with the developer kit has some example projects already built in. To start, build a blinking LED project from a pre-existing sample. [View detailed instructions »](details-build.md)
 
 ![Select "debug" verison of project to run](images/eclipse-run_debug_project.png)
 
-[View detailed instructions »](details-build.md)
 
 ---
 

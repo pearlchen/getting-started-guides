@@ -31,9 +31,9 @@ The [Windows 64-bit Integrated Installer](https://software.intel.com/iot/hardwar
 * an IDE of your choice (Arduino, Intel XDK® for IoT, and/or Eclipse), and
 * the latest firmware image on your Intel® Edison.
 
-![Animated gif: installing Intel® Edison drivers using integrated installer](images/install_integrated_installer-animated.gif)
-
 [View detailed instructions »](details-install_integrated_installer.md)
+
+![Animated gif: installing Intel® Edison drivers using integrated installer](images/install_integrated_installer-animated.gif)
 
 
 ## Restart your computer

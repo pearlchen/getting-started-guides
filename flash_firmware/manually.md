@@ -42,20 +42,16 @@ Make sure there are no files on the built-in flash storage of the Intel® Edison
 
 ## Step 2: Copy over the latest image
 
-Extract the contents of the [Yocto complete image](http://software.intel.com/iot/hardware/edison/downloads) zip, then copy the contents to your Intel® Edison drive.
+Extract the contents of the [Yocto complete image](http://software.intel.com/iot/hardware/edison/downloads) zip, then copy the contents to your Intel® Edison drive. [View detailed instructions »](details-copy_image_files.md)
 
 ![Animated gif: copying images files to flash storage](images/copy_image_files-animated.gif)
-
-[View detailed instructions »](details-copy_image_files.md)
 
 
 ## Step 3: Flash the image
 
-Run the `reboot ota` command on the Intel® Edison to flash the board with the files you copied over in Step 2.
+Run the `reboot ota` command on the Intel® Edison to flash the board with the files you copied over in Step 2. [View detailed instructions »](details-reboot_ota.md)
 
 ![Animated gif: flashing the Intel® Edison](images/reboot_ota-animated.gif)
-
-[View detailed instructions »](details-reboot_ota.md)
 
 
 ### Next Steps

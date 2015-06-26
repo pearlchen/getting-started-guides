@@ -40,36 +40,31 @@ Use the top micro-USB port in USB device mode for:
 * programming the Intel® Edison using the Intel® XDK or Eclipse IDE included in the Intel® IoT Developer Kit via Ethernet over USB (not Wi-Fi), and
 * writing to the onboard flash memory from your computer.
 
-![Animated gif: using device mode](images/device_mode-animated.gif)
-
 [View detailed instructions »](details-device_mode_cable.md)
+
+![Animated gif: using device mode](images/device_mode-animated.gif)
 
 
 ## UART/serial micro-USB cable
 
-Use the bottom micro-USB port to send serial commands to your Intel® Edison via Terminal or PuTTY. Use these commands to flash firmware, configure Wi-Fi, or identify the board's IP address.
+Use the bottom micro-USB port to send serial commands to your Intel® Edison via Terminal or PuTTY. Use these commands to flash firmware, configure Wi-Fi, or identify the board's IP address. [View detailed instructions »](details-serial_cable.md)
 
 ![Animated gif: using UART/serial cable](images/serial-animated.gif)
-
-[View detailed instructions »](details-serial_cable.md)
 
 
 ## DC power supply
 
-If you are going to use more power intensive features such as Wi-Fi, a servo motor, or an Arduino shield, use a DC power supply in addition to the device mode micro-USB cable.
+If you are going to use more power intensive features such as Wi-Fi, a servo motor, or an Arduino shield, use a DC power supply in addition to the device mode micro-USB cable. [View detailed instructions »](details-power_barrel.md)
 
 ![Animated gif: using power barrel connector](images/power_barrel-animated.gif)
-
-[View detailed instructions »](details-power_barrel.md)
 
 
 ## Host mode USB cable
 
-Use the standard-sized USB port in USB host mode to allow the Intel® Edison to accept USB peripherals such as mice, keyboards, etc.
+Use the standard-sized USB port in USB host mode to allow the Intel® Edison to accept USB peripherals such as mice, keyboards, etc. [View detailed instructions »](details-host_mode_cable.md)
 
 ![Animated gif: using host mode](images/host_mode-animated.gif)
 
-[View detailed instructions »](details-host_mode_cable.md)
 
 ---
 
