@@ -78,7 +78,7 @@ Upload the project files to the IoT device and run it. Remember that every time 
 
 ### Having troubles?
 
-Refer to the [Troubleshooting - Intel XDK »](troubleshooting.md)
+Refer to the [Troubleshooting »](troubleshooting.md)
 
 ---
 

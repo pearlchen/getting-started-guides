@@ -55,7 +55,7 @@ Use devkit-launcher.bat to launch Eclipse with all the necessary Intel® IoT env
 
 ### Having troubles?
 
-Refer to the [Troubleshooting - Intel XDK »](troubleshooting.md)
+Refer to the [Troubleshooting »](troubleshooting.md)
 
 ---
 
