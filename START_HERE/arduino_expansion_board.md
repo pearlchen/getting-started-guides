@@ -32,20 +32,20 @@ Install software and drivers specifically for your computer's operating system.
       [Set Up Your Computer - Windows (manual installation) »](/computer_setup/windows/manual_installation.md)
 
 
-## 3. Shell Access
+## 3. Flash Edison Firmware
+
+Some Edison boards have older firmware images on them. You **_may_** need to update the firmware to a newer version to get access to important features.
+
+* [Flash Edison Firmware Manually »](/flash_firmware/manually.md)
+
+
+## 4. Shell Access
 
 Gain command line access of your IoT board. Execute special Linux commands to configure your IoT board such as setting up Wi-Fi.
 
 * [Windows »](/shell_access/windows/serial_connection.md)
 * [Mac »](/shell_access/mac/serial_connection.md)
 * [Linux »](/shell_access/linux/serial_connection.md)
-
-
-## 4. Flash Edison Firmware
-
-Some Edison boards have older firmware images on them. You **_may_** need to update the firmware to a newer version to get access to important features.
-
-* [Flash Edison Firmware Manually »](/flash_firmware/manually.md)
 
 
 ## 5. Get Your IoT Board Online
