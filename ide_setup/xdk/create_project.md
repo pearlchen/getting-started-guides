@@ -1,6 +1,6 @@
 # Set Up Intel® XDK IoT Edition - Part 2: Run a Sample Project
 
-This document will guide you through creating and running a Hello Word project (blinking the onboard LED) on either the Intel® Galileo or the Intel® Edison.
+This document will guide you through creating and running a Hello Word project (blinking the onboard LED) on the Intel® Edison.
 
 
 **Table of contents**
@@ -58,12 +58,6 @@ Upload the project files to the IoT device and run it. Remember that every time 
 ---
 
 **Look at your Intel® IoT board for a blinking light.**
-
-* **Intel® Galileo Gen 2**
-  
-  A green LED is located near the USB port.
-  
-  ![Green LED on Intel® Galileo Gen 2](/assembly/galileo_gen_2/images/on_board_led.png)
 
 * **Intel® Edison Kit for Arduino**
   
