@@ -41,4 +41,4 @@ Look for "USB Serial Port" in Device Manager under “Ports (COM & LPT)” after
 
 Some Edison boards have older firmware images on them. You **_may_** need to update the firmware to a newer version to get access to important features.
 
-* [Flash Edison Firmware Manually »](/docs/flash_firmware/manually.html)
+* [Install Edison Flash Tool »](/docs/flash_firmware/windows_install.md)
