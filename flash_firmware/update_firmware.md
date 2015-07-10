@@ -27,5 +27,11 @@ To start this process, do not have the Edison board plugged in on USB or powered
 
    ![Flash progress](images/progress_flash_tool.png)
    
-   
+7. Once the flashing is completed, the board restarts do not unplug the board for atleast 2-3 minutes.
+
+**Next Steps**
+
+* [Update firmware using the tool »](/flash_firmware/update_firmware.md)
+
+
 
