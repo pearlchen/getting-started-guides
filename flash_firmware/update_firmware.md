@@ -31,7 +31,13 @@ To start this process, do not have the Edison board plugged in on USB or powered
 
 **Next Steps**
 
-* [Update firmware using the tool »](/flash_firmware/update_firmware.md)
+You'll need to now gain command line access of your IoT board, in order to set up an internet connection. You'll also be executing special Linux commands to configure your IoT board such as setting up Wi-Fi.
+
+Please pick your operating system from the options below to proceed.
+
+* [Windows »](/shell_access/windows/serial_connection.md)
+* [Mac »](/shell_access/mac/serial_connection.md)
+* [Linux »](/shell_access/linux/serial_connection.md)
 
 
 

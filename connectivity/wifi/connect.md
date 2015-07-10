@@ -48,7 +48,10 @@ Once your Intel® Edison is online, identify the IP address using the `configure
 Based on your programming language preference, install an IDE for Intel® IoT development:
 
 * **For C/C++:**
-  * [Set Up IoT Dev Kit Eclipse »](/ide_setup/eclipse/)
+  * [Set Up IoT Dev Kit Eclipse »](/ide_setup/eclipse/setup.md)
 
 * **For JavaScript:**
-  * [Set Up Intel XDK for IoT »](/ide_setup/xdk/)
+  * [Set Up Intel XDK for IoT »](/ide_setup/xdk/setup.md)
+
+* **For Arduino:**
+  * [Set Up Arduino IDE »](/ide_setup/arduino/setup.md)

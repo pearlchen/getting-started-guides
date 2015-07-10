@@ -22,7 +22,7 @@ To follow the instructions in this guide, you should have already completed the 
 * [Create a Temperature Monitoring application](https://software.intel.com/en-us/creating-a-temperature-monitoring-app-using-intel-xdk-iot-edition)
 * [Create a Touch Monitoring application](https://software.intel.com/en-us/creating-a-touch-monitoring-app-using-intel-xdk-iot-edition)
 * [Create a Web Server](https://software.intel.com/en-us/xdk-sample-creating-a-web-server)
-* [LCD Display](https://software.intel.com/en-us/xdk-sample-creating-lcd-display-app)
+* [Using a LCD](https://software.intel.com/en-us/xdk-sample-creating-lcd-display-app)
 
 
 ## Grove component types

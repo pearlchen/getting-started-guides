@@ -51,10 +51,8 @@ Gain command line access of your IoT board. Execute special Linux commands to co
 ## 5. Get Your IoT Board Online
 
 Get your board online in order to turn your IoT board into a true "Internet of Things" device. You also need the IP address of your IoT board to program it using the dev kit IDEs.
-
-* **At a hackathon? On a busy or restricted Wi-Fi network?**
   
-  Connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as "Ethernet over USB":
+Connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as "Ethernet over USB":
   
   * [Windows »](/connectivity/ethernet_over_usb/windows/connect.md)
   * [Linux »](/connectivity/ethernet_over_usb/linux/connect.md)
@@ -87,7 +85,7 @@ Experiment with sample code supplied for available sensors and actuators.
 
 * **[Grove Starter Kit - Intro »](/sensor_examples/grove_starter_kit/intro.md)**
   * [JavaScript »](/sensor_examples/grove_starter_kit/javascript/samples.md)
-  * [C++ »](/sensor_examples/grove_starter_kit/c/samples.md)
+  * [C++ »](https://software.intel.com/en-us/working-with-sensors-in-eclipse)
 
 Also search for your component on [software.intel.com/en-us/iot/sensors](http://software.intel.com/en-us/iot/sensors).
 
