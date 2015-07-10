@@ -19,7 +19,15 @@ This document will guide you through installing the Intel® XDK IoT Edition IDE 
 
 ## Install Intel® XDK IoT Edition
 
-Get the latest [Intel® XDK IoT Edition installer](http://software.intel.com/en-us/html5/xdk-iot) for your computer's OS. Simply run the installer and follow the prompts. [View detailed instructions »](details-install_xdk.md)
+1.	On the USB key: downloads → [your OS].
+2.	Copy the appropriate iot_web installer file to your computer:
+   * **Windows:** iot_web_win_master_2170.exe
+   *	**Mac:** iot_web_mac_master_2170.dmg
+   *	**Linux 32-bit:** iot_web_linux32_master_2170.tgz
+   *	**Linux 64-bit:** iot_web_linux64_master_2170.tgz
+3.	Simply run the installer and follow the prompts.
+
+Simply run the installer and follow the prompts. [View detailed instructions »](details-install_xdk.md)
 
 ![Animated gif: installing the Intel® XDK](images/install_xdk-animated.gif)
 
