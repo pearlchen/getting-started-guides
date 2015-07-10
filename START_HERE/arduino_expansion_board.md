@@ -85,7 +85,7 @@ Experiment with sample code supplied for available sensors and actuators.
 
 * **[Grove Starter Kit - Intro »](/sensor_examples/grove_starter_kit/intro.md)**
   * [JavaScript »](/sensor_examples/grove_starter_kit/javascript/samples.md)
-  * [C++ »](/sensor_examples/grove_starter_kit/c/samples.md)
+  * [C++ »](https://software.intel.com/en-us/working-with-sensors-in-eclipse)
 
 Also search for your component on [software.intel.com/en-us/iot/sensors](http://software.intel.com/en-us/iot/sensors).
 
