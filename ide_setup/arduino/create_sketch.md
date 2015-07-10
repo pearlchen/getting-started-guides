@@ -32,6 +32,7 @@ This guide will teach you how to run a sample sketch on your Intel® IoT board u
 
 ###Next Steps
 If you have the Grove Starter Kit Plus Intel IoT Edition, here's how you add sensors:
+
 1. Navigate to the Seeed-Studio github repo, https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_V2.0.
 2. Click Download ZIP.
 3. Unzip, and copy to /libraries folder in your Arduino* folder.
