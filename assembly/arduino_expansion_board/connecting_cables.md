@@ -42,28 +42,34 @@ Use the top micro-USB port in USB device mode for:
 
 [View detailed instructions »](details-device_mode_cable.md)
 
-![Animated gif: using device mode](images/device_mode-animated.gif)
+[![Animated gif: using device mode](images/device_mode-animated.gif)](details-device_mode_cable.md)
 
 
 ## UART/serial micro-USB cable
 
-Use the bottom micro-USB port to send serial commands to your Intel® Edison via Terminal or PuTTY. Use these commands to flash firmware, configure Wi-Fi, or identify the board's IP address. [View detailed instructions »](details-serial_cable.md)
+Use the bottom micro-USB port to send serial commands to your Intel® Edison via Terminal or PuTTY. Use these commands to flash firmware, configure Wi-Fi, or identify the board's IP address. 
 
-![Animated gif: using UART/serial cable](images/serial-animated.gif)
+[View detailed instructions »](details-serial_cable.md)
+
+[![Animated gif: using UART/serial cable](images/serial-animated.gif)](details-serial_cable.md)
 
 
 ## DC power supply
 
-If you are going to use more power intensive features such as Wi-Fi, a servo motor, or an Arduino shield, use a DC power supply in addition to the device mode micro-USB cable. [View detailed instructions »](details-power_barrel.md)
+If you are going to use more power intensive features such as Wi-Fi, a servo motor, or an Arduino shield, use a DC power supply in addition to the device mode micro-USB cable. 
 
-![Animated gif: using power barrel connector](images/power_barrel-animated.gif)
+[View detailed instructions »](details-power_barrel.md)
+
+[![Animated gif: using power barrel connector](images/power_barrel-animated.gif)](details-power_barrel.md)
 
 
 ## Host mode USB cable
 
-Use the standard-sized USB port in USB host mode to allow the Intel® Edison to accept USB peripherals such as mice, keyboards, etc. [View detailed instructions »](details-host_mode_cable.md)
+Use the standard-sized USB port in USB host mode to allow the Intel® Edison to accept USB peripherals such as mice, keyboards, etc. 
 
-![Animated gif: using host mode](images/host_mode-animated.gif)
+[View detailed instructions »](details-host_mode_cable.md)
+
+[![Animated gif: using host mode](images/host_mode-animated.gif)](details-host_mode_cable.md)
 
 
 ---
@@ -74,7 +80,7 @@ Install software and drivers specifically for your computer's operating system.
 
 * **Mac or Linux user?** 
 
-  You have no special setup. Skip to [Step 3](#3-shell-access) below.
+  You have no special setup. Skip to [Shell Access »](/shell_access).
 
 * **Windows user?**
 

@@ -15,10 +15,6 @@ Get the latest Eclipse IDE for Intel® IoT development. Download the compressed 
     * **Mac**: iotdk-ide-mac.tar.bz2 
     * **Linux**: iotdk-ide-linux.tar.bz2
 
-  **Online option:**
-  1. Visit [software.intel.com/en-us/iot/downloads#ides](http://software.intel.com/en-us/iot/downloads#ides). 
-  2. Under "**Eclipse**", click the button for your OS platform to start downloading the compressed IDE package.
-
 ---
 
 Platform-specific instructions:
@@ -30,13 +26,6 @@ Platform-specific instructions:
 
 ### Windows
 
----
-
-**Using a 64-bit Windows computer?**
-
-Intel® XDK IoT Edition can be installed via the Windows 64-bit integrated installer. Refer to [Set Up Your Computer - Windows (64-bit integrated installer)](/computer_setup/windows/64bit_integrated_installer.md) for more info.
-
----
 
 1. Use 7zip to extract the archive: 
 

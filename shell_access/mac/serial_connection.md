@@ -53,6 +53,6 @@ For more info on using Screen such as quitting, read [Using Screen »](/shell_ac
 
 ### Next Steps
 
-Some Edison boards have older firmware images on them. You **_may_** need to update the firmware to a newer version to get access to important features.
+Get your board online in order to turn your IoT board into a true "Internet of Things" device. You also need the IP address of your IoT board to program it using the dev kit IDEs.
 
-Go to [Flash Edison Firmware Manually »](/flash_firmware/manually.md)
+* [Get Your Edison Board Online »](/connectivity/wifi/connect.md)

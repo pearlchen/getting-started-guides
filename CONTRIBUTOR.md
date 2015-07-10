@@ -6,6 +6,35 @@ We welcome pull requests and bug reports on these docs.
 
 **For larger updates:** Start a ticket in the Github issue tracker to let us know what you are working on. This will allow others to provide feedback as well as coordinate contribution efforts.
 
+## Branches
+
+### branch: master
+
+[github.com/intel-iot-roadshow/getting-started-guides](https://github.com/intel-iot-roadshow/getting-started-guides)
+
+Currently straight Markdown-formatted docs. This is where everyone is editing content and can continue to edit content for now. After the dust settles from the LA Roadshow, this branch will probably be shut down and replaced by the "jekyll" branch. 
+
+### branch: jekyll
+
+[github.com/intel-iot-roadshow/getting-started-guides/tree/jekyll](https://github.com/intel-iot-roadshow/getting-started-guides/tree/jekyll)
+
+See [the branch's README](https://github.com/intel-iot-roadshow/getting-started-guides/blob/jekyll/README.md) for how to preview/build content in this branch.
+
+Note: Once I'm fully done with the content sweep, when we make edits to content, we'll have to update the .md files on BOTH 'master' and 'jekyll' branches. I will let you know when/if this needs to happen but I plan to finish the sweep in the next couple of hours.
+
+### branch: html
+
+[github.com/intel-iot-roadshow/getting-started-guides/tree/html](https://github.com/intel-iot-roadshow/getting-started-guides/tree/html)
+
+THIS IS THE BRANCH THAT WILL BE PUT ON USB KEYS. Static files need to be generated form the 'jekyll' branch. See [the branch's README](https://github.com/intel-iot-roadshow/getting-started-guides/blob/html/README.md) for details on running a local web server to view files.
+
+### branch: gh-pages
+
+[github.com/intel-iot-roadshow/getting-started-guides/tree/html](https://github.com/intel-iot-roadshow/getting-started-guides/tree/html)
+
+Github's built in web server for viewing html files: [https://github.com/intel-iot-roadshow/getting-started-guides/tree/gh-pages](https://github.com/intel-iot-roadshow/getting-started-guides/tree/gh-pages). Feel free to send anyone to this url if they are unable to get the USB key files working. Static files need to be generated form the 'jekyll' branch.
+
+
 ## Style Guide
 
 Many of these docs originated as a Google Doc and PDFs. Some of the points in the [original style guide](https://docs.google.com/document/d/1C-UeNNmMEX-wXcJLTrflbCm_L93bq3g0aa2CTHNf6Aw/preview) may not apply to these Markdown docs but still worth a read. 

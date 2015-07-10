@@ -35,6 +35,10 @@ The [Windows 64-bit Integrated Installer](https://software.intel.com/iot/hardwar
 
 4. Follow the installation wizard. Click "**Next**" where needed. 
 
+5. When done, click "**Finish**" to close the installation wizard. 
+
+  If there are any errors during installation, you will need to resolve them manually.
+
   ---
 
   **Is the "Next" button greyed out?**
@@ -45,31 +49,28 @@ The [Windows 64-bit Integrated Installer](https://software.intel.com/iot/hardwar
 
   ---
 
-5. The default settings can be adjusted to your needs, or leave the defaults as is. 
+---
 
-  ![Configure Intel® Edison 64-bit integrated installion](images/integrated_installer_wizard-config_screen.png)
+The default settings can be adjusted to your needs, or leave the defaults as is. 
 
-  In the component selection screen, check the options you would like to install:
+![Configure Intel® Edison 64-bit integrated installion](images/integrated_installer_wizard-config_screen.png)
 
-    * **Drivers:** 
+In the component selection screen, check the options you would like to install:
+
+  * **Drivers:** 
+  
+    Installs the Intel® Edison drivers and FTDI serial drivers for Windows.
+
+  * **Update image:** 
+  
+    Flashes the latest firmware image directly on your Intel® Edison.
     
-      Installs the Intel® Edison drivers and FTDI serial drivers for Windows.
+    (Note: You will not be able to use this option until after you have installed the drivers. Re-run the integrated installer if you wish to use it to flash Intel® Edison firmware.)
 
-    * **Update image:** 
-    
-      Flashes the latest firmware image directly on your Intel® Edison.
-      
-      (Note: You will not be able to use this option until after you have installed the drivers. Re-run the integrated installer if you wish to use it to flash Intel® Edison firmware.)
+  * **Development Environment:** Choose from 
 
-    * **Development Environment:** Choose from 
+      * **Arduino Software** (simplified C++), 
 
-        * **Arduino Software** (simplified C++), 
+      * **Intel® XDK IoT Edition** (JavaScript), and/or 
 
-        * **Intel® XDK IoT Edition** (JavaScript), and/or 
-
-        * **Eclipse** (C/C++).
-
-6. When done, click "**Finish**" to close the installation wizard. 
-
-  If there are any errors during installation, you will need to resolve them manually.
-
+      * **Eclipse** (C/C++).
