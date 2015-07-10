@@ -2,7 +2,7 @@
 
 # How to go from Zero to Blinking Light Hero
 
-_Instructions for **Intel® Edison** installed on an **Arduino-compatible expansion board** using the Intel® IoT Developer Kit **(C/C++ or JavaScript development workflow)**_
+_Instructions for **Intel® Edison** installed on an **Arduino-compatible expansion board** using the Intel® IoT Developer Kit **(C/C++, JavaScript or Arduino development workflow)**_
 
 
 ## 1. Get Started with Intel® Edison
