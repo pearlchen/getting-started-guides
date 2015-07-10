@@ -34,6 +34,102 @@ THIS IS THE BRANCH THAT WILL BE PUT ON USB KEYS. Static files need to be generat
 
 Github's built in web server for viewing html files: [https://github.com/intel-iot-roadshow/getting-started-guides/tree/gh-pages](https://github.com/intel-iot-roadshow/getting-started-guides/tree/gh-pages). Feel free to send anyone to this url if they are unable to get the USB key files working. Static files need to be generated form the 'jekyll' branch.
 
+## Markdown files
+
+All content (with a few exceptions) are written in Markdown, mixed with some HTML. The flavour of Markdown used by the current Jekyll templating system is 'kramdown'.
+
+### Templating
+
+All content files (found in the 'docs' folder) must start with a snippet like this:
+
+```
+---
+layout: default
+title: Getting Started
+---
+```
+
+### Headings
+
+Headings get `id` attributes automatically generated for them. To create a table of contents, wrap it in a `div` with `id="toc" class="box" markdown="1"`. Setting `markdown="1"` means that you can write markdown within the html block. An example Table of Contents:
+
+```
+<div id="toc" class="box" markdown="1">
+* [Install Intel® Edison standalone drivers »](#install-intel-edison-standalone-drivers)
+* [Install FTDI serial drivers »](#install-ftdi-serial-drivers)
+* [Restart your computer »](#restart-your-computer)
+</div>
+```
+
+### Videos
+
+Let's comment out videos for now but eventually they will look be embedded on the page with width="565" and height="367". For example:
+
+```
+<div id="related-videos" class="callout video">
+  <object id="flashObj" width="565" height="367" ...
+  <embed ... name="flashObj" width="565" height="367" ...></embed></object>
+</div>
+```
+
+### TLDR summary
+
+The html for summary boxes for each section (with the blue roadsign icon, which I call the "Too long, didn't read" box) look like this:
+
+```
+<div class="tldr" markdown="1">
+Some 1-2 sentence blurb
+</div>
+```
+
+### Callout boxes
+
+The html for other callboxes boxes look like this:
+
+```
+<div class="callout info" markdown="1">
+**Bolded Title (optional)**
+
+Some stuff.
+</div>
+```
+
+Or when there are multiple items, use a horizontal rule to divide them.
+
+```
+<div class="callout info" markdown="1">
+**First Title**
+
+First thing
+
+---
+
+**Second Title**
+
+Second thing
+</div>
+```
+
+Check the CSS file for final callout box options but so far they are:
+
+* info
+* goto
+* troubleshooting
+* done
+* warning
+* danger
+
+
+### Next steps
+
+The closing (blue) box at the bottom of the page has this markup:
+
+```
+<div id="next-steps" class="note" markdown="1">
+Link with where to go next
+</div>
+```
+
 
 ## Style Guide
 
