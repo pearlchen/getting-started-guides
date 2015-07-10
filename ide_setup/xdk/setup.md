@@ -25,9 +25,7 @@ This document will guide you through installing the Intel® XDK IoT Edition IDE 
    *	**Mac:** iot_web_mac_master_2170.dmg
    *	**Linux 32-bit:** iot_web_linux32_master_2170.tgz
    *	**Linux 64-bit:** iot_web_linux64_master_2170.tgz
-3.	Simply run the installer and follow the prompts.
-
-Simply run the installer and follow the prompts. [View detailed instructions »](details-install_xdk.md)
+3.	Simply run the installer and follow the prompts. [View detailed instructions »](details-install_xdk.md)
 
 ![Animated gif: installing the Intel® XDK](images/install_xdk-animated.gif)
 
