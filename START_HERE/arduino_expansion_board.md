@@ -36,7 +36,13 @@ Install software and drivers specifically for your computer's operating system.
 
 Some Edison boards have older firmware images on them. You **_may_** need to update the firmware to a newer version to get access to important features.
 
-* [Flash Edison Firmware Manually »](/flash_firmware/manually.md)
+Install the Flashing Tool
+
+* [Windows »](/flash_firmware/windows_install.md)
+* [Mac »](/flash_firmware/mac_install.md)
+* [Linux »](/flash_firmware/linux_install.md)
+
+[Update firmware using the tool »](/flash_firmware/update_firmware.md)
 
 
 ## 4. Shell Access
@@ -76,6 +82,10 @@ Based on your programming language preference, install an IDE for Intel® IoT de
 * **For C/C++:**
   * [Set Up IoT Dev Kit Eclipse »](/ide_setup/eclipse/setup.md)
   * [Run a Sample Eclipse Project »](/ide_setup/eclipse/create_project.md)
+  
+* **For Arduino:**
+  * [Set Up Arduino IDE »](/ide_setup/arduino/setup.md)
+  * [Run a Sample Arduino Sketch »](/ide_setup/arduino/create_sketch.md)
 
 ## 7. Sensor Tutorials
 
