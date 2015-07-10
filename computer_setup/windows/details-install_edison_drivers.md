@@ -13,9 +13,9 @@ The Windows standalone drivers for Intel® Edison include several USB drivers in
 1. Get the latest Intel® Edison Device USB drivers for Windows installer.
 
     * On the USB key: downloads → Windows
-    * Copy **IntelEdisonDriverSetup1.2.1.exe** to your computer.
+    * Copy **IntelEdisonDriverSetup[version].exe** to your computer.
 
-2. Double-click on the **IntelEdisonDriverSetup1.2.1.exe** on your computer to begin installation. 
+2. Double-click on the **IntelEdisonDriverSetup[version].exe** on your computer to begin installation. 
 
   ![Intel® Edison USB drivers installer wizard](images/intel_edison_drivers-installer_wizard.jpg)
 
