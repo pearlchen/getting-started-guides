@@ -33,3 +33,6 @@ This document explains the installation procedure Flash Tool Lite for Windows*. 
    
    ![Install DnX USB drivers](images/dnx_usb_firmware.png)
    
+**Next Steps**
+
+  * [Update firmware using the tool »](/flash_firmware/update_firmware.md)
