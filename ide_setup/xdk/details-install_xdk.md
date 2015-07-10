@@ -1,17 +1,5 @@
 ## Step 1: Install Intel® XDK IoT Edition
 
-Get the latest [Intel® XDK IoT Edition installer](http://software.intel.com/en-us/html5/xdk-iot) for your computer's OS. Simply run the installer and follow the prompts. 
-
-![Animated gif: installing the Intel® XDK](images/install_xdk-animated.gif)
-
----
-
-**Using a 64-bit Windows computer?**
-
-Intel® XDK IoT Edition can be installed via the Windows 64-bit integrated installer. Refer to [Set Up Your Computer - Windows (64-bit integrated installer)](/computer_setup/windows/64bit_integrated_installer.md) for more info.
-
----
-
 1. Get the latest Intel® XDK IoT Edition installer.
 
   **Hackathon attendees:**
