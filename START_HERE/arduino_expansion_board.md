@@ -78,8 +78,8 @@ Based on your programming language preference, install an IDE for Intel® IoT de
   * [Run a Sample Eclipse Project »](/ide_setup/eclipse/create_project.md)
   
 * **For Arduino:**
-  * [Set Up Arduino IDE »](/ide_setup/arduino_setup.md)
-  * [Run a Sample Arduino Sketch »](/ide_setup/create_sketch.md)
+  * [Set Up Arduino IDE »](/ide_setup/arduino/setup.md)
+  * [Run a Sample Arduino Sketch »](/ide_setup/arduino/create_sketch.md)
 
 ## 7. Sensor Tutorials
 
