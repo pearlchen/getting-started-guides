@@ -52,11 +52,12 @@ You can decompress the file from the command line. To do so, use xz by entering 
 7. Open up a new Terminal window.
 8. Navigate to the Arduino IDE folder. In in this example, the command will be **cd Downloads/arduino-x.x.x/**, where x.x.x is the Arduino IDE version number you downloaded.  Note: When you start typing in cd Downloads/arduino, you can press Tab to auto-complete the folder path.
 ![Downloads Directory](images/cddownloads-linux.png)
-9. To run Arduino with administrator privileges, enter the command: **sudo ./arduino**.  If prompted, enter your password. The Arduino IDE opens.
-
+9. To run Arduino with administrator privileges, enter the command: **sudo ./arduino**.  If prompted, enter your password.
 ![Arduino IDE on Linux](images/sketchwindow-linux.png)
 
-10.In a serial communication window, check the availability of /ttyACM port by entering the following command: __ls /dev/ttyACM*__
+ The Arduino IDE opens.
+
+10. In a serial communication window, check the availability of /ttyACM port by entering the following command: __ls /dev/ttyACM*__
   Note: If the /ttyACM* port is not available, here are several reasons why:
   * The modem manager is using the port. When the port becomes active, the modem manager can claim the port, blocking the IDE's access to the port. The exact command to remove it will depend on your Linux distribution. For example, the command 
 sudo apt-get remove modemmanager may work.
