@@ -50,11 +50,11 @@ If you have the Grove Starter Kit Plus Intel IoT Edition, here's how you add sen
 5. Restart the Arduino* IDE. 
 6. Connect your desired sensor and run the code.
 
-For a good hardware primer, check out the Grove Starter Kit Wiki, which includes an overview and example code for all the hardware included in the Grove Starter Kit Plus. If you have other hardware, searching for the name of your hardware in conjunction with "Arduino" will come up with example code and libraries to use. 
+For a good hardware primer, check out the [Grove Starter Kit Wiki](http://www.seeedstudio.com/wiki/Grove_-_Starter_Kit_Plus), which includes an overview and example code for all the hardware included in the Grove Starter Kit Plus. If you have other hardware, searching for the name of your hardware in conjunction with "Arduino" will come up with example code and libraries to use. 
 
 Note: The Intel Edison board with the Arduino expansion board and the Intel Galileo board can be treated as an Arduino Uno and is compatible with all Arduino Uno sensor shields. However it should be noted that Pins 10 and 11 on the Intel Edison board are NOT in fact capable of variable voltage output (PWM), despite being marked so on the expansion board.
 
-* Edison Arduino Expansion Board Hardware Guide
-* Edison Arduino Expansion Board Schematic
-* Edison Breakout Board Hardware Guide
+* [Edison Arduino Expansion Board Hardware Guide](http://www.intel.com/support/edison/sb/CS-035275.htm)
+* [Edison Arduino Expansion Board Schematic](http://www.intel.com/support/edison/sb/CS-035272.htm)
+* [Edison Breakout Board Hardware Guide](http://www.intel.com/support/edison/sb/CS-035252.htm)
 
