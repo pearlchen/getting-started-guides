@@ -105,4 +105,5 @@ You can decompress the file from the command line. To do so, use xz by entering 
 
 ##Next Steps
 
-Now that you have installed the Arduino IDE, see [Blinking an LED with the Arduino IDE on the Intel® Edison Board](create_sketch.md) for steps to run a sample application to blink an LED on your board.
+Now that you have installed the Arduino IDE, try running a sample application to blink an LED on your board.
+* [Blinking an LED with the Arduino IDE on the Intel® Edison Board](create_sketch.md)
