@@ -25,7 +25,7 @@ The Linux installation set up is only for 64 bit operating system. The versions 
      
    * From Software Center:
   
-   The *Ubuntu Software Center* will handle the installation, double-click on the .deb file and then click *Install Package* and enter the password. The IPL license must be accepted.
+   The **Ubuntu Software Center** will handle the installation, double-click on the .deb file and then click **Install Package** and enter the password. The IPL license must be accepted.
   
 **Next Steps**
 
