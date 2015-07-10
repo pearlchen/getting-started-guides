@@ -80,14 +80,8 @@ Install software and drivers specifically for your computer's operating system.
 
 * **Mac or Linux user?** 
 
-  You have no special setup. Skip to [Shell Access »](/shell_access).
+  You have no special setup. Skip to [Step 3](#3-shell-access) below.
 
 * **Windows user?**
 
-  * **Do you have 64-bit Windows and a reliable internet connection?**  
-
-      [Set Up Your Computer - Windows (64-bit integrated installer) »](/computer_setup/windows/64bit_integrated_installer.md)
-
-  * **At a hackathon with unreliable internet? Or can't click 'Next' in the 64-bit integrated installer wizard?** 
-
-      [Set Up Your Computer - Windows (manual installation) »](/computer_setup/windows/manual_installation.md)
+  [Set Up Your Computer - Windows (manual installation) »](/computer_setup/windows/manual_installation.md)
