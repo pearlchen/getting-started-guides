@@ -117,6 +117,7 @@ Check the CSS file for final callout box options but so far they are:
 * troubleshooting
 * done
 * warning
+* danger
 
 
 ### Next steps
