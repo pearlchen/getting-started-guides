@@ -2,6 +2,8 @@
 
 This document explains the installation procedure Flash Tool Lite for Linux. The tool is used to flash the firmware on Intel® Edison boards, but will expand to other IoT products in the future.
 
+**Installation**
+
 The Linux installation set up is only for 64 bit operating system. The versions supported are Ubuntu 12.04 LTS 64 bit and above.
 
 1. Install dependent packages for the tool.
