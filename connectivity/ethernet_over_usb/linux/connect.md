@@ -36,3 +36,6 @@ Based on your programming language preference, install an IDE for Intel® IoT de
 
 * **For JavaScript:**
   * [Set Up Intel XDK for IoT »](/ide_setup/xdk/)
+
+* **For Arduino:**
+  * [Set Up Arduino IDE »](/ide_setup/arduino/setup.md)
