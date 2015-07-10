@@ -54,7 +54,7 @@ This guide will teach you how to run a sample sketch on your Intel® IoT board u
 3. The DS2 LED on your board should now blink on or off every second. 
   ![Edison (Arduino Breakout Board) Diagram](images/board-blink.png)
 
-###Next Steps
+##Next Steps
 
 If you have the Grove Starter Kit Plus Intel IoT Edition, here's how you add sensors:
 
