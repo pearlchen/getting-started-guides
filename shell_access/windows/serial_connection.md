@@ -61,6 +61,16 @@ For more info on using PuTTY such as saving profiles, read [Using PuTTY »](usin
 
 ### Next Steps
 
-Some Edison boards have older firmware images on them. You _may_ need to update the firmware to a newer version to get access to important features.
+Get your board online in order to turn your IoT board into a true "Internet of Things" device. You also need the IP address of your IoT board to program it using the dev kit IDEs.
 
-Go to [Flash Edison Firmware Manually »](/flash_firmware/manually.md)
+**At a hackathon? On a busy or restricted Wi-Fi network?**
+
+Connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as "Ethernet over USB":
+
+* [Windows »](/connectivity/ethernet_over_usb/windows/connect.md)
+* [Linux »](/connectivity/ethernet_over_usb/linux/connect.md)
+* Note: At this time, Ethernet over USB on [Mac](/connectivity/ethernet_over_usb/mac/connect.md) is not officially supported.
+
+**At home? Have a dependable Wi-Fi connection?**
+
+* [Get Your Edison Board Online »](/connectivity/wifi/connect.md)
