@@ -51,7 +51,7 @@ This guide contains steps to install the Arduino IDE on a system with Windows, M
 
 ##Install Arduino on Linux
 
-1. To check if you have Java installed, open a terminal and enter the command: `java`
+1. To check if you have Java installed, open a terminal and enter the command: `java`  
   ![Checking Java Installation](images/java-linux.png)
 
 2. If you see the above message, you do not have Java installed and you will need to install it. To install the Java package, enter the command: `sudo apt-get install default.jre`  
