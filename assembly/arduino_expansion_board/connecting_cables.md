@@ -79,8 +79,11 @@ Use the standard-sized USB port in USB host mode to allow the Intel® Edison to 
 Install software and drivers specifically for your computer's operating system. 
 
 * **Mac or Linux user?** 
+  
+  Install the Flashing Tool
 
-  You have no special setup. Skip to [Step 3](#3-shell-access) below.
+  * [Mac »](/flash_firmware/mac_install.md)
+  * [Linux »](/flash_firmware/linux_install.md)
 
 * **Windows user?**
 
