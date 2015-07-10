@@ -1,6 +1,6 @@
 # Set up Flash Tool Lite for Windows*
 
-This document explains the installation procedure Flash Tool Lite for Windows*. The tool is used to flash the firmware on Intel® Edison boards, but will expand to other IoT products in the future
+This document explains the installation procedure Flash Tool Lite for Windows*. The tool is used to flash the firmware on Intel® Edison boards, but will expand to other IoT products in the future.
 
 **Installation**
 
