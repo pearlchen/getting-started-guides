@@ -24,7 +24,7 @@ This guide will teach you how to run a sample sketch on your Intel® IoT board u
 * Select your COM port.  
   ![Arduino IDE COM Port Selection](images/comport-ide-blink.png)
 
-* Now the bottom right should match the COM port number of the Intel Edison Virtual Com Port (COM#) from the Device Manager. 
+* Now the bottom right should match the COM port number of the Intel Edison Virtual Com Port (COM#) from the Device Manager.  
   ![COM Port Verification](images/comport-verif-blink.png)
 
 * Once you have selected your port, continue to upload the sketch to your board.
