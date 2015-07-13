@@ -32,7 +32,7 @@ THIS IS THE BRANCH THAT WILL BE PUT ON USB KEYS. Static files need to be generat
 
 [github.com/intel-iot-roadshow/getting-started-guides/tree/html](https://github.com/intel-iot-roadshow/getting-started-guides/tree/html)
 
-Github's built in web server for viewing html files: [https://github.com/intel-iot-roadshow/getting-started-guides/tree/gh-pages](https://github.com/intel-iot-roadshow/getting-started-guides/tree/gh-pages). Feel free to send anyone to this url if they are unable to get the USB key files working. Static files need to be generated form the 'jekyll' branch.
+Github's built in web server for viewing html files: [intel-iot-roadshow.github.io/getting-started-guides/](http://intel-iot-roadshow.github.io/getting-started-guides/). Feel free to send anyone to this url if they are unable to get the USB key files working. Static files need to be generated form the 'jekyll' branch.
 
 ## Markdown files
 
