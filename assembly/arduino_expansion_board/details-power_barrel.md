@@ -18,8 +18,6 @@ If you are going to use more power intensive features such as Wi-Fi, a servo mot
 
 ---
 
-When using DC power, if you do not need the device mode cable for programming, you can unplug it at this time.
-
-Same for the serial cable.
+When using DC power, if you do not need the device mode cable for programming, you can unplug it at this time. Same for the serial cable.
 
 ---

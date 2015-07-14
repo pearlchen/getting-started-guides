@@ -11,7 +11,6 @@
 **Related videos**
 
 * [Intel Edison: Set Up Your Computer Manually - Windows (preview video)](https://drive.google.com/open?id=0B6gHgawzKtxCbUxicmpBc2JZSmM&authuser=0)
-* [Intel Edison: Set Up Your Computer - Windows Integrated Installer (preview video)](https://drive.google.com/open?id=0B6gHgawzKtxCejNuYjc3a216X3M&authuser=0)
 
 
 ## Open Windows Device Manager
@@ -39,6 +38,6 @@ Look for "USB Serial Port" in Device Manager under “Ports (COM & LPT)” after
 
 ### Next Steps
 
-Gain command line access of your IoT board. Execute special Linux commands to configure your IoT board such as setting up Wi-Fi. 
+Some Edison boards have older firmware images on them. You **_may_** need to update the firmware to a newer version to get access to important features.
 
-[Shell Access - Windows »](/shell_access/windows/serial_connection.md)
+* [Install Edison Flash Tool »](/flash_firmware/windows_install.md)

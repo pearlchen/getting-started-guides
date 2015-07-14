@@ -2,7 +2,7 @@
 
 # How to go from Zero to Blinking Light Hero
 
-_Instructions for **Intel® Edison** installed on an **Arduino-compatible expansion board** using the Intel® IoT Developer Kit **(C/C++ or JavaScript development workflow)**_
+_Instructions for **Intel® Edison** installed on an **Arduino-compatible expansion board** using the Intel® IoT Developer Kit **(C/C++, JavaScript or Arduino development workflow)**_
 
 
 ## 1. Get Started with Intel® Edison
@@ -23,16 +23,23 @@ Install software and drivers specifically for your computer's operating system.
 
 * **Windows user?**
 
-  * **Do you have 64-bit Windows and a reliable internet connection?**  
-
-      [Set Up Your Computer - Windows (64-bit integrated installer) »](/computer_setup/windows/64bit_integrated_installer.md)
-
-  * **At a hackathon with unreliable internet? Or can't click 'Next' in the 64-bit integrated installer wizard?** 
-
-      [Set Up Your Computer - Windows (manual installation) »](/computer_setup/windows/manual_installation.md)
+  [Set Up Your Computer - Windows (manual installation) »](/computer_setup/windows/manual_installation.md)
 
 
-## 3. Shell Access
+## 3. Flash Edison Firmware
+
+Some Edison boards have older firmware images on them. You **_may_** need to update the firmware to a newer version to get access to important features.
+
+Install the Flashing Tool
+
+* [Windows »](/flash_firmware/windows_install.md)
+* [Mac »](/flash_firmware/mac_install.md)
+* [Linux »](/flash_firmware/linux_install.md)
+
+[Update firmware using the tool »](/flash_firmware/update_firmware.md)
+
+
+## 4. Shell Access
 
 Gain command line access of your IoT board. Execute special Linux commands to configure your IoT board such as setting up Wi-Fi.
 
@@ -41,20 +48,11 @@ Gain command line access of your IoT board. Execute special Linux commands to co
 * [Linux »](/shell_access/linux/serial_connection.md)
 
 
-## 4. Flash Edison Firmware
-
-Some Edison boards have older firmware images on them. You **_may_** need to update the firmware to a newer version to get access to important features.
-
-* [Flash Edison Firmware Manually »](/flash_firmware/manually.md)
-
-
 ## 5. Get Your IoT Board Online
 
 Get your board online in order to turn your IoT board into a true "Internet of Things" device. You also need the IP address of your IoT board to program it using the dev kit IDEs.
-
-* **At a hackathon? On a busy or restricted Wi-Fi network?**
   
-  Connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as "Ethernet over USB":
+Connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as "Ethernet over USB":
   
   * [Windows »](/connectivity/ethernet_over_usb/windows/connect.md)
   * [Linux »](/connectivity/ethernet_over_usb/linux/connect.md)
@@ -76,6 +74,10 @@ Based on your programming language preference, install an IDE for Intel® IoT de
 * **For C/C++:**
   * [Set Up IoT Dev Kit Eclipse »](/ide_setup/eclipse/setup.md)
   * [Run a Sample Eclipse Project »](/ide_setup/eclipse/create_project.md)
+  
+* **For Arduino:**
+  * [Set Up Arduino IDE »](/ide_setup/arduino/setup.md)
+  * [Run a Sample Arduino Sketch »](/ide_setup/arduino/create_sketch.md)
 
 ## 7. Sensor Tutorials
 
@@ -83,7 +85,7 @@ Experiment with sample code supplied for available sensors and actuators.
 
 * **[Grove Starter Kit - Intro »](/sensor_examples/grove_starter_kit/intro.md)**
   * [JavaScript »](/sensor_examples/grove_starter_kit/javascript/samples.md)
-  * [C++ »](/sensor_examples/grove_starter_kit/c/samples.md)
+  * [C++ »](https://software.intel.com/en-us/working-with-sensors-in-eclipse)
 
 Also search for your component on [software.intel.com/en-us/iot/sensors](http://software.intel.com/en-us/iot/sensors).
 

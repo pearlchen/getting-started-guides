@@ -7,8 +7,7 @@ Getting started guides for the Intel® Edison.
 **Intel® Edison Kit for Arduino & Grove Starter Kit**
   
 ![Arduino Expansion Board with Intel® Edison](START_HERE/images/arduino_expansion_board_with_edison.png)
-* **JavaScript with the Intel® XDK** or **C/C++ with Eclipse IDE**: [START HERE »](START_HERE/arduino_expansion_board.md)
-* **Arduino IDE**: [START HERE »](https://software.intel.com/en-us/articles/install-arduino-ide-on-intel-iot-platforms)
+* **All IDEs**: [START HERE »](START_HERE/arduino_expansion_board.md)
 
 ---
 

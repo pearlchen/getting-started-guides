@@ -45,16 +45,20 @@ Find out what is in your Intel® Edison Kit for Arduino box. Some assembly is re
 
 ### Install the Intel® Edison module
 
-The Intel® Edison module is meant to be used with breakout boards or custom PCBs. You will need to secure your Intel® Edison module to the Arduino expansion board before you can use it. [View detailed instructions »](details-install_module.md)
+The Intel® Edison module is meant to be used with breakout boards or custom PCBs. You will need to secure your Intel® Edison module to the Arduino expansion board before you can use it. 
 
-![Animated gif: installing the Intel® Edison module](images/module_install-animated.gif)
+[View detailed instructions »](details-install_module.md)
+
+[![Animated gif: installing the Intel® Edison module](images/module_install-animated.gif)](details-install_module.md)
 
 
 ### Install the plastic spacers
 
-To add stability to the expansion board and to help avoid accidental short circuits, attach the four plastic spacers supplied in your Intel® Edison box to act as "legs" for the expansion board. [View detailed instructions »](details-install_spacers.md)
+To add stability to the expansion board and to help avoid accidental short circuits, attach the four plastic spacers supplied in your Intel® Edison box to act as "legs" for the expansion board. 
 
-![Animated gif: installing the plastic spacers](images/spacer_install-animated.gif)
+[View detailed instructions »](details-install_spacers.md)
+
+[![Animated gif: installing the plastic spacers](images/spacer_install-animated.gif)](details-install_spacers.md)
 
 
 ## Example of a full development setup
@@ -62,9 +66,7 @@ To add stability to the expansion board and to help avoid accidental short circu
 While plugging in every cable is not required at this very moment, a development setup with serial communication for shell access would look like this:
 
 1. **microswitch** in "USB device mode" (i.e. toggled **_down_** towards the micro-USB ports)
-
 2. **device mode micro-USB cable** plugged into your computer
-
 3. **UART/serial micro-USB cable** plugged into your computer
 
 The Arduino expansion board for Intel® Edison can be powered via the DC power jack, the device mode micro-USB port, or both. This setup uses only a micro-USB cable for power.

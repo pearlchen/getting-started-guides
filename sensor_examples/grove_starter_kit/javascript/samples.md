@@ -17,6 +17,13 @@ To follow the instructions in this guide, you should have already completed the 
 
 * [Create Intel® IoT projects with the Grove Starter Kit - Part 2: JavaScript (preview)](https://drive.google.com/open?id=0B6gHgawzKtxCZU56NmJfei1GX00&authuser=0)
 
+**Sample Projects**
+
+* [Create a Temperature Monitoring application](https://software.intel.com/en-us/creating-a-temperature-monitoring-app-using-intel-xdk-iot-edition)
+* [Create a Touch Monitoring application](https://software.intel.com/en-us/creating-a-touch-monitoring-app-using-intel-xdk-iot-edition)
+* [Create a Web Server](https://software.intel.com/en-us/xdk-sample-creating-a-web-server)
+* [Using a LCD](https://software.intel.com/en-us/xdk-sample-creating-lcd-display-app)
+
 
 ## Grove component types
 

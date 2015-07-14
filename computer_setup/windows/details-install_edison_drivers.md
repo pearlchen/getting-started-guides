@@ -1,6 +1,6 @@
 ## Install Intel® Edison standalone drivers
 
-The [Windows standalone drivers](https://software.intel.com/iot/hardware/edison/downloads) for Intel® Edison include several USB drivers in one installer package. These drivers enable important features, such as:
+The Windows standalone drivers for Intel® Edison include several USB drivers in one installer package. These drivers enable important features, such as:
 
 * Composite Device Class (CDC) for programming the board via the Arduino IDE,
 * Remote Network Driver Interface Spec (RNDIS) for Ethernet over USB, and
@@ -12,16 +12,8 @@ The [Windows standalone drivers](https://software.intel.com/iot/hardware/edison/
 
 1. Get the latest Intel® Edison Device USB drivers for Windows installer.
 
-  * **Hackathon attendees:**
-  
-    1. On the USB key: files → Windows
-    2. Copy **IntelEdisonDriverSetup[version].exe** to your computer.
-
-  * **Online option:**
-
-    1. Visit the Intel® Edison Software Downloads page: [software.intel.com/iot/hardware/edison/downloads](https://software.intel.com/iot/hardware/edison/downloads).
-    2. Scroll down to the "**Driver software**" section. 
-    3. Click the "**Windows Standalone Driver**" link to download **IntelEdisonDriverSetup[version].exe** to your computer.
+    * On the USB key: downloads → Windows
+    * Copy **IntelEdisonDriverSetup[version].exe** to your computer.
 
 2. Double-click on the **IntelEdisonDriverSetup[version].exe** on your computer to begin installation. 
 
